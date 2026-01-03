@@ -1,0 +1,2152 @@
+[
+  {
+    "original_id": 0,
+    "original_text": "Hi team, I\u2019ve attached the newest draft of the Market Insights Report for your review. This version includes updated charts, competitor benchmarks, and revised projections through FY2026. Please take some time to look through the analysis\u2014especially the section on emerging trends in consumer behavior\u2014as I made several substantial edits based on our last meeting. If you notice any discrepancies, outdated references, or opportunities to clarify findings, feel free to leave comments directly in the doc. I\u2019d like to submit the final version to leadership by Thursday, so please aim to provide feedback by tomorrow afternoon. Thank you for your thoroughness as always.",
+    "target_tone": null,
+    "response_4_1": "Hi team,\n\nAttached is the latest Market Insights Report draft, now with updated charts, competitor benchmarks, and revised projections through FY2026. Please review, focusing on the emerging consumer trends section\u2014several major edits were made after our last meeting. Leave any feedback or corrections in the doc by tomorrow afternoon, as I plan to submit the final version to leadership by Thursday. Thank you!",
+    "response_mini": "Subject: Market Insights Report Review\n\nHi team,\n\nAttached is the latest draft of the Market Insights Report for your review. It includes updated charts, competitor benchmarks, and revised projections through FY2026. Please focus on the section about emerging trends in consumer behavior, where I made significant edits from our last meeting. \n\nIf you find any discrepancies or areas for clarification, please comment directly in the document. I'd like to submit the final version to leadership by Thursday, so please provide feedback by tomorrow afternoon. \n\nThank you!",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "All original facts and intent preserved without addition or removal."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units, including requests for feedback and deadlines, are retained."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "Grammar is correct, and the structure is clear and professional."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "Average of (5, 5, 5) is 5.0."
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "All core facts and intent are preserved, but the edited version omits the mention of 'outdated references' and slightly rewords the request for feedback, which introduces minor ambiguity regarding the scope of feedback."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "Most required informational units are retained, including the request for review, specific focus area, feedback deadline, and submission timeline. However, the explicit request to note 'outdated references' and the appreciation for 'thoroughness as always' are missing."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, grammatically correct, and professionally structured with logical flow and appropriate paragraph breaks."
+      },
+      "overall": {
+        "score": 4.33,
+        "reason": "The edited email is highly faithful and complete, with only minor omissions, and is robust for professional use."
+      }
+    }
+  },
+  {
+    "original_id": 1,
+    "original_text": "Hello everyone, I wanted to share some exciting updates regarding our ongoing community partnership initiatives. Over the past month, we've successfully launched three pilot programs focusing on youth mentorship, local business development, and sustainable neighborhood planning. Early feedback indicates strong enthusiasm from participants, and several local organizations have expressed interest in collaborating on future efforts. I\u2019ve attached a detailed summary of each program, including timelines, key outcomes so far, and next steps for scaling. Please review the materials before Friday\u2019s meeting so we can discuss resource allocation and finalize our Q1 roadmap. Appreciate all your contributions to making these partnerships meaningful and impactful.",
+    "target_tone": null,
+    "response_4_1": "Subject: Community Partnership Updates & Meeting Prep\n\nHello everyone,\n\nI\u2019m pleased to share updates on our community partnership initiatives. This past month, we launched three pilot programs: youth mentorship, local business development, and sustainable neighborhood planning. Early feedback is very positive, and several local organizations are interested in future collaboration.\n\nAttached is a detailed summary of each program with timelines, outcomes, and next steps. Please review before Friday\u2019s meeting so we can discuss resource allocation and finalize our Q1 roadmap.\n\nThank you for your ongoing contributions.",
+    "response_mini": "Subject: Community Partnership Updates\n\nHello everyone,\n\nI\u2019m excited to share updates on our community partnership initiatives. We\u2019ve launched three pilot programs in youth mentorship, local business development, and sustainable neighborhood planning, receiving positive feedback and interest from local organizations for future collaborations. \n\nAttached is a summary of each program, including timelines, outcomes, and next steps. Please review the materials before Friday\u2019s meeting to discuss resource allocation and finalize our Q1 roadmap. Thank you for your contributions to these impactful partnerships.\n\nBest,  \n[Your Name]",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "Minor wording changes and simplifications, but core facts and intent preserved."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "All required units preserved, but minor supporting detail about enthusiasm from participants is less emphasized."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "Clear, professional, and stable structure with correct grammar."
+      },
+      "overall": {
+        "score": 4.33,
+        "reason": "Average of (4, 4, 5) = 4.33"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "All original facts, intent, and constraints are preserved. The edited email maintains the same updates, feedback, attachment, and meeting preparation instructions. No facts are added, removed, or reinterpreted."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained: the update, the three pilot programs, feedback, interest from organizations, the attached summary, the request to review before Friday\u2019s meeting, and the purpose of discussing resource allocation and Q1 roadmap."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, professional, and well-structured. Grammar and flow are correct, and the addition of a subject line and closing improves professional reliability."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "The edited email is fully faithful, complete, and robust, with no loss of information or clarity."
+      }
+    }
+  },
+  {
+    "original_id": 2,
+    "original_text": "Hi team, as promised, I\u2019m sending over the full outline of the revised curriculum for the upcoming semester. This includes new learning objectives, proposed assessment strategies, and draft lesson plans for the first three units. I\u2019ve incorporated most of the feedback from the educator workshops, but there are still a few sections where I\u2019m unsure if additional restructuring might be beneficial. Please read through the outline carefully and add comments where you think sequencing or skill progression can be improved. I\u2019d like us to finalize this by next week so we can start preparing support materials for instructors. Let me know if you'd prefer to walk through it together in a meeting.",
+    "target_tone": null,
+    "response_4_1": "Hi team,\n\nAttached is the revised curriculum outline for next semester, including new learning objectives, assessment strategies, and draft lesson plans for the first three units. Most educator workshop feedback has been incorporated, but I\u2019d appreciate comments on any sections that may need further restructuring, especially regarding sequencing and skill progression. Please review and add your input so we can finalize by next week and begin preparing instructor support materials. Let me know if you\u2019d like to discuss this together in a meeting.",
+    "response_mini": "Subject: Revised Curriculum Outline\n\nHi team,\n\nAttached is the revised curriculum outline for the upcoming semester, including new learning objectives, assessment strategies, and draft lesson plans for the first three units. I've incorporated feedback from the educator workshops but still have some areas that may need restructuring. \n\nPlease review the outline and add comments on sequencing or skill progression. Let's aim to finalize this by next week to prepare support materials for instructors. Let me know if you'd like to discuss it in a meeting.\n\nBest,  \n[Your Name]",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "Minor wording changes create slight ambiguity regarding the incorporation of feedback."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are preserved."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "Clear, professional, and stable structure."
+      },
+      "overall": {
+        "score": 4.67,
+        "reason": "Average of (4, 5, 5) = 4.67"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "All original facts, intent, and constraints are preserved. No information is added, removed, or reinterpreted."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained: notification of the outline, included components, feedback incorporation, request for comments, deadline, and option for a meeting."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is grammatically correct, clear, and professionally structured. The addition of a subject line and closing improves clarity and flow."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "All criteria are fully met with no loss of information or clarity."
+      }
+    }
+  },
+  {
+    "original_id": 3,
+    "original_text": "Good afternoon team, we\u2019re getting close to the release deadline for the spring campaign, and I need final approvals on the creative assets. This includes the updated video storyboard, revised banner ads, and the social copy variations for different platforms. Based on analytics from last quarter, we\u2019ve made changes to emphasize audience retention and cross-channel engagement, so it\u2019s important that we all take a close look. Please go through the asset folder and mark anything that still needs adjustments. If there are concerns about messaging consistency or brand alignment, now is the time to flag them. I\u2019m hoping to submit everything to the client by end of day Wednesday.",
+    "target_tone": null,
+    "response_4_1": "Good afternoon team,\n\nAs we approach the spring campaign release deadline, I need final approvals on the creative assets: the updated video storyboard, revised banner ads, and social copy variations. Please review the asset folder and mark any items needing adjustments. Flag any concerns about messaging consistency or brand alignment. Our goal is to submit all assets to the client by end of day Wednesday.\n\nThank you.",
+    "response_mini": "Subject: Final Approvals Needed for Spring Campaign\n\nGood afternoon team,\n\nWe're nearing the release deadline for the spring campaign and need final approvals on the creative assets: updated video storyboard, revised banner ads, and social copy variations. We've adjusted these based on last quarter's analytics to enhance audience retention and cross-channel engagement.\n\nPlease review the asset folder and flag any needed adjustments or concerns about messaging consistency and brand alignment. I aim to submit everything to the client by end of day Wednesday.\n\nThank you!",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "Minor wording changes and omission of specific details about analytics and audience retention, but core facts and requests are preserved."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "All required units are present, but the context about changes made based on analytics is missing."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "Clear, professional, and well-structured with no grammatical errors."
+      },
+      "overall": {
+        "score": 4.33,
+        "reason": "Average of (4, 4, 5) = 4.33"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "All original facts, intent, and constraints are preserved. No information is added, removed, or reinterpreted."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained: request for final approvals, list of assets, reason for changes, instructions to review and flag issues, and submission deadline."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, grammatically correct, and professionally structured with logical flow and a subject line."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "All criteria are fully met with no loss of information or clarity."
+      }
+    }
+  },
+  {
+    "original_id": 4,
+    "original_text": "Hi team, the latest batch of lab test results is finally in, and overall the data looks promising. I've compiled a detailed report summarizing the findings, including success rates, anomalies, and environmental conditions recorded during testing. Please pay special attention to the notes on sample Group C\u2014there were a few unexpected fluctuations that may need closer investigation. In preparation for the next phase of trials, I\u2019ve outlined a proposed schedule along with material and equipment requirements. Take a moment to review everything and let me know if we need to coordinate additional resources before moving forward. Looking forward to discussing this in Monday\u2019s sync.",
+    "target_tone": null,
+    "response_4_1": "Hi team,\n\nThe latest lab test results are in and look promising. I've attached a report with summaries, including success rates, anomalies, and environmental conditions. Please review the notes on sample Group C\u2014there were some unexpected fluctuations that may require further investigation. I've also included a proposed schedule and a list of material and equipment needs for the next trial phase. Let me know if we need to arrange additional resources before proceeding. Looking forward to discussing this at Monday\u2019s sync.",
+    "response_mini": "Hi team, \n\nThe latest lab test results are in, and the data looks promising. I've compiled a report summarizing success rates, anomalies, and environmental conditions. Please focus on sample Group C, as there were unexpected fluctuations that require closer investigation. I've also outlined a proposed schedule and material/equipment needs for the next trial phase. Review everything and let me know if we need additional resources before proceeding. Looking forward to discussing this in Monday\u2019s sync. \n\nBest,  \n[Your Name]",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "Minor wording changes ('attached a report' vs. 'compiled a detailed report') could imply a different format or level of detail."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "One minor supporting detail ('detailed report' vs. 'report with summaries') is less specific, but overall information is retained."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "Clear, professional, and stable structure with no grammatical errors."
+      },
+      "overall": {
+        "score": 4.33,
+        "reason": "Average of (4, 4, 5) = 4.33"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "All core facts and intent are preserved, but some minor details are omitted: 'finally' (implying delay), 'detailed report' (now just 'report'), and 'coordinate' (now just 'need additional resources'). No major reinterpretation."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "All required informational units are present: test results, summary, focus on Group C, schedule, resource check, and Monday meeting. Minor supporting details missing: 'coordination' of resources and 'preparation for next phase' is less explicit."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "Grammar is correct, sentences are clear, and the structure is professional. Addition of a closing ('Best, [Your Name]') improves robustness."
+      },
+      "overall": {
+        "score": 4.33,
+        "reason": "Minor omissions affect faithfulness and completeness, but robustness is excellent. The edited email is clear and professional, with all major points retained."
+      }
+    }
+  },
+  {
+    "original_id": 5,
+    "original_text": "Team, I uploaded the new feature list for the prototype we\u2019re planning to build over the next sprint. This version includes more detailed breakdowns of user flows, integration dependencies, and UI considerations. I also included a section on potential risks\u2014mainly around authentication latency and model output caching\u2014so we can address them early. Please read through the document and check whether the estimates for engineering effort match your understanding. If anything looks unrealistic or incomplete, add your notes so we can adjust during sprint planning. Hoping to finalize the backlog by tomorrow afternoon.",
+    "target_tone": null,
+    "response_4_1": "Team,\n\nI've uploaded the updated feature list for the upcoming sprint, with detailed user flows, integration dependencies, UI notes, and a section on potential risks (authentication latency and model output caching). Please review the document and confirm if the engineering estimates align with your understanding. Add comments if anything seems off or incomplete so we can adjust before finalizing the backlog tomorrow afternoon.",
+    "response_mini": "Team, I uploaded the new feature list for our upcoming prototype. It includes detailed user flows, integration dependencies, UI considerations, and potential risks related to authentication latency and model output caching. Please review the document and verify the engineering effort estimates. Add any notes on unrealistic or incomplete items for adjustment during sprint planning. Let's aim to finalize the backlog by tomorrow afternoon.",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "Minor wording changes and rephrasing, but all core facts preserved."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "Clear, professional, and stable structure."
+      },
+      "overall": {
+        "score": 4.67,
+        "reason": "Average of (4, 5, 5) = 4.67"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "All original facts, intent, and constraints are preserved. No information is added, removed, or reinterpreted."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained: notification of upload, details about the document, request for review and notes, and the deadline for backlog finalization."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, grammatically correct, and professionally structured. No issues with clarity or flow."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "All criteria are fully met with no loss of information or clarity."
+      }
+    }
+  },
+  {
+    "original_id": 6,
+    "original_text": "Hi all, I\u2019ve completed an updated version of the Q3 budget forecast based on the most recent spending data. You\u2019ll notice several adjustments in the operations and marketing categories, primarily reflecting increased vendor costs and expanded project scopes. I've highlighted these changes in yellow for clarity. Please review carefully and confirm whether your department-specific projections still look accurate. If you anticipate significant changes in upcoming expenditures, let me know as soon as possible so I can incorporate them into the final forecast. We need to submit the approved version to the board by next Tuesday.",
+    "target_tone": null,
+    "response_4_1": "Hi all,\n\nI've updated the Q3 budget forecast with the latest spending data. Key changes in operations and marketing (highlighted in yellow) reflect higher vendor costs and expanded projects. Please review and confirm your department\u2019s projections. If you expect significant upcoming changes, let me know ASAP so I can update the final version. The approved forecast is due to the board by next Tuesday.",
+    "response_mini": "Subject: Updated Q3 Budget Forecast for Review\n\nHi all,\n\nI've updated the Q3 budget forecast using recent spending data, with adjustments in operations and marketing due to increased vendor costs and expanded project scopes, highlighted in yellow. Please review and confirm if your department's projections are accurate. If you expect significant expenditure changes, let me know ASAP to include them in the final forecast. We need to submit the approved version to the board by next Tuesday.\n\nThank you!",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "Minor wording changes and simplifications, but all core facts preserved."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "One minor supporting detail (the request for careful review) is less emphasized."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "Clear, professional, and stable structure."
+      },
+      "overall": {
+        "score": 4.33,
+        "reason": "Average of (4, 4, 5) = 4.33"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "All original facts, intent, and constraints are preserved. No information is added, removed, or reinterpreted."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained: notification of updated forecast, details about adjustments, highlighting changes, request for review and confirmation, request for notification of anticipated changes, and submission deadline."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is grammatically correct, clear, and professionally structured. The addition of a subject line improves clarity."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "All criteria are fully met with no loss of information or clarity."
+      }
+    }
+  },
+  {
+    "original_id": 7,
+    "original_text": "Hi everyone, the results of the quarterly security review are ready, and I wanted to share a summary of the key findings. While overall compliance has improved, there are still several areas of concern\u2014including outdated access permissions, missed patch cycles, and inconsistent logging across environments. I\u2019ve attached a detailed breakdown of each issue along with recommended remediation steps. Please go through the list and ensure that your team is prepared to complete the required actions within the proposed timeline. If you foresee challenges meeting the deadlines, reach out so we can coordinate support. Thanks for your commitment to keeping our systems secure.",
+    "target_tone": null,
+    "response_4_1": "Subject: Quarterly Security Review \u2013 Key Findings & Next Steps\n\nHi everyone,\n\nThe quarterly security review results are ready. While compliance has improved, issues remain with outdated access permissions, missed patch cycles, and inconsistent logging. Please review the attached summary and ensure your team addresses these items within the proposed timeline. Contact me if you anticipate any challenges.\n\nThanks for your continued support.",
+    "response_mini": "Subject: Quarterly Security Review Summary\n\nHi everyone,\n\nThe quarterly security review results are ready. While compliance has improved, there are still concerns: outdated access permissions, missed patch cycles, and inconsistent logging. I've attached a detailed breakdown with remediation steps.\n\nPlease ensure your team is prepared to complete the actions within the timeline. If you anticipate challenges, reach out for support. \n\nThanks for your commitment to our system security.",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "Minor wording changes and omissions, but core facts preserved."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "One minor supporting detail (recommendations) is missing."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "Clear, professional, and stable structure."
+      },
+      "overall": {
+        "score": 4.33,
+        "reason": "Average of (4, 4, 5) = 4.33"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "All original facts, intent, and constraints are preserved. No new information is added, and no facts are omitted or reinterpreted."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained: notification of results, summary of findings, attachment reference, request for action, timeline, and offer of support if deadlines are challenging."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is grammatically correct, clear, and professionally structured. The addition of a subject line improves clarity."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "All criteria are fully met with no loss of information or clarity."
+      }
+    }
+  },
+  {
+    "original_id": 8,
+    "original_text": "Hi design team, thank you for the mockups you submitted last week. After reviewing them with the creative director, I\u2019ve put together a set of notes outlining the revisions we need. The biggest changes relate to color balance, typography consistency, and interactions on mobile devices. We\u2019d also like to experiment with a more minimalist layout for the homepage while keeping the brand identity clear. I\u2019ve included examples from previous projects that might be helpful for inspiration. Please review the notes and let me know if any of the requests are unclear or technically challenging. We\u2019d like to see the updated mockups by Friday so we can present them to the client early next week.",
+    "target_tone": null,
+    "response_4_1": "Hi design team,\n\nThanks for last week\u2019s mockups. After reviewing with the creative director, I\u2019ve outlined needed revisions\u2014mainly color balance, typography consistency, and mobile interactions. Please also try a more minimalist homepage layout that maintains our brand identity. I\u2019ve attached examples from past projects for inspiration. Let me know if any requests are unclear or challenging. Please send the updated mockups by Friday so we can present them to the client early next week.",
+    "response_mini": "Subject: Feedback on Mockups\n\nHi team,\n\nThank you for the mockups submitted last week. After reviewing with the creative director, I've outlined necessary revisions focusing on color balance, typography consistency, and mobile interactions. We also want to explore a more minimalist homepage layout while maintaining brand identity. I've included examples for inspiration.\n\nPlease review the notes and let me know if any requests are unclear. We\u2019d like the updated mockups by Friday for client presentation next week.\n\nBest,  \n[Your Name]",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "Minor wording changes and omissions, but core facts and intent preserved."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "One minor supporting detail (specificity of 'the biggest changes') is missing."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "Clear, professional, and stable structure."
+      },
+      "overall": {
+        "score": 4.33,
+        "reason": "Average of (4, 4, 5) = 4.33"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "All original facts, intent, and constraints are preserved. The main points (mockups received, review with creative director, revision notes, focus areas, minimalist homepage, examples for inspiration, request for feedback, and Friday deadline) are all present. No facts added, removed, or reinterpreted."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained: request for review, deadline (Friday), action item (update mockups), context (revision notes, examples), and opportunity to clarify requests. The mention of presenting to the client next week is preserved."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, professional, and well-structured. Grammar is correct, sentences are concise, and logical flow is maintained. The addition of a subject line and closing signature further improves professionalism."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "All criteria are fully met with no loss of information or clarity. The edited email is a faithful, complete, and robust version of the original."
+      }
+    }
+  },
+  {
+    "original_id": 9,
+    "original_text": "Hi team, thanks again for the thoughtful participation in yesterday\u2019s workshop. I\u2019ve compiled the notes from our breakout discussions, including the ideas around redefining user segments, revising our outreach strategy, and testing alternative engagement models. There were a lot of insightful comments, and I want to make sure we capture all of them before finalizing the strategy document. Please take some time today to review the notes and add any details you feel are missing. I plan to incorporate everything into the final draft by Thursday. Looking forward to aligning on the next steps.",
+    "target_tone": null,
+    "response_4_1": "Hi team,\n\nThanks for your great participation in yesterday\u2019s workshop. I\u2019ve compiled notes from our breakout discussions on user segments, outreach strategy, and engagement models. Please review the notes today and add any missing details. I\u2019ll incorporate your feedback into the final draft by Thursday. Looking forward to aligning on next steps.",
+    "response_mini": "Subject: Review Workshop Notes\n\nHi team, \n\nThank you for your participation in yesterday\u2019s workshop. I've compiled notes from our discussions on redefining user segments, revising our outreach strategy, and testing engagement models. Please review the notes today and add any missing details. I aim to finalize the draft by Thursday. \n\nLooking forward to aligning on next steps.\n\nBest,  \n[Your Name]",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "Minor wording changes and omissions, but core facts and intent preserved."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "One minor supporting detail (insightful comments) is missing, but all required units are present."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "Clear, professional, and stable structure."
+      },
+      "overall": {
+        "score": 4.33,
+        "reason": "Average of (4, 4, 5) = 4.33"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "All core facts and intent are preserved, but some nuance is lost: 'thoughtful participation' is simplified to 'participation', 'alternative engagement models' is shortened to 'engagement models', and the mention of 'insightful comments' and ensuring all are captured is omitted."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "All required informational units are present: request to review notes, deadline (today), incorporation into final draft by Thursday, and next steps. However, the explicit request to capture all insightful comments before finalizing is less emphasized, and the context about the quality of participation is reduced."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is grammatically correct, clear, and professionally structured. The addition of a subject line and closing signature improves robustness."
+      },
+      "overall": {
+        "score": 4.33,
+        "reason": "The edited email is clear and professional, with all main facts and requests retained, but some nuance and emphasis from the original are slightly reduced."
+      }
+    }
+  },
+  {
+    "original_id": 10,
+    "original_text": "Hello everyone, we\u2019ve finished collecting responses for the program evaluation survey, and the data is now ready for review. Overall participant satisfaction increased significantly from last year, but there are still several areas where respondents requested improvements\u2014especially around communication cadence and support availability. I\u2019ve attached a full summary report along with recommended action items. Please take a moment to read through the key themes and think about how they relate to your team\u2019s workflow. We\u2019ll discuss implementation plans in next Tuesday\u2019s meeting, so please come prepared with suggestions.",
+    "target_tone": null,
+    "response_4_1": "Hello everyone,\n\nWe\u2019ve completed the program evaluation survey and the data is ready for review. Participant satisfaction improved significantly from last year, though respondents noted communication cadence and support availability as areas needing improvement. Attached is the summary report with recommended actions. Please review the key themes and consider their relevance to your team. We\u2019ll discuss implementation plans at next Tuesday\u2019s meeting\u2014come prepared with suggestions.",
+    "response_mini": "Subject: Program Evaluation Survey Results\n\nHello everyone,\n\nWe\u2019ve completed the program evaluation survey, and the data is ready for review. Participant satisfaction has significantly increased, but improvements are needed in communication and support availability. I\u2019ve attached the summary report and action items. Please review the key themes and consider their impact on your team\u2019s workflow. We\u2019ll discuss implementation plans in next Tuesday\u2019s meeting, so come prepared with suggestions.\n\nBest,  \n[Your Name]",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "Minor wording changes, but no core facts removed or reinterpreted."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "One minor supporting detail (mention of 'several areas') is missing."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "Clear, professional, and stable structure."
+      },
+      "overall": {
+        "score": 4.33,
+        "reason": "Average of (4, 4, 5) = 4.33"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "Most original facts and intent are preserved, but there are minor changes: 'finished collecting responses' is changed to 'completed the survey,' which slightly shifts the meaning. 'Overall participant satisfaction increased significantly from last year' is changed to 'Participant satisfaction has significantly increased,' omitting the explicit comparison to last year. 'Several areas where respondents requested improvements\u2014especially around communication cadence and support availability' is simplified to 'improvements are needed in communication and support availability,' losing the nuance that these were specifically requested by respondents and omitting 'cadence.' The attachment is described as 'summary report and action items' instead of 'full summary report along with recommended action items,' which is a minor change."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "All major informational units are present: notification of data readiness, summary report and action items attached, request to review key themes, and preparation for next Tuesday's meeting. However, the explicit reference to 'last year' and the detail that improvements were 'requested by respondents' are missing, which are minor supporting details."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, grammatically correct, and professionally structured. The addition of a subject line and closing improves clarity and professionalism."
+      },
+      "overall": {
+        "score": 4.33,
+        "reason": "The edited email is mostly faithful and complete, with only minor omissions and changes, and is robust for professional use."
+      }
+    }
+  },
+  {
+    "original_id": 11,
+    "original_text": "Hi everyone, a reminder that we need to update the documentation before the next release cycle. Users have flagged several sections that are now outdated due to recent API changes, especially the authentication flow and rate limit explanations. I\u2019ve created a list of required edits and assigned sections to each of you based on your areas of expertise. Please read through your assigned parts and ensure accuracy and clarity. Our docs are one of the most important resources for developers, so accuracy is crucial. Let me know if you need help verifying technical details or want a second pair of eyes on anything you revise.",
+    "target_tone": null,
+    "response_4_1": "Hi all,\n\nReminder: Please update your assigned documentation sections before the next release. Recent API changes have made parts\u2014especially authentication flow and rate limits\u2014outdated. I\u2019ve listed and assigned the required edits. Ensure accuracy and clarity, and let me know if you need help verifying technical details or reviewing your revisions.",
+    "response_mini": "Subject: Documentation Update Reminder\n\nHi everyone, \n\nPlease remember to update the documentation before the next release cycle. Users have identified outdated sections due to recent API changes, particularly in authentication flow and rate limits. I\u2019ve assigned edits based on your expertise. Review your parts for accuracy and clarity, as our docs are vital for developers. Reach out if you need help verifying details or want feedback on your revisions.\n\nThank you!",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "Minor wording changes and omissions, but core facts about updating documentation and API changes preserved."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "One minor supporting detail (importance of docs for developers) is missing, but all required units are otherwise preserved."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "Clear, professional, and stable structure with correct grammar."
+      },
+      "overall": {
+        "score": 4.33,
+        "reason": "Average of (4, 4, 5) = 4.33"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "All original facts and intent are preserved. No new information is added, and no facts are omitted or reinterpreted."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained: reminder to update documentation, mention of outdated sections due to API changes, specific reference to authentication flow and rate limits, assignment of sections based on expertise, request for accuracy and clarity, and offer for help or review."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is grammatically correct, clear, and professionally structured. The addition of a subject line improves clarity and organization."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "The edited email fully preserves the original's facts, completeness, and professional robustness."
+      }
+    }
+  },
+  {
+    "original_id": 12,
+    "original_text": "Team, yesterday\u2019s site inspection went well overall, but I wanted to go over a few important findings. Several installations require updated grounding, and a few panels showed minor wear that may need attention before the next maintenance cycle. I\u2019ve included detailed photos and measurements in the attached report. Please review these and help determine which repairs should be prioritized. Once we have consensus, I\u2019ll coordinate with the field technicians to schedule the necessary work. Let\u2019s aim to finalize our action plan by the end of the week.",
+    "target_tone": null,
+    "response_4_1": "Team,\n\nYesterday\u2019s site inspection went well. Key findings: some installations need updated grounding, and a few panels have minor wear to address before the next maintenance cycle. Please review the attached report with photos and measurements, and help prioritize repairs. Once we agree, I\u2019ll coordinate with field technicians. Let\u2019s finalize our action plan by week\u2019s end.",
+    "response_mini": "Subject: Follow-Up on Site Inspection\n\nTeam,\n\nYesterday\u2019s site inspection went well. However, we need to address a few key findings: several installations require updated grounding, and some panels showed minor wear needing attention before the next maintenance cycle. I've attached a report with detailed photos and measurements for your review. \n\nPlease help prioritize the necessary repairs, and let\u2019s finalize our action plan by the end of the week so I can coordinate with the field technicians.\n\nThank you!",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "Minor wording changes may lead to slight ambiguity regarding the urgency of repairs."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are preserved."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "Clear, professional, and stable structure."
+      },
+      "overall": {
+        "score": 4.67,
+        "reason": "Average of (4, 5, 5) = 4.67"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "All original facts and intent are preserved. No information is added, removed, or reinterpreted."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained: findings, request for review and prioritization, attachment, coordination with field technicians, and deadline to finalize the action plan."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, grammatically correct, and professionally structured. The addition of a subject line improves clarity."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "All criteria are fully met with no loss of information or clarity."
+      }
+    }
+  },
+  {
+    "original_id": 13,
+    "original_text": "Hi all, as we prepare for the upcoming database migration, I\u2019ve drafted a comprehensive checklist of tasks we need to complete beforehand. This includes verifying schema compatibility, ensuring backup integrity, updating connection strings, and testing read/write operations in the staging environment. Migration downtime will be minimal if we plan everything carefully, so please go through the checklist and confirm whether any steps are missing or need clarification. I\u2019ll compile your feedback and send an updated version tomorrow. Thanks for helping ensure a smooth transition.",
+    "target_tone": null,
+    "response_4_1": "Hi all,\n\nAhead of the database migration, I\u2019ve drafted a checklist covering schema compatibility, backup integrity, connection string updates, and staging environment tests. Please review and let me know if anything is missing or unclear. I\u2019ll update the checklist with your feedback and share it tomorrow. Thanks for your help ensuring a smooth transition.",
+    "response_mini": "Subject: Database Migration Checklist\n\nHi all, \n\nAs we prepare for the database migration, I've drafted a checklist of tasks, including verifying schema compatibility, ensuring backup integrity, updating connection strings, and testing read/write operations in staging. Please review the checklist and confirm if any steps are missing or need clarification. I'll compile your feedback and send an updated version tomorrow. \n\nThanks for your help in ensuring a smooth transition!",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "Minor wording changes and omissions, but core facts preserved."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "One minor supporting detail (migration downtime) is missing."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "Clear, professional, and stable."
+      },
+      "overall": {
+        "score": 4.33,
+        "reason": "Average of (4, 4, 5) = 4.33"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "The edited email preserves all core facts and intent, but omits 'upcoming' and 'comprehensive' descriptors, and slightly softens the statement about migration downtime being minimal if planned carefully. No new facts are added."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "All major informational units are retained: the checklist, the specific tasks, the request for review, and the plan to send an updated version. However, the mention of migration downtime being minimal with careful planning is omitted, which is a minor supporting detail."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, grammatically correct, and professionally structured. The addition of a subject line improves clarity."
+      },
+      "overall": {
+        "score": 4.33,
+        "reason": "The email is highly faithful and complete, with only minor omissions, and is robustly written."
+      }
+    }
+  },
+  {
+    "original_id": 14,
+    "original_text": "Good afternoon team, due to storm forecasts in the coastal region, several shipping routes are expected to face delays over the next week. I\u2019ve spoken with our carriers, and we\u2019re working on rerouting priority shipments through alternate hubs. A breakdown of affected routes and estimated delays is included in the attached document. Please review the changes and update customers accordingly, especially those who are expecting time-sensitive deliveries. Let me know if any shipments require special handling or escalated communication. Thanks for staying proactive during these weather-related disruptions.",
+    "target_tone": null,
+    "response_4_1": "Good afternoon team,\n\nDue to storm forecasts in the coastal region, several shipping routes will be delayed next week. We\u2019re coordinating with carriers to reroute priority shipments through alternate hubs. Please see the attached document for affected routes and estimated delays. Review and update customers, especially those with time-sensitive deliveries. Let me know if any shipments need special handling or escalation. Thanks for your cooperation.",
+    "response_mini": "Subject: Shipping Delays Due to Storm Forecasts\n\nGood afternoon team,\n\nDue to storm forecasts, several shipping routes will face delays next week. We are rerouting priority shipments through alternate hubs. Please review the attached document for affected routes and estimated delays, and update customers, especially those with time-sensitive deliveries. Let me know if any shipments need special handling or escalated communication.\n\nThanks for your proactive support during these disruptions.",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "Minor wording changes ('are expected to face delays' to 'will be delayed') slightly alter the original intent but do not change the core facts."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "One minor supporting detail ('I\u2019ve spoken with our carriers') is missing, but all required units are otherwise preserved."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "Clear, professional, and stable structure with no grammatical errors."
+      },
+      "overall": {
+        "score": 4.33,
+        "reason": "Average of (4, 4, 5) = 4.33"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "The edited email preserves the main facts: storm forecasts, shipping delays, rerouting priority shipments, attached document with details, request to update customers, and request for special handling/escalation. However, it omits the specific mention of the 'coastal region' and changes 'expected to face delays over the next week' to 'will face delays next week,' which is a slight shift in certainty and timing. The phrase 'I\u2019ve spoken with our carriers' is also omitted, which removes a minor supporting fact."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "Most required informational units are retained: notification of delays, rerouting, reference to the attached document, request to update customers, and request for special handling/escalation. However, the context of the coastal region and the communication with carriers is missing, which are minor supporting details."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, grammatically correct, and professionally structured. The subject line adds clarity, and the message flows logically."
+      },
+      "overall": {
+        "score": 4.33,
+        "reason": "The edited email is highly faithful and complete, with only minor omissions and slight changes in certainty. It is robust and professional."
+      }
+    }
+  },
+  {
+    "original_id": 15,
+    "original_text": "Hi researchers, I\u2019ve made a new round of edits to the grant proposal based on feedback from the review committee. Most changes relate to clarifying our methodology, expanding the background literature section, and strengthening the projected outcomes. I\u2019ve highlighted all revisions in the document for easy reference. Please take some time to review and make sure the technical descriptions accurately reflect our planned work. If you have any additional citations or data points to strengthen our case, feel free to add them. We aim to submit the final version by Monday morning.",
+    "target_tone": null,
+    "response_4_1": "Hi all,\n\nI\u2019ve updated the grant proposal based on the committee\u2019s feedback, focusing on methodology clarification, background literature, and projected outcomes. All changes are highlighted for your review. Please check the technical sections and add any relevant citations or data. The final version is due by Monday morning.\n\nThank you!",
+    "response_mini": "Subject: Edits to Grant Proposal\n\nHi researchers, \n\nI\u2019ve made edits to the grant proposal based on the review committee\u2019s feedback, focusing on methodology, background literature, and projected outcomes. All revisions are highlighted for your reference. Please review to ensure the technical descriptions reflect our work accurately. If you have additional citations or data, please add them. We aim to submit the final version by Monday morning. \n\nThank you!",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "Minor wording changes and rephrasing, but no critical facts removed or added."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "One minor supporting detail about reviewing the technical descriptions is less emphasized."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "Clear, professional, and stable structure."
+      },
+      "overall": {
+        "score": 4.33,
+        "reason": "Average of (4, 4, 5) = 4.33"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "All original facts, intent, and constraints are preserved. No information is added, removed, or reinterpreted."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained: notification of edits, areas of change, request for review, invitation to add citations/data, and submission deadline."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is grammatically correct, clear, and professionally structured. The addition of a subject line and closing improves clarity and flow."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "All criteria are fully met with no loss of information or clarity."
+      }
+    }
+  },
+  {
+    "original_id": 16,
+    "original_text": "Hi maintenance crew, I\u2019ve consolidated the latest maintenance logs from all aircraft and added notes where follow-up inspections may be required. Please look through the entries carefully and flag anything that seems out of the ordinary. I\u2019ve also drafted a proposed inspection timeline for the next month\u2014based on flight schedules and crew availability\u2014to minimize downtime. Let me know if the timeline needs adjustments or if additional technicians should be allocated to specific tasks. Safety and accuracy are top priorities, so don\u2019t hesitate to reach out with concerns.",
+    "target_tone": null,
+    "response_4_1": "Hi team,\n\nI've consolidated the latest aircraft maintenance logs and added notes for possible follow-up inspections. Please review and flag any unusual items. I've also drafted a proposed inspection timeline for next month to minimize downtime\u2014let me know if it needs changes or if more technicians should be assigned. Safety and accuracy are our priorities, so contact me with any concerns.",
+    "response_mini": "Subject: Maintenance Logs and Proposed Inspection Timeline\n\nHi maintenance crew,\n\nI\u2019ve consolidated the latest maintenance logs and noted areas for follow-up inspections. Please review the entries and flag any irregularities. I've also drafted a proposed inspection timeline for next month, considering flight schedules and crew availability to minimize downtime. Let me know if adjustments are needed or if more technicians should be assigned. Safety and accuracy are our top priorities, so feel free to reach out with any concerns.\n\nThank you!",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "Minor wording changes and simplifications, but no critical facts removed or reinterpreted."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "One minor supporting detail about crew availability is missing."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "Clear, professional, and stable structure with correct grammar."
+      },
+      "overall": {
+        "score": 4.33,
+        "reason": "Average of (4, 4, 5) = 4.33"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "All original facts, intent, and constraints are preserved. No information is added, removed, or reinterpreted."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained: consolidation of logs, notes on follow-up, request to flag irregularities, proposed timeline, request for feedback on timeline and technician allocation, and emphasis on safety and accuracy."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is grammatically correct, clear, and professionally structured. The addition of a subject line and closing improves clarity and flow."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "The edited email fully preserves the original's content, intent, and structure, with no loss of information or clarity."
+      }
+    }
+  },
+  {
+    "original_id": 17,
+    "original_text": "Hi team, after meeting with the artist and management, we\u2019ve agreed to adjust the release timeline for the upcoming album. This gives us more room to finalize production edits, prepare marketing assets, and coordinate promotional events. I\u2019ve attached the revised schedule along with a breakdown of deliverables by department. Please review and let me know if any deadlines conflict with ongoing projects. We want to ensure everything is synchronized across channels, from streaming to social campaigns. Thank you for your flexibility as we make these adjustments.",
+    "target_tone": null,
+    "response_4_1": "Hi team,  \nFollowing our meeting with the artist and management, we\u2019re adjusting the album release timeline to allow more time for production, marketing, and promotions. Attached are the revised schedule and department deliverables. Please review and let me know of any deadline conflicts. Let\u2019s ensure all channels are aligned. Thanks for your flexibility.",
+    "response_mini": "Subject: Revised Album Release Timeline\n\nHi team,\n\nAfter discussing with the artist and management, we\u2019ve adjusted the album release timeline to allow more time for production edits, marketing assets, and promotional events. I've attached the revised schedule and deliverables by department. Please review and inform me of any conflicts with ongoing projects to ensure synchronization across all channels. \n\nThank you for your flexibility! \n\nBest,  \n[Your Name]",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "Minor wording changes and simplifications, but core facts about the meeting, adjustments, and requests are preserved."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "All required units are present, but the mention of 'ongoing projects' is omitted, which slightly reduces context."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "Clear, professional, and well-structured with no grammatical errors."
+      },
+      "overall": {
+        "score": 4.33,
+        "reason": "Average of (4, 4, 5) = 4.33"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "All original facts and intent are preserved. The adjustment of the release timeline, reasons for the change, attachment of the revised schedule and deliverables, request for review of conflicts, and the goal of synchronization are all present. No facts are added, removed, or reinterpreted."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained: notification of timeline change, reasons for adjustment, attachment of schedule and deliverables, request for review of conflicts, and the need for synchronization across channels."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, grammatically correct, and professionally structured. The addition of a subject line and closing signature enhances clarity and professionalism."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "The edited email fully preserves the original's facts, intent, and required information, and is robust for professional use."
+      }
+    }
+  },
+  {
+    "original_id": 18,
+    "original_text": "Hello engineering team, we\u2019re implementing several updates to our hardware testing protocols based on recent feedback and regulatory requirements. The new guidelines include additional stress tests, updated calibration procedures, and revised documentation standards. I\u2019ve compiled everything into a single reference document for convenience. Please read through the updated protocol thoroughly and make sure you understand any changes affecting your workflow. If you have questions about implementation, we\u2019ll review everything during Thursday\u2019s technical briefing.",
+    "target_tone": null,
+    "response_4_1": "Hello team,\n\nWe\u2019re updating our hardware testing protocols to include new stress tests, calibration procedures, and documentation standards. Please review the attached reference document and note any changes to your workflow. We\u2019ll address questions during Thursday\u2019s technical briefing.",
+    "response_mini": "Subject: Update on Hardware Testing Protocols\n\nHello team,\n\nWe are updating our hardware testing protocols based on feedback and regulatory requirements. Key changes include additional stress tests, updated calibration procedures, and revised documentation standards. Please review the compiled reference document thoroughly to understand the changes impacting your workflow. We will address any questions during Thursday\u2019s technical briefing.\n\nThank you.",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "Minor details about the basis for updates (feedback and regulatory requirements) are omitted, but the core facts are preserved."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "The request to read through the document is simplified to a review, and the context of understanding changes is less emphasized, but the main points are retained."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The grammar is correct, and the structure is clear and professional."
+      },
+      "overall": {
+        "score": 4.33,
+        "reason": "Average of (4, 4, 5) = 4.33"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "All original facts and intent are preserved: updates to protocols, reasons for changes, specific changes, reference document, request to review, and mention of Thursday's briefing for questions. No facts added, removed, or reinterpreted."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained: update notification, list of changes, reference document, request to review, impact on workflow, and opportunity for questions at Thursday's briefing."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, grammatically correct, and professionally structured. Subject line added for clarity, and the message flows logically."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "All criteria scored 5; the edited email is fully faithful, complete, and robust."
+      }
+    }
+  },
+  {
+    "original_id": 19,
+    "original_text": "Hi there, thank you again for submitting your manuscript draft. I\u2019ve completed my editorial review and added comments throughout the document regarding pacing, dialogue consistency, and structural flow. There are several areas where a bit more clarity or emotional depth could really strengthen the narrative, especially in the middle chapters. I\u2019ve also included suggestions for refining character arcs and trimming sections that slow the momentum. Please take a look and feel free to reach out if you'd like to talk through the notes together. I\u2019m excited to see the next revision.",
+    "target_tone": null,
+    "response_4_1": "Thank you for submitting your manuscript draft. I\u2019ve finished my editorial review and added comments on pacing, dialogue consistency, and structure. I also suggested ways to add clarity and emotional depth, especially in the middle chapters, and recommended refining character arcs and trimming slow sections. Please review my notes and let me know if you\u2019d like to discuss them. I look forward to your next revision.",
+    "response_mini": "Subject: Manuscript Review Feedback\n\nHi there,\n\nThank you for submitting your manuscript draft. I\u2019ve completed my review and added comments on pacing, dialogue consistency, and structural flow. There are areas where more clarity and emotional depth would strengthen the narrative, particularly in the middle chapters. I've also suggested refining character arcs and trimming sections that slow momentum. Please review my notes, and let me know if you\u2019d like to discuss them. I\u2019m excited for the next revision!\n\nBest,  \n[Your Name]",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "Minor wording changes and omissions, but core facts and intent preserved."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "One minor supporting detail (excitement about the next revision) is missing."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "Clear, professional, and stable structure."
+      },
+      "overall": {
+        "score": 4.33,
+        "reason": "Average of (4, 4, 5) = 4.33"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "All original facts, intent, and constraints are preserved. No information is added, removed, or reinterpreted."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained: review completion, specific feedback areas, suggestions, invitation to discuss, and anticipation of next revision."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, grammatically correct, and professionally structured. The addition of a subject line and closing signature enhances clarity and professionalism."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "The edited email fully preserves the original's content, intent, and structure, with improved formatting and no loss of information."
+      }
+    }
+  },
+  {
+    "original_id": 20,
+    "original_text": "Team, our clients scheduled for next week\u2019s travel have requested several changes to their itinerary, including updated hotel accommodations, additional excursion options, and extended stay dates. I\u2019ve attached a detailed outline of their preferences along with availability research I\u2019ve already completed. Please review and let me know if there are better alternatives or more cost-efficient options we should consider. I\u2019d like to finalize the updated itinerary by tomorrow morning so we can send it for approval. Thanks for your quick help on this one.",
+    "target_tone": null,
+    "response_4_1": "Team,\n\nOur clients for next week have requested changes to their itinerary: updated hotels, more excursions, and longer stay dates. Attached are their preferences and my research on availability. Please review and suggest any better or more cost-effective options. I'd like to finalize the itinerary by tomorrow morning for approval. Thanks for your quick help.",
+    "response_mini": "Subject: Itinerary Changes for Next Week's Travel\n\nTeam,\n\nOur clients have requested changes to their itinerary for next week, including updated hotel accommodations, more excursion options, and extended stay dates. I've attached their preferences and my availability research. \n\nPlease review and suggest any better or more cost-efficient alternatives. I aim to finalize the itinerary by tomorrow morning for approval.\n\nThanks for your quick assistance!",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "Minor wording changes, but the core facts about client requests and the need for a timely response are preserved."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "All required units are present, but the mention of 'hotel accommodations' is simplified to 'hotels', which could be seen as a minor detail loss."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "Grammar is correct, and the structure is clear and professional."
+      },
+      "overall": {
+        "score": 4.33,
+        "reason": "Average of (4, 4, 5) = 4.33"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "All original facts, requests, and constraints are preserved. No information is added, removed, or reinterpreted."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained: client requests, attachment, review request, deadline, and next steps."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, grammatically correct, and professionally structured. Subject line adds clarity without affecting content."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "All criteria are fully met with no loss or distortion of information."
+      }
+    }
+  },
+  {
+    "original_id": 21,
+    "original_text": "Hello colleagues, I\u2019m sharing the first full draft of our policy brief on renewable energy incentives. This version includes a significantly expanded background section, consolidated statistics across states, and an updated analysis of federal-level proposals. Please read through and check for accuracy, clarity, and narrative flow. If you notice any missing sources or outdated data, add comments directly to the document. I\u2019d like to finalize the brief by Thursday so we can circulate it to partners ahead of next week\u2019s panel discussion.",
+    "target_tone": null,
+    "response_4_1": "Hello colleagues,\n\nAttached is the first full draft of our policy brief on renewable energy incentives, with an expanded background, updated state statistics, and revised federal analysis. Please review for accuracy, clarity, and flow, and comment directly on any missing sources or outdated data. I aim to finalize it by Thursday for circulation to partners before next week\u2019s panel discussion.",
+    "response_mini": "Subject: Review Requested: Draft of Policy Brief on Renewable Energy Incentives\n\nHello colleagues,\n\nI\u2019m sharing the first full draft of our policy brief on renewable energy incentives, featuring an expanded background section, consolidated state statistics, and updated federal proposals. Please review for accuracy, clarity, and narrative flow. Add comments for any missing sources or outdated data. I aim to finalize the brief by Thursday for circulation to partners before next week\u2019s panel discussion.\n\nThank you!",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "Minor wording changes and omissions (e.g., 'significantly' and 'consolidated' removed) but no major facts altered."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "All required units preserved, but some supporting details (e.g., 'consolidated statistics across states') are missing."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "Clear, professional, and stable structure with correct grammar."
+      },
+      "overall": {
+        "score": 4.33,
+        "reason": "Average of (4, 4, 5) = 4.33"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "All original facts, intent, and constraints are preserved. No information is added, removed, or reinterpreted. The subject line is added for clarity but does not alter the content."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained: the draft is shared, its features are described, review instructions are given, the deadline is specified, and the context of the panel discussion is maintained."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is grammatically correct, clear, and professionally structured. The addition of a subject line improves clarity and organization."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "The edited email fully preserves the original's content, intent, and structure, with improved clarity and professionalism."
+      }
+    }
+  },
+  {
+    "original_id": 22,
+    "original_text": "Hi all, the quality assurance audit was completed last week, and I\u2019ve compiled a detailed summary of findings. Most areas met or exceeded expectations, but there are a few items\u2014particularly regarding equipment sanitization frequency and documentation accuracy\u2014that require immediate attention. I\u2019ve written up recommended improvements for each area and included a timeline for implementation. Please review and confirm that these recommendations are feasible for your teams. We\u2019ll regroup next Wednesday to finalize action plans.",
+    "target_tone": null,
+    "response_4_1": "Hi all,  \nThe quality assurance audit is complete and a summary of findings is attached. Most areas performed well, but equipment sanitization frequency and documentation accuracy need immediate attention. Recommended improvements and an implementation timeline are included. Please review and confirm feasibility for your teams. We\u2019ll meet next Wednesday to finalize action plans.",
+    "response_mini": "Subject: QA Audit Summary and Next Steps\n\nHi all,\n\nThe quality assurance audit was completed last week, and I\u2019ve summarized the findings. Most areas met expectations, but we need to address equipment sanitization frequency and documentation accuracy. I've outlined recommended improvements and an implementation timeline. Please review and confirm feasibility for your teams. We'll regroup next Wednesday to finalize action plans.\n\nThank you.",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "Minor wording changes, but the core facts and intent are preserved. 'Completed' changed to 'is complete' introduces slight ambiguity about timing."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "All required units are present, but the mention of 'detailed summary' is reduced to just 'summary', which is a minor detail."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "Grammar is correct, and the structure is clear and professional."
+      },
+      "overall": {
+        "score": 4.33,
+        "reason": "Average of (4, 4, 5) = 4.33"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "The edited email preserves the core facts and intent, but slightly reduces the positive assessment ('met or exceeded expectations' becomes 'met expectations'), which is a minor reinterpretation. The phrase 'summarized the findings' is less specific than 'compiled a detailed summary of findings.' Otherwise, all main points are retained."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are present: audit completion, summary of findings, areas needing attention, recommended improvements, implementation timeline, request for review/confirmation, and next meeting time."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is grammatically correct, clear, and professionally structured. The addition of a subject line and closing improves clarity and flow."
+      },
+      "overall": {
+        "score": 4.67,
+        "reason": "The email is highly faithful, complete, and robust, with only minor wording changes affecting faithfulness."
+      }
+    }
+  },
+  {
+    "original_id": 23,
+    "original_text": "Good morning team, the latest production line efficiency report is ready, and there are several metrics worth highlighting. Output increased overall, but downtime also rose due to sensor misreads on Line 3. I\u2019ve added detailed notes about potential causes along with proposed revisions to the inspection schedule. Please take some time to review and provide your thoughts, especially regarding resource allocation for upcoming maintenance. Let\u2019s aim to reduce downtime by at least 10% next quarter. Looking forward to your insights.",
+    "target_tone": null,
+    "response_4_1": "Good morning team,\n\nThe latest production line efficiency report is ready. Output increased, but downtime also rose due to sensor misreads on Line 3. I\u2019ve included notes on causes and proposed inspection schedule revisions. Please review and share your thoughts, especially on resource allocation for upcoming maintenance. Our goal is to reduce downtime by at least 10% next quarter. Looking forward to your feedback.",
+    "response_mini": "Subject: Production Line Efficiency Report\n\nGood morning team, \n\nThe latest production line efficiency report is ready. Overall output increased, but downtime rose due to sensor misreads on Line 3. I've included notes on potential causes and proposed revisions to the inspection schedule. \n\nPlease review and share your thoughts, particularly on resource allocation for upcoming maintenance. Let\u2019s aim to reduce downtime by at least 10% next quarter. \n\nLooking forward to your insights.",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "All original facts and intent preserved without addition, removal, or reinterpretation."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained, including the report readiness, metrics, review request, and goal."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "Grammar is correct, and the structure is clear and professional."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "Average of (5, 5, 5) is 5.0."
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "All original facts, intent, and constraints are preserved. No information is added, removed, or reinterpreted."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained: report readiness, output and downtime metrics, causes and proposed revisions, request for review and feedback, focus on resource allocation, and the goal for downtime reduction."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, grammatically correct, and professionally structured. The addition of a subject line improves clarity and organization."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "The edited email fully preserves the original's content, intent, and structure, with no loss of information or clarity."
+      }
+    }
+  },
+  {
+    "original_id": 24,
+    "original_text": "Hi team, I\u2019ve prepared a portfolio of proposed designs for our spring floral collection, including new arrangements, color palettes, and packaging ideas. Seasonal demand forecasts indicate strong interest in pastel-focused arrangements this year, so you\u2019ll see several variations leaning in that direction. Please take a look and share your impressions\u2014what works, what doesn\u2019t, and what might benefit from additional refinement. We want to finalize selections by early next week so production can begin on schedule.",
+    "target_tone": null,
+    "response_4_1": "Hi team,\n\nI've put together proposed designs for our spring floral collection, featuring new arrangements, color palettes (with a focus on pastels per seasonal forecasts), and packaging ideas. Please review and share feedback on what works, what doesn\u2019t, and any areas needing refinement. Let\u2019s aim to finalize selections by early next week to keep production on schedule.",
+    "response_mini": "Subject: Spring Floral Collection Designs\n\nHi team, \n\nI\u2019ve prepared a portfolio of proposed designs for our spring floral collection, featuring new arrangements, color palettes, and packaging ideas. Given strong demand for pastel arrangements, you'll find several variations. Please review and share your feedback on what works, what doesn\u2019t, and any areas for refinement. We aim to finalize selections by early next week to stay on schedule for production. \n\nThank you!",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "Minor wording changes and rephrasing, but core facts about designs, seasonal forecasts, and deadlines are preserved."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units, including requests for feedback and deadlines, are retained."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "Grammar is correct, and the structure is clear and professional."
+      },
+      "overall": {
+        "score": 4.67,
+        "reason": "Average of (4, 5, 5) = 4.67"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "All original facts, intent, and constraints are preserved. The edited email maintains the mention of the portfolio, the focus on pastel arrangements due to demand, the request for feedback, and the timeline for finalization and production. No facts are added, removed, or reinterpreted."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained: the portfolio contents, the reason for pastel focus, the request for feedback, and the deadline for finalization. No supporting details or action items are missing."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, professional, and well-structured. Grammar is correct, sentences are clear, and the logical flow is maintained. The addition of a subject line and closing improves professional robustness."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "All three categories score 5, resulting in a perfect average. The edited email is fully faithful, complete, and robust."
+      }
+    }
+  },
+  {
+    "original_id": 25,
+    "original_text": "Hi bakery team, as we prepare for the upcoming menu refresh, I\u2019ve drafted a list of new items along with estimated ingredient quantities for the first two weeks. Several recipes will require specialty ingredients, so it\u2019s important that we place orders early to avoid stock delays. Please review the list and confirm that the estimates look reasonable based on expected foot traffic. If you foresee any issues with preparation time or equipment availability, let me know. Hoping to finalize the order list by tomorrow afternoon.",
+    "target_tone": null,
+    "response_4_1": "Hi bakery team,\n\nAhead of the menu refresh, I\u2019ve drafted a list of new items with estimated ingredient quantities for the first two weeks. Some recipes need specialty ingredients, so early orders are important. Please review the list and confirm the estimates based on expected foot traffic. Let me know if there are any concerns with prep time or equipment. I\u2019d like to finalize the order list by tomorrow afternoon.",
+    "response_mini": "Subject: Review New Menu Items\n\nHi team,\n\nAs we prepare for the menu refresh, I've drafted a list of new items and estimated ingredient quantities for the first two weeks. Some recipes require specialty ingredients, so we need to place orders early to avoid delays. Please review the list and confirm the estimates based on foot traffic. Let me know if there are any concerns with preparation time or equipment. I hope to finalize the order list by tomorrow afternoon.\n\nThank you!",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "Minor wording changes, but no facts added or removed. 'Several' changed to 'Some' introduces slight ambiguity."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units preserved, including requests, deadlines, and context."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "Clear, professional, and stable structure with correct grammar."
+      },
+      "overall": {
+        "score": 4.67,
+        "reason": "Average of (4, 5, 5) = 4.67"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "All original facts, intent, and constraints are preserved. No information is added, removed, or reinterpreted."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained: request for review, confirmation of estimates, mention of specialty ingredients and early ordering, request for feedback on preparation time/equipment, and deadline to finalize order list."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is grammatically correct, clear, and professionally structured. The addition of a subject line and closing improves clarity and flow."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "All criteria are fully met with no loss of information or clarity."
+      }
+    }
+  },
+  {
+    "original_id": 26,
+    "original_text": "Hello transportation team, with ridership patterns shifting in several neighborhoods, I\u2019ve drafted a proposal for adjusting three bus routes to better accommodate peak hours. The proposal includes updated stop placements, projected time savings, and feedback from community surveys conducted earlier this year. Please review and let me know if any operational considerations\u2014such as staffing or fleet availability\u2014need to be factored in before we proceed. We\u2019ll present this to the planning committee next week, so feedback by Friday would be appreciated.",
+    "target_tone": null,
+    "response_4_1": "Hello transportation team,\n\nI\u2019ve drafted a proposal to adjust three bus routes in response to shifting ridership patterns, including updated stops, projected time savings, and community survey feedback. Please review and let me know of any operational considerations (staffing, fleet availability) before we present to the planning committee next week. Feedback by Friday would be appreciated.",
+    "response_mini": "Subject: Proposal Review for Bus Route Adjustments\n\nHello transportation team,\n\nI've drafted a proposal to adjust three bus routes based on shifting ridership patterns. It includes updated stop placements, projected time savings, and community survey feedback. Please review and share any operational considerations, such as staffing or fleet availability, by Friday. We'll present this to the planning committee next week.\n\nThank you!",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "Minor wording changes, but all core facts preserved. 'With ridership patterns shifting' changed to 'in response to shifting ridership patterns', which is slightly rephrased but retains the original meaning."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "All required units preserved, but the mention of 'conducted earlier this year' is omitted, which is a minor supporting detail."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "Clear, professional, and stable structure with correct grammar."
+      },
+      "overall": {
+        "score": 4.33,
+        "reason": "Average of (4, 4, 5) = 4.33"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "All original facts and intent are preserved: shifting ridership patterns, three bus routes, updated stop placements, projected time savings, community survey feedback, request for operational considerations, deadline for feedback, and upcoming presentation to the planning committee."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained: the request for review, deadline (Friday), operational considerations, context for the proposal, and next steps (presentation to planning committee next week)."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, grammatically correct, and professionally structured with a subject line and closing. Logical flow is maintained."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "The edited email fully preserves the original's facts, intent, and required information, and is mechanically robust."
+      }
+    }
+  },
+  {
+    "original_id": 27,
+    "original_text": "Hi team, preparations for the summer festival are well underway, and we still need to finalize vendor coordination. I\u2019ve created a spreadsheet detailing vendor applications, space requirements, and proposed booth assignments. Please review and confirm whether the placements make sense based on prior years\u2019 layouts and anticipated foot traffic. Additionally, check for any outstanding permits or paperwork that still need follow-up. I\u2019d like to lock in the vendor list by early next week so we can publish the festival map.",
+    "target_tone": null,
+    "response_4_1": "Hi team,\n\nPreparations for the summer festival are progressing well. Please review the attached spreadsheet with vendor applications, space needs, and proposed booth assignments. Confirm if placements align with past layouts and expected foot traffic, and note any outstanding permits or paperwork. I\u2019d like to finalize the vendor list by early next week to publish the festival map.\n\nThank you!",
+    "response_mini": "Subject: Vendor Coordination for Summer Festival\n\nHi team, \n\nPreparations for the summer festival are progressing, but we need to finalize vendor coordination. I've created a spreadsheet with vendor applications, space requirements, and booth assignments. Please review it and confirm if the placements align with past layouts and expected foot traffic. Also, check for any outstanding permits or paperwork. I'd like to finalize the vendor list by early next week to publish the festival map.\n\nThank you!",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "Minor wording changes ('well underway' to 'progressing well') and 'space requirements' to 'space needs' do not alter the core facts but introduce slight ambiguity."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "All required units are present, but the request for confirmation is slightly less explicit than in the original."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "Grammar is correct, and the structure is clear and professional."
+      },
+      "overall": {
+        "score": 4.33,
+        "reason": "Average of (4, 4, 5) = 4.33"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "All original facts, requests, and constraints are preserved. No new information is added, and nothing is omitted or reinterpreted."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained: vendor coordination, spreadsheet details, review and confirmation of placements, check for permits/paperwork, and the deadline for finalizing the vendor list."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is grammatically correct, clear, and professionally structured. The addition of a subject line and closing improves clarity and flow."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "The edited email is fully faithful, complete, and robust, with no loss of information or clarity."
+      }
+    }
+  },
+  {
+    "original_id": 28,
+    "original_text": "Hi product team, the beta testing phase wrapped up last Friday, and we\u2019ve collected a substantial amount of user feedback. I\u2019ve summarized key insights, including feature requests, usability challenges, and positive experiences noted by testers. Some recurring themes involve navigation clarity and onboarding steps, which might require design adjustments before full launch. Please read through the summary and think about practical improvements we can implement within the current release timeline. We\u2019ll meet Thursday to prioritize changes.",
+    "target_tone": null,
+    "response_4_1": "Hi product team,\n\nBeta testing ended last Friday, and we\u2019ve gathered significant user feedback. I\u2019ve summarized the main insights, including feature requests, usability issues, and positive feedback. Key themes are navigation clarity and onboarding, which may need design tweaks before launch. Please review the summary and consider practical improvements for this release. We\u2019ll meet Thursday to prioritize changes.",
+    "response_mini": "Subject: Beta Testing Feedback Summary\n\nHi team, \n\nThe beta testing phase wrapped up last Friday, and we\u2019ve gathered valuable user feedback. I've summarized key insights, including feature requests and usability challenges. Notable themes include navigation clarity and onboarding steps, which may need design adjustments before the full launch. Please review the summary and consider practical improvements for the current release timeline. We\u2019ll meet Thursday to prioritize changes.\n\nThank you!",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "No facts added, removed, or reinterpreted."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required units preserved."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "Clear, professional, and stable."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "Average of (5,5,5) = 5"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "Most original facts and intent are preserved, but the edited email omits mention of 'positive experiences noted by testers,' which is a factual detail present in the original. The phrase 'substantial amount of user feedback' is changed to 'valuable user feedback,' which is a minor wording ambiguity but does not alter the core fact."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "All major informational units are retained: beta phase completion, feedback summary, key themes, request for review and improvement, and meeting time. However, the omission of 'positive experiences noted by testers' means one minor supporting detail is missing."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, grammatically correct, and professionally structured. The addition of a subject line and closing improves clarity and flow."
+      },
+      "overall": {
+        "score": 4.33,
+        "reason": "The edited email is mostly faithful and complete, with only a minor omission, and is robust for professional use."
+      }
+    }
+  },
+  {
+    "original_id": 29,
+    "original_text": "Hi all, ahead of next month\u2019s investor briefing, I\u2019m compiling materials showcasing our recent progress, updated financials, and near-term goals. Please send me any relevant charts, performance metrics, case studies, or visuals that highlight your team\u2019s accomplishments. The more specific and data-backed, the better. I'd like to have everything collected by Friday so I can assemble the deck over the weekend. Let me know if you have any questions about format or content preferences.",
+    "target_tone": null,
+    "response_4_1": "Hi all,  \nAhead of next month\u2019s investor briefing, I\u2019m gathering materials on our recent progress, updated financials, and upcoming goals. Please send any relevant charts, metrics, case studies, or visuals highlighting your team\u2019s accomplishments\u2014specific and data-backed items are best.  \nPlease send everything by Friday so I can assemble the deck over the weekend. Let me know if you have questions about format or content.",
+    "response_mini": "Subject: Request for Materials for Investor Briefing\n\nHi all,\n\nAs we prepare for next month\u2019s investor briefing, please send me charts, performance metrics, case studies, or visuals that showcase your team\u2019s accomplishments. Specific and data-backed materials are preferred. I need everything by Friday to assemble the deck over the weekend. Let me know if you have any questions about format or content.\n\nThank you!",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "Minor wording changes (e.g., 'compiling' to 'gathering', 'near-term' to 'upcoming') but no significant facts added or removed."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units preserved, including requests, deadlines, and context."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "Clear, professional, and stable structure with correct grammar."
+      },
+      "overall": {
+        "score": 4.67,
+        "reason": "Average of (4, 5, 5) = 4.67"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "All original facts, intent, and constraints are preserved. The request for materials, the types of materials, the preference for specificity and data, the Friday deadline, and the offer to answer questions about format or content are all retained. No facts are added, removed, or reinterpreted."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are present: the context (investor briefing), the request for specific types of materials, the preference for data-backed content, the deadline (Friday), the purpose (assembling the deck over the weekend), and the invitation for questions about format or content."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, professional, and well-structured. Grammar is correct, sentences are concise, and the logical flow is maintained. The addition of a subject line enhances professionalism."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "The edited email fully preserves the original's facts and intent, retains all required information, and is mechanically robust and professional."
+      }
+    }
+  },
+  {
+    "original_id": 30,
+    "original_text": "Team, the quarterly inventory audit is complete, and I\u2019ve compiled all findings in the attached report. While counts matched in most categories, there were discrepancies in camping accessories and hydration gear that need reconciling. Please review the mismatched items and double-check your sections to confirm whether this was a recording error or actual stock shortage. Once we have confirmation, we can adjust the system and place any necessary reorders. Thanks for your continued diligence in keeping our inventory accurate.",
+    "target_tone": null,
+    "response_4_1": "Team,\n\nThe quarterly inventory audit is complete; findings are in the attached report. Most counts matched, but there are discrepancies in camping accessories and hydration gear. Please review and double-check your sections to confirm if these are recording errors or actual shortages. Once confirmed, we\u2019ll update the system and reorder as needed. Thanks for your diligence.",
+    "response_mini": "Team, the quarterly inventory audit is complete, and the findings are in the attached report. Most counts matched, but there are discrepancies in camping accessories and hydration gear that need reconciliation. Please review the mismatched items and verify your sections for recording errors or actual shortages. Once confirmed, we can adjust the system and place necessary reorders. Thank you for your diligence in maintaining accurate inventory.",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "Minor wording changes, but the core facts about the audit, discrepancies, and actions required are preserved."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "All required units are present, but the phrase 'continued diligence in keeping our inventory accurate' is omitted."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "Clear, professional, and stable structure with correct grammar."
+      },
+      "overall": {
+        "score": 4.33,
+        "reason": "Average of (4, 4, 5) = 4.33"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "All original facts, intent, and constraints are preserved. No information is added, removed, or reinterpreted."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained: audit completion, report attachment, categories with discrepancies, request for review and verification, next steps, and appreciation."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "Grammar is correct, sentences are clear, and the logical flow is professional and well-structured."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "All criteria are fully met with no loss or distortion of information and strong professional clarity."
+      }
+    }
+  },
+  {
+    "original_id": 31,
+    "original_text": "Hello team, after reviewing the updated footage and discussing editing priorities with the director, we\u2019ve decided to adjust the post-production timeline by a few days. This should give us enough room to refine key scenes and incorporate sound design feedback. I\u2019ve attached the revised schedule, including new internal deadlines for color grading, audio mixing, and review sessions. Please look through and confirm you\u2019re able to meet the updated timeline. Let me know early if any task needs additional support or resources.",
+    "target_tone": null,
+    "response_4_1": "Hi team,\n\nAfter reviewing the latest footage and speaking with the director, we\u2019re adjusting the post-production timeline by a few days to refine key scenes and address sound design feedback. The revised schedule with updated deadlines for color grading, audio mixing, and reviews is attached. Please confirm you can meet the new timeline, and let me know early if you need additional support.\n\nThank you.",
+    "response_mini": "Subject: Updated Post-Production Timeline\n\nHello team,\n\nAfter reviewing the updated footage and discussing priorities with the director, we are adjusting the post-production timeline by a few days. This will allow us to refine key scenes and incorporate sound design feedback. \n\nI've attached the revised schedule with new internal deadlines for color grading, audio mixing, and review sessions. Please confirm your ability to meet the updated timeline, and let me know if you need additional support for any tasks.\n\nThank you!",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "Minor wording changes ('latest' instead of 'updated', 'address' instead of 'incorporate') may introduce slight ambiguity but do not change the core facts."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "All required units are present, but the mention of 'review sessions' is omitted, which is a minor detail."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The grammar is correct, and the structure is clear and professional."
+      },
+      "overall": {
+        "score": 4.33,
+        "reason": "Average of (4, 4, 5) = 4.33"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "All original facts and intent are preserved: timeline adjustment, reasons for change, attachment of revised schedule, request for confirmation, and offer of support. No facts added, removed, or reinterpreted."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained: notification of timeline change, reasons, attachment, request for confirmation, and offer of support/resources if needed."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, grammatically correct, and professionally structured. Subject line adds clarity. No issues with flow or readability."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "All criteria are fully met; the edited email is faithful, complete, and robust."
+      }
+    }
+  },
+  {
+    "original_id": 32,
+    "original_text": "Hi team, I\u2019m sharing the first draft of the client presentation for next week\u2019s strategy pitch. It summarizes our recommendations for operational efficiency improvements, along with supporting data and visualizations. Please review the slides for clarity, accuracy, and narrative cohesion. I\u2019m especially looking for feedback on whether the story flows logically and if there are any gaps that need filling. If you have stronger visuals or more compelling data points, feel free to swap them in. Let\u2019s finalize the deck by Wednesday.",
+    "target_tone": null,
+    "response_4_1": "Hi team,\n\nAttached is the first draft of the client presentation for next week\u2019s strategy pitch, covering our operational efficiency recommendations with supporting data and visuals. Please review for clarity, accuracy, and narrative flow, noting any gaps. If you have better visuals or data, please update the slides. Let\u2019s aim to finalize the deck by Wednesday.",
+    "response_mini": "Subject: Review Needed: Client Presentation Draft\n\nHi team, \n\nI\u2019m sharing the first draft of the client presentation for next week\u2019s strategy pitch. It includes our recommendations for operational efficiency improvements with supporting data and visuals. Please review for clarity, accuracy, and narrative flow. Let me know if you identify gaps or have better visuals/data to include. Let\u2019s finalize the deck by Wednesday.\n\nThanks!",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "Minor wording changes, but all core facts and intent preserved."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "One minor supporting detail (request for feedback on story flow) is missing."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "Clear, professional, and stable structure."
+      },
+      "overall": {
+        "score": 4.33,
+        "reason": "Average of (4, 4, 5) = 4.33"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "All original facts, intent, and constraints are preserved. The edited email maintains the request for review, the context of the client presentation, the focus on operational efficiency, and the deadline for finalization. No facts are added, removed, or reinterpreted."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained: the request for review, the deadline (Wednesday), the context (client presentation for next week's strategy pitch), and the invitation to swap in better visuals or data. No units are missing."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, professional, and well-structured. Grammar is correct, and the logical flow is maintained. The addition of a subject line further improves clarity."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "The edited email is fully faithful, complete, and robust, with no loss of information or clarity."
+      }
+    }
+  },
+  {
+    "original_id": 33,
+    "original_text": "Team, thank you for your quick response during last night\u2019s outage. I\u2019ve completed a preliminary root cause analysis, which indicates the issue originated from a misconfigured load balancer during the deployment. I\u2019ve detailed the findings and proposed several mitigation steps to prevent recurrence. Please review the analysis and add any observations you might have from your side of the incident. We\u2019ll finalize the report and implement changes immediately after alignment. Great job handling everything under pressure.",
+    "target_tone": null,
+    "response_4_1": "Team, thank you for your quick response during last night\u2019s outage. My preliminary root cause analysis points to a misconfigured load balancer during deployment. Please review the attached findings and proposed mitigation steps, and add any observations from your side. We\u2019ll finalize the report and implement changes once aligned. Great job handling the situation under pressure.",
+    "response_mini": "Team, thank you for your quick response during last night\u2019s outage. I found that the issue stemmed from a misconfigured load balancer during deployment. I've outlined the findings and proposed mitigation steps. Please review the analysis and share any observations you have. We'll finalize the report and implement changes after alignment. Great job managing the situation!",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "Minor wording changes, but core facts about the analysis and misconfiguration are preserved."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "One minor supporting detail (the word 'detailed') is missing, but all required units are otherwise preserved."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "Clear, professional, and stable structure with no grammatical errors."
+      },
+      "overall": {
+        "score": 4.33,
+        "reason": "Average of (4, 4, 5) = 4.33"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "The edited email preserves the main facts: thanks for response, root cause (misconfigured load balancer), findings and mitigation steps, request for review and observations, and next steps. However, it omits 'preliminary' from the root cause analysis and 'several' from mitigation steps, and slightly rewords the pressure context at the end."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "All major informational units are present: thanks, root cause, findings, mitigation steps, request for review/observations, next steps. Minor details missing: 'preliminary' analysis, 'several' mitigation steps, and 'under pressure' context."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, grammatically correct, and professionally structured. No mechanical or clarity issues."
+      },
+      "overall": {
+        "score": 4.33,
+        "reason": "The edited email is highly faithful and complete, with only minor omissions, and is robust for professional use."
+      }
+    }
+  },
+  {
+    "original_id": 34,
+    "original_text": "Hi everyone, as grape conditions continue to improve, it\u2019s time to begin coordinating the harvest schedule. I\u2019ve compiled the latest maturity readings and weather forecasts for the next two weeks, and it looks like ideal timing for our early varietals. Please review the proposed schedule and confirm equipment availability, staffing, and transport logistics. We want to ensure minimal delays once harvesting begins. Let me know if any sections require adjustments before we lock in the plan.",
+    "target_tone": null,
+    "response_4_1": "Hi everyone,\n\nWith grape conditions improving, it\u2019s time to coordinate harvest. I\u2019ve attached the latest maturity readings and weather forecast\u2014timing looks ideal for early varietals. Please review the proposed schedule and confirm equipment, staffing, and transport availability. Let me know if adjustments are needed before we finalize.\n\nThank you.",
+    "response_mini": "Subject: Harvest Schedule Coordination\n\nHi everyone,\n\nWith grape conditions improving, we need to coordinate the harvest schedule. I've compiled the latest maturity readings and weather forecasts indicating ideal timing for our early varietals. Please review the proposed schedule and confirm equipment availability, staffing, and transport logistics to minimize delays. Let me know if any adjustments are needed before finalizing the plan.\n\nThank you!",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "Minor wording changes and omissions (e.g., 'schedule' and 'logistics' are simplified) but core facts preserved."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "One minor supporting detail ('logistics') is missing, but all required units are otherwise preserved."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "Clear, professional, and stable structure with correct grammar."
+      },
+      "overall": {
+        "score": 4.33,
+        "reason": "Average of (4, 4, 5) = 4.33"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "All original facts, intent, and constraints are preserved. No information is added, removed, or reinterpreted."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units (request to review schedule, confirm equipment/staffing/transport, minimize delays, and request for adjustment feedback) are retained."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is grammatically correct, clear, and professionally structured. The addition of a subject line improves clarity."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "All criteria are fully met with no loss of information or clarity."
+      }
+    }
+  },
+  {
+    "original_id": 35,
+    "original_text": "Hello team, we\u2019re gearing up for next week\u2019s research dive, and I\u2019ve put together a detailed prep checklist covering equipment inspections, sample container labeling, safety protocols, and data logging procedures. Please read through the checklist and ensure your assigned tasks are completed by Friday afternoon. If you notice anything missing or believe certain procedures need updating, let me know. We want to make sure the dive runs smoothly and that our data collection is consistent and reliable.",
+    "target_tone": null,
+    "response_4_1": "Hello team,\n\nAhead of next week\u2019s research dive, please review the prep checklist for equipment inspections, container labeling, safety protocols, and data logging. Complete your assigned tasks by Friday afternoon. Let me know if anything is missing or needs updating so our dive runs smoothly and data collection stays consistent.\n\nThank you.",
+    "response_mini": "Subject: Research Dive Prep Checklist\n\nHello team,\n\nAs we prepare for next week's research dive, please review the checklist I created, which includes equipment inspections, sample container labeling, safety protocols, and data logging procedures. Ensure your tasks are completed by Friday afternoon. If you identify any gaps or need updates, please let me know. We want a smooth dive and reliable data collection.\n\nThank you!",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "Minor wording changes, but all core facts preserved. 'Sample container labeling' changed to 'container labeling', which is slightly less specific."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "All required units preserved, but the request for reading through the checklist is less explicit in the edited version."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "Clear, professional, and stable structure with no grammatical errors."
+      },
+      "overall": {
+        "score": 4.33,
+        "reason": "Average of (4, 4, 5) = 4.33"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "All original facts, intent, and constraints are preserved. The edited email maintains the same informational content regarding the checklist, assigned tasks, deadline, and request for feedback."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained: the checklist topics, the request to review and complete tasks by Friday afternoon, and the invitation to suggest updates or note missing items."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, grammatically correct, and professionally structured. The addition of a subject line improves clarity and organization."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "The edited email is fully faithful, complete, and robust, with no loss of information or clarity."
+      }
+    }
+  },
+  {
+    "original_id": 36,
+    "original_text": "Good afternoon team, the latest road repair proposal is ready for review, and I\u2019d like your input before we present it to the city council. The draft includes updated cost estimates, material comparisons, and projected completion timelines. Please review carefully and confirm that the estimates align with current vendor pricing and staffing availability. If you see any missing details or potential risks, add comments directly. Let\u2019s aim to deliver a polished proposal by Thursday morning.",
+    "target_tone": null,
+    "response_4_1": "Good afternoon team,\n\nThe latest road repair proposal draft is ready for your review. It includes updated cost estimates, material comparisons, and projected timelines. Please ensure the estimates match current vendor pricing and staffing availability, and add comments on any missing details or risks. Our goal is to finalize the proposal by Thursday morning.",
+    "response_mini": "Subject: Review of Road Repair Proposal\n\nGood afternoon team,\n\nThe latest road repair proposal is ready for your input before presenting it to the city council. It includes updated cost estimates, material comparisons, and projected completion timelines. Please review it for alignment with current vendor pricing and staffing availability. Add comments for any missing details or risks. Let\u2019s aim for a polished proposal by Thursday morning.\n\nThank you!",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "Minor wording changes, but all core facts preserved. 'Draft' is mentioned, but 'confirm' is replaced with 'ensure', which slightly alters the intent."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "All required units preserved, but the request for input before presenting to the city council is omitted."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "Clear, professional, and stable structure with no grammatical errors."
+      },
+      "overall": {
+        "score": 4.33,
+        "reason": "Average of (4, 4, 5) = 4.33"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "All original facts, intent, and constraints are preserved. No information is added, removed, or reinterpreted."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained: request for input, details about the draft, instructions for review and commenting, and the Thursday morning deadline."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is grammatically correct, clear, and professionally structured. The addition of a subject line and closing improves clarity and flow."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "All criteria are fully met with no loss of information or clarity."
+      }
+    }
+  },
+  {
+    "original_id": 37,
+    "original_text": "Hi all, I\u2019ve completed initial casting notes for the upcoming production and drafted a tentative rehearsal schedule based on actor availability. Please look over the notes and confirm whether the casting choices align with our artistic direction. Also check for conflicts in the rehearsal timeline so we can adjust early. I\u2019d like to finalize everything by Monday so we can begin sending out contracts. Thanks for your continued hard work.",
+    "target_tone": null,
+    "response_4_1": "Hi all,\n\nI've completed initial casting notes and a tentative rehearsal schedule based on actor availability. Please review and confirm if the casting aligns with our artistic direction, and flag any rehearsal conflicts. I'd like to finalize by Monday to start sending contracts. Thanks for your hard work.",
+    "response_mini": "Subject: Casting Notes and Rehearsal Schedule Review\n\nHi all, \n\nI've completed the initial casting notes and a tentative rehearsal schedule based on actor availability. Please review them and confirm if the casting aligns with our artistic direction and check for any rehearsal conflicts. I'd like to finalize everything by Monday to start sending out contracts. \n\nThanks for your hard work!",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "Minor wording changes, but no facts added or removed. 'Look over' changed to 'review' and 'confirm whether' to 'confirm if', which introduces slight ambiguity."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "All required units preserved, but the request to check for conflicts is less explicit with 'flag any rehearsal conflicts' compared to the original."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "Clear, professional, and stable structure with no grammatical errors."
+      },
+      "overall": {
+        "score": 4.33,
+        "reason": "Average of (4, 4, 5) = 4.33"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "All original facts, requests, and constraints are preserved. No information is added, removed, or reinterpreted."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained: casting notes, rehearsal schedule, requests for review and confirmation, deadline (Monday), and next steps (sending contracts)."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is grammatically correct, clear, and professionally structured. The addition of a subject line improves clarity."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "All criteria are fully met with no loss of information or clarity."
+      }
+    }
+  },
+  {
+    "original_id": 38,
+    "original_text": "Team, after completing the structural inspections this week, I\u2019ve put together an overview of maintenance needs across the north and east docks. Most repairs are minor, but a few sections will require reinforcement before the heavy traffic season begins. I\u2019ve included estimated costs, material requirements, and a proposed timeline for each repair. Please review and let me know if you foresee scheduling or resource conflicts. Hoping to finalize the plan by tomorrow morning.",
+    "target_tone": null,
+    "response_4_1": "Team, following this week\u2019s structural inspections, I\u2019ve outlined maintenance needs for the north and east docks. Most repairs are minor, but some areas need reinforcement before heavy traffic season. Attached are estimated costs, materials, and a proposed timeline. Please review and advise of any scheduling or resource conflicts. I\u2019d like to finalize the plan by tomorrow morning.",
+    "response_mini": "Team, \n\nI've completed the structural inspections and compiled an overview of maintenance needs for the north and east docks. Most repairs are minor, but some sections need reinforcement before the heavy traffic season. I've included estimated costs, materials, and a proposed timeline for each repair. Please review and inform me of any scheduling or resource conflicts by tomorrow morning so we can finalize the plan. \n\nThank you.",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "No facts added, removed, or reinterpreted."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required units preserved, including maintenance needs, reinforcement, estimated costs, materials, timeline, and request for review."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "Clear, professional, and stable structure with correct grammar."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "Average of (5, 5, 5) is 5.0."
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "All original facts, intent, and constraints are preserved. No information is added, removed, or reinterpreted."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained: overview of maintenance needs, minor and major repairs, estimated costs, materials, timeline, request for review, and deadline for feedback."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, grammatically correct, and professionally structured. Logical flow is maintained."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "All criteria are fully met with no loss or distortion of information and strong professional clarity."
+      }
+    }
+  },
+  {
+    "original_id": 39,
+    "original_text": "Hi branding team, thank you for the revised packaging concepts. I\u2019ve reviewed all variations with the marketing director, and we\u2019ve put together a detailed list of feedback\u2014mainly regarding typography, nutritional label placement, and overall visual hierarchy. Please go through the notes and let me know if any revisions present technical challenges for printing or manufacturing. We\u2019d like to finalize the designs by end of week so we can coordinate with suppliers.",
+    "target_tone": null,
+    "response_4_1": "Hi branding team,\n\nThanks for the revised packaging concepts. After reviewing them with the marketing director, we\u2019ve compiled feedback focused on typography, nutritional label placement, and visual hierarchy. Please review the notes and let us know if any revisions pose technical challenges for printing or manufacturing. We aim to finalize the designs by the end of the week to coordinate with suppliers.",
+    "response_mini": "Subject: Feedback on Packaging Concepts\n\nHi branding team, \n\nThank you for the revised packaging concepts. I\u2019ve reviewed them with the marketing director and compiled feedback on typography, nutritional label placement, and visual hierarchy. Please check the notes and inform me of any technical challenges for printing or manufacturing. We aim to finalize designs by the end of the week to coordinate with suppliers. \n\nBest,  \n[Your Name]",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "No facts added, removed, or reinterpreted."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required units preserved."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "Clear, professional, and stable."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "Average of (5,5,5) = 5"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "All original facts, intent, and constraints are preserved. No information is added, removed, or reinterpreted."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained: feedback topics, request for technical challenge notification, and the deadline for finalization."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is grammatically correct, clear, and professionally structured, with improved formatting and a subject line."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "All criteria are fully met with no loss or distortion of information and professional clarity."
+      }
+    }
+  },
+  {
+    "original_id": 40,
+    "original_text": "Hi robotics team, the latest round of tests for the updated navigation algorithm is complete, and I\u2019ve summarized the results in the attached report. Overall accuracy improved by 14%, but there were still occasional failures in low-light conditions. I\u2019ve highlighted patterns that might explain these issues and included suggested adjustments for the next iteration. Please review and share your thoughts so we can determine our priorities for the upcoming development cycle.",
+    "target_tone": null,
+    "response_4_1": "Hi team,\n\nThe latest navigation algorithm tests are complete\u2014results are summarized in the attached report. Accuracy improved by 14%, but there were occasional failures in low-light conditions. I\u2019ve noted possible causes and suggested adjustments. Please review and share your feedback to help set priorities for the next development cycle.",
+    "response_mini": "Subject: Navigation Algorithm Test Results\n\nHi team, \n\nThe latest tests for the updated navigation algorithm are complete, and I've summarized the results in the attached report. Overall accuracy improved by 14%, but there were occasional failures in low-light conditions. I've highlighted patterns and suggested adjustments for the next iteration. \n\nPlease review and share your thoughts to help prioritize our upcoming development cycle.\n\nBest,  \n[Your Name]",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "All original facts and intent preserved without addition, removal, or reinterpretation."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units, including results, issues, suggestions, and a request for feedback, are retained."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "Grammar is correct, and the structure is clear and professional."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "Average of (5, 5, 5) is 5.0."
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "All original facts, intent, and constraints are preserved. No information is added, removed, or reinterpreted."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained: test completion, summary/report, accuracy improvement, low-light failures, highlighted patterns, suggested adjustments, request for review and feedback, and prioritization for the next cycle."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, grammatically correct, professionally structured, and logically organized. The addition of a subject line and closing improves clarity and professionalism."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "All criteria are fully met with no loss or distortion of information, and the email is robust for professional use."
+      }
+    }
+  },
+  {
+    "original_id": 41,
+    "original_text": "Hello everyone, I\u2019ve assembled the workshop materials for next month\u2019s educator training. This includes slide decks, facilitator guides, activity instructions, and reference handouts. Please review and confirm that everything is accurate, engaging, and aligned with our learning objectives. If you have suggestions for improving clarity or participant experience, let me know. I\u2019ll be finalizing the materials for printing by early next week.",
+    "target_tone": null,
+    "response_4_1": "Hello all,\n\nI\u2019ve prepared the workshop materials for next month\u2019s educator training (slide decks, facilitator guides, activity instructions, and handouts). Please review for accuracy, engagement, and alignment with our learning objectives. Share any suggestions for clarity or participant experience. I\u2019ll finalize for printing early next week.",
+    "response_mini": "Subject: Workshop Materials Review\n\nHello everyone, \n\nI\u2019ve assembled the workshop materials for next month's educator training, including slide decks, facilitator guides, and handouts. Please review them for accuracy and alignment with our objectives. Share any suggestions for improvement. I\u2019ll finalize for printing by early next week. \n\nThank you!",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "No facts added, removed, or reinterpreted."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required units preserved."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "Clear, professional, and stable."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "Average of (5,5,5) = 5"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "Most original facts and intent are preserved, but 'activity instructions' and 'reference handouts' are omitted, and the request for 'engaging' materials and 'participant experience' is generalized to 'suggestions for improvement'."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "All major informational units are present: materials assembled, request for review, deadline for printing, and invitation for suggestions. However, some specific details about the types of materials and the focus on participant experience are missing."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, grammatically correct, and professionally structured with a subject line and closing."
+      },
+      "overall": {
+        "score": 4.33,
+        "reason": "The edited email is robust and mostly faithful and complete, but omits some specific details and slightly generalizes the request for feedback."
+      }
+    }
+  },
+  {
+    "original_id": 42,
+    "original_text": "Team, the latest quality checks are complete, and I\u2019ve documented all findings in the attached report. Most components passed without issue, but there were anomalies in two batches that require further investigation. Please review and confirm whether these issues originate from the material supplier or from our fabrication process. Once we determine the cause, we can decide whether to adjust our workflow or request replacements. Let me know your thoughts once you\u2019ve reviewed the report.",
+    "target_tone": null,
+    "response_4_1": "Team,  \nThe latest quality checks are complete\u2014details are in the attached report. Most components passed, but two batches showed anomalies needing further investigation. Please review and confirm if these issues stem from the material supplier or our fabrication process. Once identified, we can decide on next steps. Let me know your thoughts after reviewing the report.",
+    "response_mini": "Subject: Quality Check Findings\n\nTeam, \n\nThe latest quality checks are complete, and I've documented the findings in the attached report. Most components passed, but two batches showed anomalies needing further investigation. Please review and confirm if the issues stem from the material supplier or our fabrication process. Once we identify the cause, we can decide on adjustments or replacements. \n\nLet me know your thoughts after reviewing the report. \n\nThank you.",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "Minor wording changes, but the core facts and intent are preserved."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "One minor supporting detail about adjusting workflow or requesting replacements is missing."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "Clear, professional, and stable structure."
+      },
+      "overall": {
+        "score": 4.33,
+        "reason": "Average of (4, 4, 5) = 4.33"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "All original facts, intent, and constraints are preserved. No information is added, removed, or reinterpreted."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained: notification of completed checks, documentation, anomalies, request for review and confirmation of issue source, next steps, and request for feedback."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "Grammar is correct, sentences are clear, and the structure is professional and logically organized. The addition of a subject line and closing improves clarity and professionalism."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "The edited email is fully faithful, complete, and robust, with no loss or distortion of information."
+      }
+    }
+  },
+  {
+    "original_id": 43,
+    "original_text": "Hello all, I wanted to update you on recent changes to the student support program. We\u2019ve expanded tutoring hours, added new workshop topics, and partnered with counselors to provide more personalized guidance. I\u2019ve attached a summary detailing the changes and expected impacts. Please review and share with your teams. If you have additional suggestions for improving accessibility or engagement, feel free to reach out. We\u2019ll revisit the program outcomes in two months.",
+    "target_tone": null,
+    "response_4_1": "Subject: Update: Student Support Program Changes\n\nHello all,\n\nWe\u2019ve expanded tutoring hours, introduced new workshop topics, and partnered with counselors for personalized guidance. Please review the attached summary of changes and share with your teams. Send any suggestions for improving accessibility or engagement. We\u2019ll review outcomes in two months.",
+    "response_mini": "Subject: Update on Student Support Program\n\nHello all,\n\nWe\u2019ve expanded tutoring hours, added new workshop topics, and partnered with counselors for personalized guidance. Attached is a summary of these changes and their impacts. Please review and share with your teams. For any suggestions on improving accessibility or engagement, reach out. We\u2019ll revisit the program outcomes in two months.\n\nThank you!",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "Minor wording changes ('added' to 'introduced', 'provide' to 'for') but no factual changes."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "The request for suggestions is present, but the mention of 'expected impacts' is omitted."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "Clear, professional, and well-structured."
+      },
+      "overall": {
+        "score": 4.33,
+        "reason": "Average of (4, 4, 5) = 4.33"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "All original facts and intent are preserved. No information is added, removed, or reinterpreted."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained: update on changes, attachment, request to review/share, invitation for suggestions, and timeline for revisiting outcomes."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, grammatically correct, and professionally structured. The addition of a subject line and closing improves clarity and flow."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "All criteria are fully met with no loss of information or clarity."
+      }
+    }
+  },
+  {
+    "original_id": 44,
+    "original_text": "Hi team, as we prepare for Monday\u2019s hearing, I want to ensure everyone has reviewed the updated case file. I\u2019ve added the latest witness statements, updated precedent references, and documentation from last week\u2019s discovery. Please read through the case summary and confirm that all exhibits are correct and in the right order. If you spot inconsistencies or missing pieces, let me know immediately. Thanks for your careful attention during this critical phase.",
+    "target_tone": null,
+    "response_4_1": "Hi team,\n\nAhead of Monday\u2019s hearing, please review the updated case file, which now includes new witness statements, revised precedent references, and last week\u2019s discovery documents. Check that all exhibits are correct and properly ordered. Let me know immediately if you find any issues or missing items. Thanks for your attention.",
+    "response_mini": "Subject: Review Updated Case File for Monday's Hearing\n\nHi team, \n\nPlease review the updated case file for Monday\u2019s hearing, which includes the latest witness statements, updated precedent references, and documentation from last week\u2019s discovery. Confirm that all exhibits are correct and in order. Report any inconsistencies or missing pieces immediately. \n\nThank you for your attention.",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "Minor wording changes (e.g., 'new' instead of 'latest', 'revised' instead of 'updated') could imply a slight reinterpretation of the information, but core facts are preserved."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "The request for confirmation of correctness is implied but not explicitly stated, which is a minor supporting detail missing."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "Grammar is correct, and the structure is clear and professional."
+      },
+      "overall": {
+        "score": 4.33,
+        "reason": "Average of (4, 4, 5) = 4.33"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "All original facts, intent, and constraints are preserved. No information is added, removed, or reinterpreted."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units (review request, confirmation of exhibits, reporting inconsistencies/missing pieces, context of Monday's hearing) are retained."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, grammatically correct, and professionally structured. The addition of a subject line enhances clarity."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "All criteria are fully met with no loss of information or clarity."
+      }
+    }
+  },
+  {
+    "original_id": 45,
+    "original_text": "Hello everyone, with the community volunteer event happening next weekend, I\u2019ve created a list of prep tasks that we still need to complete. These include equipment checks, supply pickups, station setup, and communication with group leads. Please review the task list and mark off the items your team can take responsibility for. Let me know if you need additional support or resources. I appreciate everyone\u2019s effort in making this event successful and enjoyable for the community.",
+    "target_tone": null,
+    "response_4_1": "Hello everyone,\n\nAhead of next weekend\u2019s community volunteer event, please review the prep task list (equipment checks, supply pickups, station setup, and group lead communications) and mark what your team can handle. Let me know if you need any support or resources. Thanks for your efforts to make this event a success!",
+    "response_mini": "Subject: Prep Tasks for Community Volunteer Event\n\nHello everyone, \n\nWith the community volunteer event next weekend, please review the prep tasks I\u2019ve outlined: equipment checks, supply pickups, station setup, and communication with group leads. Mark off the items your team can handle, and reach out if you need additional support. Thank you for your efforts in making this event a success!\n\nBest,  \n[Your Name]  ",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "Minor wording changes, but all core facts preserved. 'Communication with group leads' rephrased to 'group lead communications'."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units preserved, including tasks, request for review, and offer of support."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "Clear, professional, and well-structured with no grammatical errors."
+      },
+      "overall": {
+        "score": 4.67,
+        "reason": "Average of (4, 5, 5) = 4.67"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "All original facts and intent are preserved. No information is added, removed, or reinterpreted."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained: event timing, list of tasks, request for review and marking responsibility, offer of support, and appreciation."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is grammatically correct, clear, and professionally structured with a subject line and closing."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "All criteria are fully met with no loss of information or clarity."
+      }
+    }
+  },
+  {
+    "original_id": 46,
+    "original_text": "Hi research team, the preliminary data from Phase 1 of the clinical trial is ready for review. The results look encouraging overall, with promising tolerability and early signs of efficacy. However, there are a few irregularities in patient-reported outcomes that may require follow-up analysis. I\u2019ve compiled everything into a comprehensive report\u2014including charts, annotations, and comparison tables. Please read through the material and prepare any questions or insights you want to discuss during Thursday\u2019s review meeting.",
+    "target_tone": null,
+    "response_4_1": "Hi research team,\n\nThe preliminary Phase 1 clinical trial data is ready for review. Results are encouraging, with good tolerability and early efficacy, though some irregularities in patient-reported outcomes may need follow-up. All data, charts, and comparisons are compiled in the attached report. Please review and prepare questions or insights for Thursday\u2019s meeting.",
+    "response_mini": "Subject: Phase 1 Clinical Trial Data Review\n\nHi team, \n\nThe preliminary data from Phase 1 of the clinical trial is ready for review. Overall results are encouraging, showing good tolerability and early efficacy signs. However, there are some irregularities in patient-reported outcomes that may need follow-up analysis. I\u2019ve compiled a report with charts, annotations, and comparison tables. Please review the material and prepare any questions or insights for Thursday\u2019s meeting.\n\nBest,  \n[Your Name]",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "Minor wording changes, but no core facts removed or reinterpreted."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "One minor supporting detail (annotations) is missing."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "Clear, professional, and stable structure."
+      },
+      "overall": {
+        "score": 4.33,
+        "reason": "Average of (4, 4, 5) = 4.33"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "All original facts, intent, and constraints are preserved. No information is added, removed, or reinterpreted. The subject line and closing are added, but these do not alter the factual content."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained: notification of data readiness, summary of results, mention of irregularities, report contents, and request for questions/insights for Thursday\u2019s meeting."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, grammatically correct, and professionally structured. The addition of a subject line and closing improves clarity and professionalism."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "All criteria are fully met with no loss or distortion of information, and the email is robust for professional use."
+      }
+    }
+  },
+  {
+    "original_id": 47,
+    "original_text": "Hi animation team, thank you for the latest storyboard draft. After reviewing it with the directors, I\u2019ve gathered a list of revision notes, mainly regarding scene pacing, character expression cues, and transitions between sequences. I\u2019ve added specific timestamps and visual references to help guide revisions. Please look over the notes thoroughly and let me know if any suggested changes conflict with current animation schedules. We\u2019d like to lock the storyboard by end of week so production can start smoothly.",
+    "target_tone": null,
+    "response_4_1": "Hi animation team,\n\nThanks for the latest storyboard draft. After review with the directors, I\u2019ve compiled revision notes focused on scene pacing, character expressions, and sequence transitions, with specific timestamps and visual references included. Please review these notes and let me know if any changes conflict with your schedule. We aim to lock the storyboard by week\u2019s end for a smooth production start.",
+    "response_mini": "Subject: Storyboard Revision Notes\n\nHi animation team,\n\nThank you for the latest storyboard draft. After discussing it with the directors, I\u2019ve compiled revision notes focusing on scene pacing, character expressions, and transitions. I included timestamps and visual references for guidance.\n\nPlease review the notes and inform me of any conflicts with the current animation schedule. We aim to finalize the storyboard by the end of the week for a smooth production start.\n\nBest,  \n[Your Name]",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "Minor wording changes, but no facts added or removed. 'Thank you' changed to 'Thanks' and 'look over' to 'review', which slightly alters tone but not intent."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "All required units preserved, but 'thoroughly' is omitted, which slightly diminishes the emphasis on the review process."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "Clear, professional, and stable structure with no grammatical errors."
+      },
+      "overall": {
+        "score": 4.33,
+        "reason": "Average of (4, 4, 5) = 4.33"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "All original facts, intent, and constraints are preserved. The revision notes, areas of focus, inclusion of timestamps and visual references, request for feedback on schedule conflicts, and the deadline to lock the storyboard by end of week are all present. No facts are added, removed, or reinterpreted."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained: acknowledgment of the draft, mention of director review, revision notes with specific areas, inclusion of timestamps and references, request for review and feedback on schedule conflicts, and the deadline for locking the storyboard."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, grammatically correct, and professionally structured. The addition of a subject line and closing signature further improves clarity and professionalism."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "The edited email fully preserves the original's facts, intent, and required information, and is robustly structured for professional use."
+      }
+    }
+  },
+  {
+    "original_id": 48,
+    "original_text": "Hi trainers, I\u2019ve drafted the outline for our new client training programs launching next month. This includes progression plans, exercise variations, nutrition guidelines, and performance tracking templates. Please review and confirm whether the program structure feels realistic and safe for clients at different fitness levels. If you have alternative suggestions based on your expertise, feel free to incorporate them. I\u2019d like to finalize everything by Monday so we can begin trainer onboarding.",
+    "target_tone": null,
+    "response_4_1": "Hi trainers,\n\nAttached is the draft outline for our new client training programs launching next month, including progression plans, exercise variations, nutrition guidelines, and performance tracking templates. Please review and confirm if the structure is realistic and safe for all fitness levels. Share any suggestions or adjustments based on your expertise. I\u2019d like to finalize by Monday to start trainer onboarding.\n\nThank you!",
+    "response_mini": "Subject: Review of New Client Training Program Outline\n\nHi trainers,\n\nI've drafted the outline for our upcoming client training programs, including progression plans, exercise variations, nutrition guidelines, and performance tracking templates. Please review and confirm if the structure is realistic and safe for various fitness levels. Feel free to add any suggestions based on your expertise. I'd like to finalize everything by Monday to start trainer onboarding.\n\nThank you!",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "Minor wording changes ('if' instead of 'whether', 'all fitness levels' instead of 'clients at different fitness levels') but no major facts added or removed."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "One minor supporting detail missing ('confirm whether the program structure feels realistic and safe'), but all required units are mostly preserved."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "Clear, professional, and stable structure with correct grammar."
+      },
+      "overall": {
+        "score": 4.33,
+        "reason": "Average of (4, 4, 5) = 4.33"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "All original facts, intent, and constraints are preserved. No information is added, removed, or reinterpreted."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units (request for review, deadline, action items, context) are retained."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, grammatically correct, and professionally structured. The addition of a subject line and closing improves clarity and flow."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "All criteria are fully met with no loss or distortion of information."
+      }
+    }
+  },
+  {
+    "original_id": 49,
+    "original_text": "Hi team, as we get closer to the expedition date, I\u2019ve compiled detailed preparation notes covering route planning, equipment packing, safety protocols, and daily logistics. Please read through everything and confirm that your assigned responsibilities are clear and feasible. If you foresee any supply constraints or scheduling conflicts, let me know immediately so we can address them. Looking forward to a successful and well-coordinated trip.",
+    "target_tone": null,
+    "response_4_1": "Hi team,  \nAs the expedition approaches, I\u2019ve shared preparation notes on route planning, equipment, safety, and logistics. Please review and confirm your responsibilities are clear and feasible. Notify me immediately of any supply or scheduling issues. Looking forward to a smooth, successful trip.",
+    "response_mini": "Subject: Expedition Preparation Notes\n\nHi team,\n\nAs we approach the expedition date, I've compiled notes on route planning, equipment packing, safety protocols, and daily logistics. Please review and confirm your responsibilities are clear. If you anticipate any supply issues or scheduling conflicts, let me know right away. \n\nLooking forward to a successful trip!\n\nBest,  \n[Your Name]",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "Minor wording changes and omissions (e.g., 'packing' and 'protocols' removed) but core facts preserved."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "One minor supporting detail (safety protocols) missing, but all required units are otherwise preserved."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "Clear, professional, and stable structure."
+      },
+      "overall": {
+        "score": 4.33,
+        "reason": "Average of (4, 4, 5) = 4.33"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "The edited email preserves the main facts and intent: preparation notes, topics covered, request for confirmation, and notification of issues. However, 'detailed' is omitted, and 'feasible' is dropped from the confirmation request, slightly reducing the specificity of the original. 'Well-coordinated' is also omitted from the closing."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "All major informational units are retained: the topics covered, request for review and confirmation, and notification of issues. However, the requirement to confirm feasibility of responsibilities is less explicit, and the closing omits 'well-coordinated,' which was part of the original sentiment."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is grammatically correct, clear, and professionally structured. The addition of a subject line and sign-off improves structure without introducing errors."
+      },
+      "overall": {
+        "score": 4.33,
+        "reason": "The edited email is clear and professional, with all major facts and requests preserved, but minor reductions in specificity and completeness prevent a perfect score."
+      }
+    }
+  }
+]
