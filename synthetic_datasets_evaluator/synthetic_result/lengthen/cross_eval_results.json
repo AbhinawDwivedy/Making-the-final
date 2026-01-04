@@ -1,0 +1,45 @@
+[
+  {
+    "original_id": 0,
+    "original_text": "- missed deadline\n- not sure what to do\n- sorry",
+    "target_tone": null,
+    "response_4_1": "Subject: Apology for Missed Deadline and Request for Guidance\n\nDear [Recipient\u2019s Name],\n\nI hope this message finds you well.\n\nI am writing to let you know that I have unfortunately missed the deadline for [specific task or project, if appropriate to include]. I sincerely apologize for this oversight and any inconvenience it may have caused.\n\nAt this point, I am uncertain about the best way to proceed. I would greatly appreciate your guidance on how I should move forward or if there are any specific steps you would like me to take to address this situation.\n\nOnce again, I am truly sorry for missing the deadline. Please let me know how you would like me to proceed.\n\nThank you for your understanding.\n\nBest regards,  \n[Your Name]",
+    "response_mini": "Subject: Apology for Missed Deadline\n\nDear [Recipient's Name],\n\nI hope this message finds you well. I am writing to sincerely apologize for missing the recent deadline for [specific project or task]. I understand the importance of meeting deadlines and the impact that delays can have on our overall progress.\n\nAt this moment, I find myself uncertain about the best course of action to take to address this situation. I would greatly appreciate your guidance on how to proceed moving forward. Your insights would be invaluable in helping me rectify this oversight.\n\nOnce again, I am truly sorry for any inconvenience this may have caused. I appreciate your understanding and support as I work to resolve this matter.\n\nThank you for your attention, and I look forward to your response.\n\nBest regards,\n\n[Your Name]  \n[Your Position]  \n[Your Contact Information]  ",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 2,
+        "reason": "The edited email adds a specific task or project which was not mentioned in the original, creating a clear added assumption."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are preserved, including the apology, acknowledgment of the missed deadline, and request for guidance."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The email is clear, professional, and well-structured with correct grammar."
+      },
+      "overall": {
+        "score": 4.0,
+        "reason": "Average of (2, 5, 5) = 4.00"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "All original facts and intent are preserved: the missed deadline, uncertainty about what to do, and an apology. No facts are added, removed, or reinterpreted."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained: notification of missed deadline, expression of uncertainty, and apology. The request for guidance is a direct extension of the uncertainty, not an added fact."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The email is clear, professional, grammatically correct, and well-structured for professional use."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "All criteria are fully met with no issues."
+      }
+    }
+  }
+]
