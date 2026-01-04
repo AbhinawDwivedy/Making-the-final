@@ -6,10 +6,10 @@
 
 |              |   Score |
 |:-------------|--------:|
-| Faithfulness |    4    |
-| Completeness |    5    |
-| Robustness   |    5    |
-| Overall      |    4.67 |
+| Faithfulness |  3.04   |
+| Completeness |  4.3    |
+| Robustness   |  5      |
+| Overall      |  4.1132 |
 
 ## Notes
 - Cross-model evaluation (no self-judging)

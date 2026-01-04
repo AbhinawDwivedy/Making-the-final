@@ -3,20 +3,192 @@
     "original_id": 0,
     "original_text": "hey, so idk what\u2019s going on with your service lately but it\u2019s honestly just a joke at this point. like i paid for help and i\u2019m just getting ignored or stuff takes forever. i\u2019ve got a million things to do and honestly your site is just making it worse lol. can someone actually bother to fix this? cuz so far it\u2019s been nothing but a headache. not cool at all. pls sort it out or i want my money back.",
     "target_tone": "professional",
-    "response_4_1": "Subject: Request for Assistance with Service Issues\n\nHello,\n\nI am writing to express my concerns regarding the recent experience I\u2019ve had with your service. Despite having paid for support, I have found response times to be extremely slow, and in some cases, my inquiries have been ignored entirely. This has made managing my workload much more challenging.\n\nI would appreciate it if someone could address these issues as soon as possible. If this cannot be resolved promptly, I would like to request a refund.\n\nThank you for your attention to this matter. I look forward to your response.\n\nBest regards,  \n[Your Name]",
-    "response_mini": "Subject: Request for Assistance with Service Issues\n\nDear [Recipient's Name],\n\nI hope this message finds you well. \n\nI am reaching out to express my concerns regarding the recent experience I have had with your service. Unfortunately, it seems that there have been ongoing issues that have not yet been resolved. I have paid for assistance, but I have not received the timely support I expected, which has caused some frustration on my end.\n\nAs I have numerous responsibilities to manage, the delays have made it increasingly challenging for me to proceed effectively. I would greatly appreciate it if someone could address these issues promptly. \n\nIf these concerns cannot be resolved, I would like to discuss the possibility of a refund. \n\nThank you for your attention to this matter. I look forward to your prompt response.\n\nBest regards,  \n[Your Name]  \n[Your Contact Information]",
+    "response_4_1": "Subject: Request for Prompt Assistance with Service Issues\n\nHello,\n\nI am writing to express my concerns regarding the recent issues I have been experiencing with your service. Despite having paid for support, my requests have either gone unanswered or are taking an unusually long time to resolve. This has caused significant inconvenience as I have a busy schedule and rely on your platform to function efficiently.\n\nI would appreciate it if someone could address these issues as soon as possible. If these problems persist, I would like to discuss the possibility of a refund.\n\nThank you for your prompt attention to this matter.\n\nBest regards,  \n[Your Name]",
+    "response_mini": "Subject: Request for Assistance with Service Issues\n\nDear [Recipient's Name],\n\nI hope this message finds you well. I am reaching out to express my concerns regarding the service I have been receiving recently. Unfortunately, I have encountered several challenges that have not only been frustrating but have also hindered my productivity.\n\nI have paid for assistance, yet I have experienced delays in responses and a lack of support, which has been quite disheartening. Given my numerous commitments, the situation has become increasingly burdensome.\n\nI kindly request that someone address these issues promptly, as they have been quite disruptive. If the situation cannot be resolved, I would appreciate a discussion regarding a potential refund.\n\nThank you for your attention to this matter. I look forward to your prompt response.\n\nBest regards,  \n[Your Name]  \n[Your Contact Information]  ",
     "evaluation_of_4_1_by_mini": {
       "faithfulness": {
-        "score": 4,
-        "reason": "Minor rephrasing changes the tone from informal frustration to formal concern, but core issues of service problems and refund request are preserved."
+        "score": 2,
+        "reason": "The edited email removes the informal tone and humor, which alters the original intent of frustration. It also adds a request for a refund as a condition, which is not explicitly stated in the original."
       },
       "completeness": {
-        "score": 5,
-        "reason": "All required informational units, including concerns about service, request for assistance, and mention of a refund, are retained."
+        "score": 4,
+        "reason": "Most required units are preserved, but the informal tone and specific frustrations expressed in the original are lost, which diminishes the completeness of the emotional context."
       },
       "robustness": {
         "score": 5,
-        "reason": "The email is clear, professional, and well-structured with correct grammar."
+        "reason": "The edited email is clear, professional, and well-structured with correct grammar."
+      },
+      "overall": {
+        "score": 3.67,
+        "reason": "Average of (2, 4, 5) = 3.67"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "All core facts and intent are preserved: dissatisfaction with service, paid for help, delays, request for resolution or refund. However, the edited version softens the tone and omits the explicit frustration ('just a joke', 'headache', 'not cool at all'), which slightly reinterprets the emotional intensity."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained: complaint about service, mention of payment, request for resolution or refund, and urgency due to personal workload."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, grammatically correct, professionally structured, and logically organized."
+      },
+      "overall": {
+        "score": 4.67,
+        "reason": "The edited email is complete and robust, with only minor faithfulness drift due to softened tone."
+      }
+    }
+  },
+  {
+    "original_id": 1,
+    "original_text": "Wow, missed the meeting again. Honestly, it\u2019s becoming almost impressive at this point. Maybe next time someone could actually send an invite that doesn\u2019t get buried in a mountain of pointless emails? Anyway, if we\u2019re all just winging it, let me know so I can stop pretending my schedule matters. I\u2019ve got about 3 other things blowing up right now, so forgive me if I\u2019m not exactly losing sleep over this. If this is urgent, someone can actually pick up the phone for once. Otherwise, I\u2019ll just wait for round three.",
+    "target_tone": "professional",
+    "response_4_1": "Subject: Missed Meeting\n\nHello team,\n\nI noticed I missed the meeting again. I\u2019m concerned that the invites may be getting lost among other emails. In the future, could we ensure that meeting invitations are more clearly communicated or perhaps consider alternative reminders? \n\nWith several priorities competing for my attention, I want to make sure I\u2019m not overlooking anything critical. If this matter is urgent, please feel free to give me a call directly. Otherwise, I\u2019ll await further updates regarding the next meeting.\n\nThank you for your understanding.\n\nBest regards,  \n[Your Name]",
+    "response_mini": "Subject: Meeting Attendance and Scheduling Concerns\n\nDear Team,\n\nI hope this message finds you well. I wanted to address my absence from the recent meeting, as it seems to be becoming a recurring issue. It would be beneficial if meeting invites could be sent in a manner that ensures they are easily noticeable amidst the volume of emails we receive.\n\nIf there\u2019s a lack of structure in our scheduling, please let me know, as I want to ensure that my time is being utilized effectively. I am currently managing several pressing commitments, so I would appreciate clarity on the urgency of these meetings. \n\nIf this matter requires immediate attention, I encourage someone to reach out directly via phone. Otherwise, I look forward to our next opportunity to connect.\n\nThank you for your understanding.\n\nBest regards,  \n[Your Name]  ",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 3,
+        "reason": "The edited email reinterprets the original's tone and intent, softening the frustration expressed and changing the context of the request for clearer communication."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "Most required units are preserved, but the original's tone about the urgency and the mention of other priorities is less emphasized."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, professional, and well-structured with correct grammar."
+      },
+      "overall": {
+        "score": 4.0,
+        "reason": "Average of (3, 4, 5) = 4.00"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "The edited email preserves the main facts: missed meeting, recurring issue, difficulty with invites, busy schedule, and request for clarity/urgency. The tone is softened and some expressions (e.g., 'impressive', 'pointless emails', 'winging it', 'stop pretending', 'not losing sleep', 'round three') are omitted or rephrased, which slightly alters the original's candid and frustrated tone. No major facts are added or removed."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained: missed meeting, request for better invites, inquiry about scheduling structure, mention of busy schedule, request for clarity on urgency, and suggestion to call if urgent. The edited version covers all points, though with more formal language."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is grammatically correct, clear, and professionally structured. It uses appropriate formatting, logical flow, and paragraph structure suitable for professional communication."
+      },
+      "overall": {
+        "score": 4.67,
+        "reason": "The edited email is highly complete and robust, with only minor faithfulness drift due to tone softening and omission of some informal expressions."
+      }
+    }
+  },
+  {
+    "original_id": 2,
+    "original_text": "I can't possibly get this done by your deadline. Whoever came up with these timelines clearly wasn't thinking. I've got way too much on my plate already and this isn't my only priority. Honestly, I've asked before, but apparently that went ignored. Just give me an extension, and maybe next time try planning better. Waiting on your response (which I hope doesn't take days like last time).",
+    "target_tone": "professional",
+    "response_4_1": "Subject: Request for Extension on Current Deadline\n\nDear [Recipient Name],\n\nI am writing to discuss the current deadline for the project assigned. Given my existing workload and other ongoing priorities, I am unable to complete the task within the specified timeframe.\n\nI have previously raised concerns regarding the feasibility of the timelines, but I have not yet received a response. I kindly request an extension to ensure I can deliver quality work. For future projects, I believe that enhanced planning and clearer communication regarding deadlines would be beneficial for all parties involved.\n\nI would appreciate your prompt response regarding the possibility of an extension.\n\nThank you for your understanding.\n\nBest regards,  \n[Your Name]",
+    "response_mini": "Subject: Request for Extension on Project Deadline\n\nDear [Recipient's Name],\n\nI hope this message finds you well. I would like to discuss the upcoming deadline for the current project. Given my current workload and commitments, I am concerned that I will not be able to meet the timeline as it stands. \n\nI understand that project timelines are often set with many factors in mind; however, I believe that an extension would be beneficial in ensuring that I can deliver quality work. I have raised similar concerns in the past, and I appreciate your understanding.\n\nI look forward to your prompt response regarding this request. Thank you for considering my situation.\n\nBest regards,  \n[Your Name]  \n[Your Position]  ",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 3,
+        "reason": "The edited email introduces a request for an extension but removes the original's tone of frustration and specific mention of the recipient's planning. It also implies a lack of response without directly stating the previous request was ignored."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "Most required units are preserved, but the emotional context and specific mention of the previous request being ignored are missing."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, professional, and well-structured with correct grammar."
+      },
+      "overall": {
+        "score": 4.0,
+        "reason": "Average of (3, 4, 5) = 4.00"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "All core facts are preserved: inability to meet the deadline, request for extension, mention of prior concerns, and desire for a prompt response. However, the edited version omits the explicit criticism of the timeline planning and the frustration about previous ignored requests and slow responses, softening the tone and slightly reinterpreting the intent."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are present: request for extension, mention of workload, reference to previous concerns, and request for a prompt response. The context and action items are retained."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, grammatically correct, professionally structured, and logically organized."
+      },
+      "overall": {
+        "score": 4.67,
+        "reason": "The edited email is complete and robust, but slightly less faithful due to softened tone and omission of explicit criticism."
+      }
+    }
+  },
+  {
+    "original_id": 3,
+    "original_text": "i don\u2019t even know why i bother reaching out anymore. your so-called customer support is an absolute joke. nothing gets fixed, ever, and half the time i\u2019m left waiting for hours just to get some useless copy-paste answer. do you people even read these emails? honestly, if you can\u2019t handle simple requests, maybe you shouldn\u2019t even offer this service. i\u2019m beyond done with your nonsense.",
+    "target_tone": "professional",
+    "response_4_1": "Subject: Ongoing Concerns with Customer Support\n\nDear Customer Support Team,\n\nI am writing to express my continued frustration with the support I have received. My issues remain unresolved despite multiple attempts to seek assistance, and the responses I have received often seem generic and unhelpful. Additionally, the wait times for a response are frequently excessive.\n\nIt is disappointing to feel that my concerns are not being properly addressed. If these ongoing issues cannot be resolved, I would encourage you to reconsider the service being offered. I hope you will take this feedback seriously and work towards providing better support for your customers.\n\nSincerely,  \n[Your Name]",
+    "response_mini": "Subject: Ongoing Issues with Customer Support\n\nDear [Recipient's Name],\n\nI hope this message finds you well. I am writing to express my frustration regarding the ongoing challenges I have encountered with your customer support. Unfortunately, my experiences have not met my expectations, and I often find myself waiting for extended periods without receiving a satisfactory resolution.\n\nI understand that your team may be handling a high volume of inquiries, but I believe it is crucial for customer concerns to be addressed in a timely and effective manner. I would appreciate it if you could provide more thorough responses to my requests, as it often feels that my emails are not being fully acknowledged.\n\nIf your team is unable to manage these types of service requests, it may be worth reconsidering the current support structure. I sincerely hope for a more positive experience moving forward.\n\nThank you for your attention to this matter.\n\nBest regards,\n\n[Your Name]  \n[Your Contact Information]  ",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 2,
+        "reason": "The edited email significantly reinterprets the original message, softening the tone and changing the expression of frustration into a more formal complaint."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "Most required units are preserved, but the original's strong emotional tone and specific complaints about 'copy-paste answers' and 'waiting for hours' are less emphasized."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, professional, and well-structured with correct grammar."
+      },
+      "overall": {
+        "score": 3.67,
+        "reason": "Average of (2, 4, 5) = 3.67"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 3,
+        "reason": "The edited email preserves the core facts: dissatisfaction with customer support, long wait times, and unsatisfactory responses. However, the tone is softened and some strong criticisms (e.g., 'absolute joke', 'nonsense', 'maybe you shouldn\u2019t even offer this service') are reinterpreted or omitted, resulting in slight intent drift and less directness."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "Most required informational units are retained: complaint about support, mention of long waits, unsatisfactory answers, and a request for better responses. However, the explicit question 'do you people even read these emails?' and the direct statement of being 'beyond done' are softened or missing, which slightly reduces completeness."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, grammatically correct, professionally structured, and logically flows from introduction to conclusion."
+      },
+      "overall": {
+        "score": 4.0,
+        "reason": "The edited email is robust and mostly complete, but some original intent and directness are softened, resulting in minor faithfulness and completeness reductions."
+      }
+    }
+  },
+  {
+    "original_id": 4,
+    "original_text": "Hi, \n\nNot sure if my last email got lost or what, but I haven\u2019t heard back. It\u2019s not like I\u2019m asking for that much\u2014just a reply, which apparently is too much these days? Anyway, I guess I\u2019ll just wait around some more and hope for an answer soon. Would be nice to get a little acknowledgment at least. \n\nThanks, I guess.",
+    "target_tone": "professional",
+    "response_4_1": "Subject: Follow-Up on Previous Email\n\nHi,\n\nI wanted to follow up regarding my previous email, as I haven\u2019t yet received a response. I understand that everyone has a busy schedule, but I would appreciate an acknowledgment when you have a moment.\n\nThank you for your attention, and I look forward to your reply.\n\nBest regards,",
+    "response_mini": "Subject: Follow-Up on Previous Email\n\nDear [Recipient's Name],\n\nI hope this message finds you well. I wanted to follow up on my previous email, as I have not yet received a response. I understand that you may be busy, but I would greatly appreciate any acknowledgment at your earliest convenience.\n\nThank you for your attention to this matter. I look forward to your reply.\n\nBest regards,  \n[Your Name]  \n[Your Position]  \n[Your Contact Information]  ",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "Minor reinterpretation of tone; original conveys frustration, while edited is more neutral."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required units preserved, including follow-up and request for acknowledgment."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "Clear, professional, and well-structured."
       },
       "overall": {
         "score": 4.67,
@@ -26,19 +198,1954 @@
     "evaluation_of_mini_by_4_1": {
       "faithfulness": {
         "score": 4,
-        "reason": "All core facts and intent are preserved: dissatisfaction with service, paid for help, delays, request for resolution or refund. However, the edited version softens the tone and omits the explicit statement about being ignored, and the strong negative language ('joke', 'headache', 'not cool')."
+        "reason": "The edited email preserves the core facts: a previous email was sent, no reply has been received, and a response is requested. However, the tone is softened and some of the original's frustration and rhetorical questioning ('just a reply, which apparently is too much these days?') is omitted, slightly reinterpreting the emotional intent."
       },
       "completeness": {
         "score": 5,
-        "reason": "All required informational units are present: complaint about service, mention of payment, request for resolution, mention of time sensitivity, and request for refund if not resolved."
+        "reason": "All required informational units are retained: reference to the previous email, lack of response, request for acknowledgment/reply, and hope for an answer. The edited version also adds sender details, but does not omit any required information."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is grammatically correct, clear, and professionally structured, with appropriate formatting and logical flow."
+      },
+      "overall": {
+        "score": 4.67,
+        "reason": "The edited email is complete and robust, but slightly less faithful to the original's tone and emotional nuance."
+      }
+    }
+  },
+  {
+    "original_id": 5,
+    "original_text": "Honestly, I\u2019m struggling to understand what you were thinking here. This is not what we agreed on, not even close. I\u2019m tired of repeating myself \u2013 why is the quality always this bad? I expect your team to fix these mistakes NOW, not later. Don\u2019t waste my time with excuses, just sort it out. If this is how you handle things, I\u2019ll seriously consider looking elsewhere. Get back to me once it\u2019s actually done right.",
+    "target_tone": "professional",
+    "response_4_1": "Subject: Request for Immediate Resolution of Outstanding Issues\n\nDear [Recipient],\n\nI am concerned that the recent deliverables do not align with our agreed-upon standards and expectations. This is not the first time I have raised these issues, and I am disappointed to see recurring quality concerns.\n\nI ask that your team address and resolve these mistakes as a priority. Please focus on implementing the necessary corrections without delay. I would appreciate your prompt attention to this matter, as continued issues may require me to reconsider our working relationship.\n\nKindly update me once the work meets the expected standards.\n\nThank you for your immediate action.\n\nBest regards,  \n[Your Name]",
+    "response_mini": "Subject: Urgent: Need for Immediate Resolution\n\nDear [Recipient's Name],\n\nI hope this message finds you well. I would like to express my concerns regarding the recent work submitted, as it does not align with our prior agreement. I have noticed recurring issues with the quality, and I believe it is imperative that we address these matters promptly.\n\nI kindly request that your team prioritizes the necessary corrections without delay. I appreciate your attention to this matter and hope for a swift resolution. \n\nThank you for your understanding. I look forward to your prompt response once the issues have been resolved.\n\nBest regards,  \n[Your Name]  \n[Your Position]  \n[Your Company]  ",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 2,
+        "reason": "The edited email softens the tone and removes the urgency and frustration expressed in the original. It introduces new language about 'recurring quality concerns' and 'reconsider our working relationship,' which alters the original intent."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "Most required units are preserved, but the direct demand for immediate action ('fix these mistakes NOW') is less forceful in the edited version, which may imply a missing urgency."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, professional, and well-structured with correct grammar."
+      },
+      "overall": {
+        "score": 3.67,
+        "reason": "Average of (2, 4, 5) = 3.67"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 3,
+        "reason": "The edited email preserves the core facts: dissatisfaction with the work, reference to a prior agreement, recurring quality issues, and a request for immediate correction. However, the tone is softened, omitting the explicit frustration, the demand for no excuses, and the threat to consider other options. The urgency is maintained but the emotional intensity and ultimatum are diluted."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "Most required informational units are retained: concern about quality, reference to prior agreement, request for immediate correction, and expectation of a response after resolution. However, the explicit threat to seek alternatives and the demand for no excuses are missing, which are part of the original's intent."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is grammatically correct, clear, and professionally structured. It uses appropriate language and formatting for business communication."
+      },
+      "overall": {
+        "score": 4.0,
+        "reason": "The edited email is professional and clear, but it omits some of the original's emotional intensity and explicit demands, resulting in minor losses in faithfulness and completeness."
+      }
+    }
+  },
+  {
+    "original_id": 6,
+    "original_text": "Hi, not sure how many more times I need to send this, but I'm still waiting on your green light. It\u2019s honestly getting a bit exhausting chasing you down every single time. Maybe this request is just not important enough? I\u2019ve done everything on my end, but it\u2019s apparently stuck with you \u2013 as usual. Would be great if you could actually respond this week. I\u2019m sure you\u2019re busy, but so am I. Thanks, I guess.",
+    "target_tone": "professional",
+    "response_4_1": "Subject: Follow-up on Pending Approval\n\nHi [Recipient Name],\n\nI wanted to follow up regarding my previous requests for your approval. I understand you have a busy schedule, but I have completed all necessary steps on my end, and I\u2019m still awaiting your confirmation to move forward.\n\nCould you please let me know if there are any questions or concerns I can address to help expedite the process? Your response this week would be greatly appreciated, as I\u2019m eager to keep everything on track.\n\nThank you for your attention to this matter.\n\nBest regards,  \n[Your Name]",
+    "response_mini": "Subject: Follow-Up on Pending Approval\n\nDear [Recipient's Name],\n\nI hope this message finds you well. \n\nI wanted to follow up regarding my previous requests, as I have yet to receive your approval. I understand that you have a busy schedule, and I appreciate your efforts; however, I would greatly appreciate your attention to this matter at your earliest convenience. \n\nI have completed all the necessary steps on my end, and it appears that we are awaiting your input to move forward. \n\nThank you for your understanding, and I look forward to your response this week.\n\nBest regards,  \n[Your Name]  \n[Your Position]  \n[Your Contact Information]  ",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "The edited email maintains the core request for approval and the urgency but removes the emotional tone and some implied frustration from the original."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are preserved, including the request for approval, acknowledgment of the recipient's busy schedule, and a request for a timely response."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, professional, and well-structured with correct grammar."
+      },
+      "overall": {
+        "score": 4.67,
+        "reason": "Average of (4, 5, 5) = 4.67"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 3,
+        "reason": "The edited email preserves the core facts: waiting for approval, previous requests sent, and a request for response this week. However, it omits the tone of frustration, the suggestion that the request may not be important, and the repeated need to chase the recipient. The edited version reinterprets the emotional content and softens the message, which is a subtle intent drift."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "All main informational units are present: request for approval, mention of previous requests, completion of sender's tasks, and a request for response this week. However, the explicit mention of repeated follow-ups and the sender's exhaustion are missing, which are minor supporting details."
       },
       "robustness": {
         "score": 5,
         "reason": "The edited email is clear, professional, grammatically correct, and well-structured for professional use."
       },
       "overall": {
+        "score": 4.0,
+        "reason": "The edited email is robust and mostly complete, but loses some faithfulness due to softened tone and omission of emotional content."
+      }
+    }
+  },
+  {
+    "original_id": 7,
+    "original_text": "Seriously? This is like the third time you\u2019ve just blown off our team meeting with zero warning. Are you even interested in what we\u2019re trying to get done here, or should we just stop bothering to include you? It\u2019s becoming impossible to move forward when you keep wasting everyone\u2019s time. Don\u2019t expect us to keep picking up your slack if this keeps happening. Figure it out.",
+    "target_tone": "professional",
+    "response_4_1": "Subject: Attendance at Team Meetings\n\nHi [Name],\n\nI wanted to address a concern regarding your recent absences from our team meetings, which have occurred several times without prior notice. Consistent participation is essential for our progress, and it becomes challenging for the team to move forward effectively when members are not present or informed.\n\nIf there are any issues preventing you from attending, please let us know so we can work together to find a solution. Moving forward, we ask that you keep us informed in advance if you\u2019re unable to join, as it allows us to plan accordingly and ensure everyone is on the same page.\n\nYour contributions are valuable to the team, and we hope to see your engagement in upcoming meetings.\n\nThank you for your attention to this matter.\n\nBest regards,  \n[Your Name]",
+    "response_mini": "Subject: Attendance at Team Meetings\n\nDear [Recipient's Name],\n\nI hope this message finds you well. I wanted to bring to your attention that we have noticed your absence from our team meetings on multiple occasions without prior notification. Your input is valuable to our progress, and it's essential for the team to have everyone engaged in our discussions and initiatives.\n\nIf there are challenges that prevent you from attending, please let us know so we can find a suitable solution together. We appreciate your commitment and hope to see you at our upcoming meetings moving forward.\n\nThank you for your attention to this matter.\n\nBest regards,\n\n[Your Name]  \n[Your Position]  \n[Your Contact Information]  ",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 2,
+        "reason": "The edited email softens the tone and removes the direct confrontation present in the original, which alters the intent and urgency of the message."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "Most required units are preserved, but the direct question about the recipient's interest in the team's work is missing."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, professional, and well-structured with no grammatical errors."
+      },
+      "overall": {
+        "score": 3.67,
+        "reason": "Average of (2, 4, 5) = 3.67"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 3,
+        "reason": "The edited email softens the tone and removes direct accusations, frustration, and threats present in the original. The core facts (recipient missing meetings without warning, concern about their engagement, and impact on team progress) are retained, but the explicit threat of exclusion and warning about picking up slack are omitted or reinterpreted as a general request for communication and engagement."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "Most required informational units are preserved: notification of missed meetings, request for explanation, and emphasis on team progress. However, the explicit warning about consequences ('Don\u2019t expect us to keep picking up your slack' and 'should we just stop bothering to include you?') is softened and not directly stated, resulting in one minor supporting detail missing."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, professional, grammatically correct, and well-structured for professional use."
+      },
+      "overall": {
+        "score": 4.0,
+        "reason": "The edited email is robust and mostly complete, but faithfulness is reduced due to softened tone and omission of explicit warnings and frustration."
+      }
+    }
+  },
+  {
+    "original_id": 8,
+    "original_text": "Honestly, I have way more important things to deal with than sitting around waiting for your calls. If this project really mattered to you, you\u2019d work around my schedule, not the other way around. Next time try sending a reminder that actually gives me a reason to care. I don\u2019t appreciate being blamed for something that isn\u2019t entirely my fault \u2013 maybe try being more organized? If you want my input, you\u2019ll have to work for it. Let\u2019s see a bit more effort on your end before pointing fingers.",
+    "target_tone": "professional",
+    "response_4_1": "Subject: Request for Improved Coordination\n\nDear [Recipient Name],\n\nI would appreciate it if future communications could be scheduled with greater consideration for my availability. If this project is a priority, I believe it would be more effective to coordinate around mutually agreeable times. Advance reminders with relevant details would also be helpful in ensuring my participation.\n\nPlease note that I am committed to contributing to the project's success, but I feel that a more organized approach on both sides will lead to better outcomes. Moving forward, I encourage us to collaborate more effectively and focus on constructive solutions.\n\nThank you for your understanding.\n\nBest regards,  \n[Your Name]",
+    "response_mini": "Subject: Request for Improved Communication and Collaboration\n\nDear [Recipient's Name],\n\nI hope this message finds you well. \n\nI would like to express some concerns regarding our current communication and scheduling process. It is important for me to prioritize my commitments effectively, and I believe that a more collaborative approach to scheduling could enhance our project\u2019s progress.\n\nIf this project is a priority for both of us, I would appreciate your efforts in accommodating my availability. Additionally, sending reminders with clear objectives would help foster greater engagement and ensure that our discussions are productive.\n\nI value our collaboration and trust that with improved organization and communication, we can achieve our goals more efficiently. I look forward to seeing more proactive efforts on your part as we move forward.\n\nThank you for your understanding.\n\nBest regards,  \n[Your Name]  \n[Your Position]  \n[Your Contact Information]  ",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 2,
+        "reason": "The edited email introduces new facts about commitment and collaboration that were not present in the original, and it softens the tone significantly, altering the original intent."
+      },
+      "completeness": {
+        "score": 3,
+        "reason": "While the edited email retains some key points about scheduling and reminders, it omits the original's direct expression of frustration and the specific blame directed at the recipient."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, professional, and well-structured with correct grammar."
+      },
+      "overall": {
+        "score": 3.33,
+        "reason": "Average of (2, 3, 5) = 3.33"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 3,
+        "reason": "The edited email softens the tone and removes direct blame, but preserves the core facts: the sender feels their time is valuable, wants the recipient to accommodate their schedule, requests better reminders, and asks for more effort and organization from the recipient. However, the strong emotional content and explicit statements about blame and caring are toned down, which is a slight reinterpretation of intent."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are present: the sender's prioritization of their own schedule, request for better reminders, concern about being blamed, and a call for more effort and organization from the recipient. The edited version covers all these points, albeit in a more formal manner."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is grammatically correct, clear, professional, and well-structured. It includes a subject line, greeting, closing, and contact information, making it suitable for professional use."
+      },
+      "overall": {
+        "score": 4.33,
+        "reason": "The edited email is complete and robust, but the faithfulness score is reduced due to softened tone and slight reinterpretation of the original's emotional content."
+      }
+    }
+  },
+  {
+    "original_id": 9,
+    "original_text": "Hey, so I\u2019m just gonna say it - there\u2019s no way I\u2019m finishing this by Friday. Way too much on my plate and honestly, this deadline snuck up outta nowhere. Can we just push it back or something? Not sure who thought this timeline was doable. Kinda feel like I\u2019m the only one doing any work here lately. Lmk what you wanna do but I\u2019m not killing myself over this. Thanks I guess.",
+    "target_tone": "professional",
+    "response_4_1": "Subject: Request for Extension on Project Deadline\n\nHi [Recipient\u2019s Name],\n\nI wanted to reach out regarding the current deadline for this project. Given my current workload and the volume of tasks at hand, I\u2019m finding it challenging to complete everything by Friday. The deadline approached more quickly than anticipated, and I\u2019m concerned about meeting the expected quality within this timeframe.\n\nWould it be possible to discuss extending the deadline? I want to ensure I can deliver my best work on this project. Please let me know how you\u2019d like to proceed.\n\nThank you for your understanding.\n\nBest regards,  \n[Your Name]",
+    "response_mini": "Subject: Request for Extension on Deadline\n\nDear [Recipient's Name],\n\nI hope this message finds you well. I wanted to reach out regarding the upcoming deadline on Friday. Unfortunately, I am finding it challenging to complete the work due to my current workload, and I feel that the timeline may have been somewhat ambitious.\n\nWould it be possible to discuss a potential extension? I believe this would allow me to deliver a higher quality of work. I appreciate your understanding and support in this matter.\n\nThank you for considering my request. I look forward to your response.\n\nBest regards,  \n[Your Name]",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 3,
+        "reason": "The edited email introduces a more formal tone and expresses concern for quality, which slightly shifts the intent from frustration to professionalism. The original's emotional tone and specific feelings of being overwhelmed are less emphasized."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are preserved, including the request for an extension and the context of the workload."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, professional, and well-structured with correct grammar."
+      },
+      "overall": {
+        "score": 4.33,
+        "reason": "Average of (3, 5, 5) = 4.33"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 3,
+        "reason": "The edited email preserves the main facts: inability to meet the Friday deadline, request for extension, and mention of workload. However, it omits the original's explicit frustration about the timeline, the feeling of being the only one working, and the informal tone. The intent is softened and some emotional content is removed."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "All required informational units are present: notification of inability to meet the deadline, request for extension, and mention of workload. However, the original's explicit question about who set the timeline and the feeling of being the only one working are omitted, which are minor supporting details."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, professional, grammatically correct, and well-structured for professional use."
+      },
+      "overall": {
+        "score": 4.0,
+        "reason": "The edited email is professional and retains the core request, but loses some of the original's emotional tone and minor details."
+      }
+    }
+  },
+  {
+    "original_id": 10,
+    "original_text": "Unbelievable. I\u2019ve been sitting here for over 30 minutes and no one bothered to tell me that everyone\u2019s running late or not coming at all? How hard is it to just send a quick message? My time isn\u2019t worthless, you know. If this is how things are run, maybe someone else should be in charge. I expect an explanation ASAP because this is beyond disrespectful.",
+    "target_tone": "professional",
+    "response_4_1": "Subject: Request for Update on Meeting Delay\n\nDear Team,\n\nI have been waiting for over 30 minutes without any notification regarding the delay or change in today\u2019s meeting schedule. I would appreciate timely communication in such situations, as it allows everyone to manage their time effectively. \n\nPlease provide an update on the status of the meeting at your earliest convenience. I look forward to your prompt response and an explanation regarding this lapse in communication.\n\nThank you,  \n[Your Name]",
+    "response_mini": "Subject: Request for Clarification on Meeting Attendance\n\nDear [Recipient's Name],\n\nI hope this message finds you well.\n\nI wanted to express my concern regarding the recent meeting, which I attended for over 30 minutes without any communication about delays or absences. I believe that timely updates are essential for effective collaboration and respect for everyone\u2019s time.\n\nCould you please provide clarification on the situation? I appreciate your attention to this matter and look forward to your prompt response.\n\nThank you for your understanding.\n\nBest regards,  \n[Your Name]  \n[Your Position]  ",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 2,
+        "reason": "The edited email removes the emotional tone and urgency of the original message, reinterpreting the intent to be more formal and polite, which alters the original sentiment."
+      },
+      "completeness": {
+        "score": 3,
+        "reason": "The request for an explanation is present, but the strong expression of dissatisfaction and the urgency (ASAP) from the original is missing."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, professional, and well-structured with correct grammar."
+      },
+      "overall": {
+        "score": 3.33,
+        "reason": "Average of (2, 3, 5) = 3.33"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 3,
+        "reason": "The edited email preserves the core facts: the sender waited over 30 minutes, no communication was received, and a request for explanation is made. However, the strong emotional tone, criticism of management, and explicit statement about disrespect are softened or omitted, which slightly alters the intent and impact of the original message."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "All major informational units are present: the waiting period, lack of communication, and request for explanation. However, the explicit demand for an ASAP response and the suggestion that someone else should be in charge are missing, which are supporting but not strictly required details."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is grammatically correct, clear, and professionally structured with appropriate formatting and logical flow."
+      },
+      "overall": {
+        "score": 4.0,
+        "reason": "The edited email is professional and retains the main facts and requests, but softens the tone and omits some explicit criticisms and urgency, resulting in slight loss of faithfulness and completeness."
+      }
+    }
+  },
+  {
+    "original_id": 11,
+    "original_text": "I\u2019ve been waiting days for you to sign off, and honestly, this is getting ridiculous. How hard is it to just look at the document and hit approve? You do realize you\u2019re holding up everyone else, right? Either approve it now or at least bother to reply, because I\u2019m not going to keep chasing this down. Seriously, what\u2019s the holdup? This shouldn\u2019t take more than five minutes if you\u2019re actually paying attention.",
+    "target_tone": "professional",
+    "response_4_1": "Subject: Follow-Up on Document Approval\n\nDear [Recipient Name],\n\nI wanted to follow up regarding the document that is pending your approval. It has been a few days since I sent it, and I wanted to check if you\u2019ve had a chance to review it. Your approval is essential for us to move forward, and the team is currently waiting on this step.\n\nIf you need any additional information or have any concerns, please let me know. Otherwise, I would appreciate it if you could provide your approval at your earliest convenience.\n\nThank you for your attention to this matter.\n\nBest regards,  \n[Your Name]",
+    "response_mini": "Subject: Follow-Up on Document Approval\n\nDear [Recipient's Name],\n\nI hope this message finds you well. I wanted to follow up regarding the document awaiting your approval. I understand that you may have a busy schedule, but the delay is impacting our team\u2019s progress.\n\nIf you could take a moment to review and approve the document at your earliest convenience, it would be greatly appreciated. If there are any concerns or if you require additional information, please let me know, and I would be happy to assist.\n\nThank you for your attention to this matter.\n\nBest regards,  \n[Your Name]  \n[Your Position]  \n[Your Contact Information]  ",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 2,
+        "reason": "The edited email removes the urgency and frustration expressed in the original, reinterpreting the tone to be more polite and formal, which alters the original intent."
+      },
+      "completeness": {
+        "score": 3,
+        "reason": "While the request for approval is present, the edited email omits the explicit mention of the time sensitivity and the frustration about the delay, which are key elements of the original message."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, professional, and well-structured with correct grammar."
+      },
+      "overall": {
+        "score": 3.33,
+        "reason": "Average of (2, 3, 5) = 3.33"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 3,
+        "reason": "The edited email retains the core facts: a document is awaiting approval, the delay is impacting the team, and a request for action or reply is made. However, the tone is significantly softened, omitting the urgency, frustration, and directness of the original. The explicit statements about the process being simple and the recipient holding up others are reinterpreted as general impacts and polite requests, resulting in slight intent drift."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are present: the request for approval, the impact of the delay, a prompt for reply or action, and an offer to assist if there are concerns. The context and next steps are clearly communicated."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is grammatically correct, clear, and professionally structured with appropriate formatting and logical flow."
+      },
+      "overall": {
+        "score": 4.33,
+        "reason": "The edited email is complete and robust, but faithfulness is reduced due to softened tone and loss of directness and urgency."
+      }
+    }
+  },
+  {
+    "original_id": 12,
+    "original_text": "Seriously, how many times do I have to deal with this? Every single project, you come up with some excuse about why you need more time. I have other things on my plate and frankly, I\u2019m tired of reshuffling my schedule to accommodate you. This is getting beyond frustrating. Why can\u2019t you just get it done when you say you will? I want a REAL timeline this time, not just empty promises. Fix this ASAP.",
+    "target_tone": "professional",
+    "response_4_1": "Subject: Request for Updated Project Timeline\n\nHi [Name],\n\nI\u2019d like to address an ongoing concern regarding project timelines. It has become increasingly challenging to adjust my schedule due to repeated extensions and delays. To ensure we can both plan effectively, I need a realistic and reliable timeline for your deliverables moving forward. Please provide an updated schedule and let me know if there are any obstacles preventing you from meeting the deadlines.\n\nThank you for your immediate attention to this matter.\n\nBest regards,  \n[Your Name]",
+    "response_mini": "Subject: Request for Timely Project Updates\n\nDear [Recipient's Name],\n\nI hope this message finds you well. \n\nI would like to address a recurring issue regarding project timelines. I have noticed that there have been repeated delays, and it has become increasingly challenging for me to manage my schedule effectively as a result. \n\nI understand that unforeseen circumstances can arise, but I would appreciate your commitment to meeting deadlines more consistently. It is important for our workflow that we establish a realistic timeline moving forward, rather than relying on tentative estimates. \n\nCould you please provide an updated schedule at your earliest convenience? I look forward to your prompt attention to this matter.\n\nThank you for your cooperation.\n\nBest regards,  \n[Your Name]  \n[Your Position]  \n[Your Contact Information]  ",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 2,
+        "reason": "The edited email removes the emotional tone and urgency of the original message, reinterpreting frustration as a request for a timeline, which alters the intent."
+      },
+      "completeness": {
+        "score": 3,
+        "reason": "The request for a timeline is present, but the original's emphasis on frustration and the demand for immediate action (ASAP) is diminished."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, professional, and well-structured with correct grammar."
+      },
+      "overall": {
+        "score": 3.33,
+        "reason": "Average of (2, 3, 5) = 3.33"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 3,
+        "reason": "The edited email preserves the core facts: repeated delays, frustration with schedule changes, and a request for a real timeline. However, the tone is softened, and the explicit demand to 'fix this ASAP' is replaced with a polite request for an updated schedule. The emotional intensity and directness are reduced, which slightly alters the intent."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are present: mention of repeated delays, impact on the sender's schedule, request for a realistic timeline, and a call for prompt action. The request for a 'REAL timeline' and urgency are both addressed, albeit in more formal language."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is grammatically correct, clear, and professionally structured. It includes a subject line, greeting, closing, and contact information, making it suitable for professional use."
+      },
+      "overall": {
+        "score": 4.33,
+        "reason": "The edited email is complete and robust, but the faithfulness score is reduced due to the softened tone and less direct demand for immediate action."
+      }
+    }
+  },
+  {
+    "original_id": 13,
+    "original_text": "guess what, i'm not coming in. woke up feeling awful and there's no way i'm dragging myself there. don't bother calling, my phone's off. honestly, you guys never care when we show up sick anyway. figure it out without me. i'll let you know if i bother showing up tomorrow.",
+    "target_tone": "professional",
+    "response_4_1": "Subject: Out Sick Today\n\nHello,\n\nI am writing to inform you that I am unwell and will not be able to come in today. I am experiencing significant discomfort and will be resting and focusing on recovery. My phone will be off while I rest, so I may not be immediately reachable. \n\nPlease proceed with today's tasks in my absence. I will update you regarding my status for tomorrow.\n\nThank you for your understanding.\n\nBest regards,  \n[Your Name]",
+    "response_mini": "Subject: Sick Leave Notification\n\nDear [Recipient's Name],\n\nI hope this message finds you well. I wanted to inform you that I am unable to come in today due to feeling unwell. I believe it is best for my health and the well-being of the team that I take a day to recover.\n\nI will not be available by phone today, but I will keep you updated regarding my status for tomorrow.\n\nThank you for your understanding.\n\nBest regards,  \n[Your Name]  ",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 2,
+        "reason": "The edited email adds a tone of professionalism and gratitude not present in the original, which conveys frustration and a lack of concern from the sender."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "Most required units are preserved, but the original's tone of frustration and the specific mention of not being called are missing."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, professional, and well-structured with correct grammar."
+      },
+      "overall": {
+        "score": 3.67,
+        "reason": "Average of (2, 4, 5) = 3.67"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 3,
+        "reason": "The edited email preserves the main facts: not coming in due to illness, not available by phone, and will update about tomorrow. However, it omits the original's tone of frustration, the statement about not caring when employees are sick, and the directive to 'figure it out without me.' These omissions slightly reinterpret the intent and emotional content."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "All required informational units are present: notification of absence, reason (illness), unavailability by phone, and a promise to update about tomorrow. The only missing detail is the explicit instruction to 'figure it out without me,' which is implied but not directly stated."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is grammatically correct, clear, professional, and well-structured, suitable for workplace communication."
+      },
+      "overall": {
+        "score": 4.0,
+        "reason": "The edited email is professional and retains the essential facts, but loses some of the original's emotional tone and a minor directive, resulting in slight reductions in faithfulness and completeness."
+      }
+    }
+  },
+  {
+    "original_id": 14,
+    "original_text": "Look, I don\u2019t know what you guys are trying to pull, but this is NOT what I paid for. The quality has been going downhill every single time, and I\u2019m done making excuses for you. I expect a lot better, especially considering how much I\u2019m shelling out for this nonsense. Do you even check your work before sending it? Starting to wonder if anyone there actually cares. I want this fixed NOW, not next week or whenever you feel like it. Seriously disappointed at this point.",
+    "target_tone": "professional",
+    "response_4_1": "Subject: Request for Immediate Resolution of Quality Issues\n\nDear [Recipient],\n\nI am writing to express my concern regarding the recent decline in the quality of your services. This is not in line with what I expected, especially given the costs involved. I have noticed a consistent drop in standards with each delivery, and it is becoming increasingly difficult to justify continued engagement under these circumstances.\n\nI would appreciate it if you could review your internal processes to ensure quality checks are being carried out before work is delivered. It is important to me that these issues are addressed as a matter of urgency.\n\nPlease let me know how you plan to resolve this situation as soon as possible. I look forward to your prompt response.\n\nSincerely,  \n[Your Name]",
+    "response_mini": "Subject: Urgent Attention Required: Quality Concerns\n\nDear [Recipient's Name],\n\nI hope this message finds you well. I am writing to express my concerns regarding the quality of the recent work I have received. Unfortunately, it has not met my expectations, and I believe it is essential to address this matter promptly.\n\nI have noticed a decline in quality with each subsequent order, which is disappointing given the investment I have made. It raises questions about the review process in place before delivery. I would appreciate your immediate attention to rectify this situation.\n\nI kindly request that this issue be addressed as soon as possible. Thank you for your understanding, and I look forward to your prompt response.\n\nBest regards,\n\n[Your Name]  \n[Your Position]  \n[Your Contact Information]  ",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 2,
+        "reason": "The edited email removes the original's emotional tone and urgency, reinterpreting the dissatisfaction into a more formal complaint without retaining the original's directness and frustration."
+      },
+      "completeness": {
+        "score": 3,
+        "reason": "While the edited email retains the request for resolution, it omits the specific demand for immediate action ('NOW') and the personal disappointment expressed in the original."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, professional, and well-structured with correct grammar."
+      },
+      "overall": {
+        "score": 3.33,
+        "reason": "Average of (2, 3, 5) = 3.33"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 3,
+        "reason": "The edited email preserves the main facts: dissatisfaction with quality, expectation of improvement, and urgency for resolution. However, it omits the accusatory tone, direct questioning of the recipient's care, and the demand for immediate action ('NOW, not next week or whenever you feel like it'). The emotional intensity and frustration are softened, which slightly alters the original intent."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "Most required informational units are retained: complaint about quality, request for prompt resolution, and mention of repeated issues. However, the explicit demand for immediate action ('NOW, not next week') and the direct challenge to the recipient's diligence ('Do you even check your work?') are softened or omitted."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is grammatically correct, clear, and professionally structured. It includes a subject line, greeting, body, closing, and contact information, making it suitable for professional use."
+      },
+      "overall": {
+        "score": 4.0,
+        "reason": "The edited email is robust and mostly complete, but it loses some of the original's emotional intensity and directness, resulting in slight faithfulness and completeness reductions."
+      }
+    }
+  },
+  {
+    "original_id": 15,
+    "original_text": "Look, I\u2019m just going to say it\u2014your last couple projects have been pretty sloppy. I don\u2019t know if you\u2019re just not paying attention or what, but it\u2019s getting old having to fix your mistakes. I already have way too much on my plate to keep cleaning up after you. Seriously, can you step it up or at least let me know if you can\u2019t handle this? This isn\u2019t supposed to be that hard.",
+    "target_tone": "professional",
+    "response_4_1": "Subject: Feedback on Recent Project Work\n\nHi [Name],\n\nI wanted to reach out regarding your last couple of projects. I\u2019ve noticed some recurring errors that have required additional time to address. I understand we\u2019re all busy, but it\u2019s important that we maintain a certain level of accuracy and attention to detail in our work.\n\nIf you\u2019re experiencing any challenges or need clarification on any part of the process, please let me know so we can work together to resolve them. I appreciate your attention to this moving forward.\n\nThank you,  \n[Your Name]",
+    "response_mini": "Subject: Request for Improvement on Recent Projects\n\nDear [Recipient's Name],\n\nI hope this message finds you well. I would like to address some concerns regarding the quality of your recent projects. It appears that there have been several oversights that have required additional attention and correction. \n\nI understand that we all have busy workloads, but I would appreciate your focus on ensuring that the details are thoroughly reviewed before submission. If you are encountering challenges that may be impacting your ability to manage these projects, please feel free to discuss them with me. \n\nThank you for your attention to this matter, and I look forward to seeing improvements moving forward.\n\nBest regards,  \n[Your Name]  ",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 2,
+        "reason": "The edited email softens the original message and removes the direct criticism of sloppiness and the urgency of the request to improve, which alters the intent."
+      },
+      "completeness": {
+        "score": 3,
+        "reason": "The edited email omits the explicit request for the recipient to step up or communicate their ability to handle the work, which is a required unit."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, professional, and well-structured with correct grammar."
+      },
+      "overall": {
+        "score": 3.33,
+        "reason": "Average of (2, 3, 5) = 3.33"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 3,
+        "reason": "The edited email preserves the core feedback about project quality and requests improvement, but softens the tone and omits the direct frustration, urgency, and the explicit statement about the sender having too much on their plate. The original's emotional intensity and directness are reinterpreted as polite concern."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "Most required informational units are retained: feedback on project quality, request for improvement, and invitation to discuss challenges. However, the explicit request for the recipient to let the sender know if they can't handle the work is softened and less direct, and the sender's burden is less emphasized."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is grammatically correct, clear, and professionally structured with proper greeting, body, and closing."
+      },
+      "overall": {
+        "score": 4.0,
+        "reason": "The edited email is professional and clear, but loses some of the original's directness and urgency, resulting in minor faithfulness and completeness reductions."
+      }
+    }
+  },
+  {
+    "original_id": 16,
+    "original_text": "look, i've sent this over like three times now. not sure if you even read emails, but this should have been approved days ago. it's not that complicated. honestly, i'm wasting my time chasing you for something that's your job. maybe just hit the approve button instead of dragging this out. let me know if you need me to explain it again, but i doubt that'll help.",
+    "target_tone": "professional",
+    "response_4_1": "Subject: Approval Request Follow-Up\n\nHello,\n\nI wanted to follow up regarding the approval I\u2019ve requested, as I have sent this over several times and have not yet received a response. This item has been pending for a few days, and I believe the process should be straightforward.\n\nIf you need any clarification or additional information, please let me know. I appreciate your attention to this matter and look forward to your approval.\n\nThank you,  \n[Your Name]",
+    "response_mini": "Subject: Follow-Up on Approval Request\n\nDear [Recipient's Name],\n\nI hope this message finds you well. \n\nI wanted to follow up regarding the approval request I have sent on a few occasions. I understand that your schedule may be busy, but this matter requires attention and should have been approved by now. \n\nIf there are any concerns or if you need further clarification, please don't hesitate to reach out. I appreciate your attention to this matter and look forward to your prompt response.\n\nThank you for your cooperation.\n\nBest regards,  \n[Your Name]  \n[Your Position]  \n[Your Contact Information]  ",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 2,
+        "reason": "The edited email removes the original's tone of frustration and urgency, which alters the intent. It also implies a request for clarification that was not present in the original."
+      },
+      "completeness": {
+        "score": 3,
+        "reason": "The edited email omits the specific mention of the repeated attempts to send the request and the direct request to approve, which are key elements of the original message."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, professional, and well-structured with correct grammar."
+      },
+      "overall": {
+        "score": 3.33,
+        "reason": "Average of (2, 3, 5) = 3.33"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 3,
+        "reason": "The edited email preserves the core facts: repeated requests for approval, a sense of urgency, and an offer to explain if needed. However, it omits the strong frustration, direct accusation of not reading emails, and the explicit statement that the task is the recipient's job. The tone is softened and some intent is reinterpreted."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "All major informational units are present: repeated requests, urgency, offer to explain, and a call to action. However, the explicit mention of the recipient's responsibility and the directness about 'hitting the approve button' are missing, which are minor supporting details."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, professional, grammatically correct, and well-structured for professional use."
+      },
+      "overall": {
+        "score": 4.0,
+        "reason": "The average of faithfulness (3), completeness (4), and robustness (5) is 4.00. The edited email is professional and clear, but some original tone and directness are lost."
+      }
+    }
+  },
+  {
+    "original_id": 17,
+    "original_text": "Seriously? I show up on time and there\u2019s nobody here to meet me. This is beyond unprofessional. I expect things to run on MY schedule, not yours. I do not have time to waste waiting around for people who can\u2019t manage their own calendars. Fix this immediately and let me know when someone can bother to show up. This is not how you treat your best clients.",
+    "target_tone": "professional",
+    "response_4_1": "Subject: Request for Immediate Attention to Meeting Schedule\n\nDear [Recipient Name],\n\nI arrived on time for our scheduled meeting, but unfortunately, no one was present to meet with me. As a valued client, I expect our appointments to proceed as planned, and I rely on timely coordination to ensure my schedule runs smoothly.\n\nPlease address this situation as a priority and let me know as soon as possible when someone will be available to meet. I appreciate your prompt attention to this matter.\n\nBest regards,  \n[Your Name]",
+    "response_mini": "Subject: Request for Immediate Attention\n\nDear [Recipient's Name],\n\nI hope this message finds you well.\n\nI arrived for our scheduled meeting today at the agreed-upon time, but unfortunately, I was unable to connect with anyone. This situation is quite concerning and does not align with the level of professionalism I expect. \n\nGiven the importance of our collaboration, I would appreciate it if you could address this matter promptly. Please let me know when someone will be available to meet, as it is crucial for us to adhere to our schedules.\n\nThank you for your attention to this issue. I look forward to your prompt response.\n\nBest regards,\n\n[Your Name]  \n[Your Position]  \n[Your Company]  \n[Your Contact Information]  ",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 3,
+        "reason": "The edited email softens the tone and removes the explicit frustration and demands present in the original, which alters the intent."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "Most required units are preserved, but the original's emphasis on being a 'best client' is less pronounced."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, professional, and well-structured with correct grammar."
+      },
+      "overall": {
+        "score": 4.0,
+        "reason": "Average of (3, 4, 5) = 4.00"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "The edited email preserves the core facts: the sender arrived on time, no one was present, and a request for prompt resolution. However, the tone is softened and the strong language ('beyond unprofessional', 'MY schedule', 'waste waiting', 'can't manage', 'bother to show up', 'best clients') is omitted, which slightly reinterprets the original intent and emotional intensity."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained: notification of arrival, complaint about absence, request for immediate resolution, and a request for a new meeting time. The context and action items are present."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is grammatically correct, clear, and professionally structured with proper formatting and logical flow."
+      },
+      "overall": {
         "score": 4.67,
-        "reason": "The edited email is complete and robust, but slightly less faithful due to softened tone and omission of some explicit negative expressions."
+        "reason": "The edited email is complete and robust, but slightly less faithful due to softened tone and omission of strong language."
+      }
+    }
+  },
+  {
+    "original_id": 18,
+    "original_text": "Honestly, I have no idea why you set these deadlines when you clearly know nobody can actually meet them. It's almost like you want us to fail. Anyway, I need an extension, surprise, surprise. Not that I expect any real support, but maybe this time you could actually be reasonable? I\u2019ve got about a thousand other things on my plate, which you\u2019d know if you ever listened. Let me know if you\u2019re going to make this difficult or just grant the extension so we can all move on.",
+    "target_tone": "professional",
+    "response_4_1": "Subject: Request for Extension\n\nDear [Recipient\u2019s Name],\n\nI am writing to request an extension on the current deadline. Given the competing priorities and workload at this time, meeting the original timeline is proving to be quite challenging.\n\nI would appreciate your consideration in granting this extension. Please let me know if this can be accommodated or if there are alternative solutions we can explore.\n\nThank you for your understanding.\n\nBest regards,  \n[Your Name]",
+    "response_mini": "Subject: Request for Deadline Extension\n\nDear [Recipient's Name],\n\nI hope this message finds you well. \n\nI would like to discuss the current deadlines, as I believe they may be quite challenging for our team to meet. I find myself in a position where I require an extension to complete my tasks effectively. I appreciate your understanding in this matter.\n\nI am currently managing multiple responsibilities, and I would greatly appreciate your support in allowing for a more reasonable timeline. Please let me know if we can come to an agreement that benefits everyone involved.\n\nThank you for your consideration.\n\nBest regards,  \n[Your Name]  \n[Your Position]  ",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 2,
+        "reason": "The edited email removes the original tone of frustration and the specific context of the deadlines being unreasonable, which alters the intent."
+      },
+      "completeness": {
+        "score": 3,
+        "reason": "The request for an extension is present, but the context of the workload and the original sentiment of frustration are missing."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, professional, and well-structured with correct grammar."
+      },
+      "overall": {
+        "score": 3.33,
+        "reason": "Average of (2, 3, 5) = 3.33"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 3,
+        "reason": "The edited email removes the accusatory tone and direct criticism of the original, softening the message and omitting the implication that deadlines are intentionally set to cause failure. The request for an extension and mention of workload are preserved, but the emotional and confrontational content is lost."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "All major informational units are retained: the request for an extension, mention of workload, and a prompt for response. However, the explicit question about whether the recipient will make things difficult or grant the extension is softened and less direct, losing some of the original's urgency and challenge."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is grammatically correct, clear, and professionally structured, with appropriate formatting and logical flow."
+      },
+      "overall": {
+        "score": 4.0,
+        "reason": "The edited email is robust and mostly complete, but loses some faithfulness by omitting the original's directness and emotional tone."
+      }
+    }
+  },
+  {
+    "original_id": 19,
+    "original_text": "omg i can\u2019t believe i\u2019m still waiting for a reply?? i sent my email days ago and no one bothered to even acknowledge it. do you honestly expect clients to just sit around and wait forever??? i\u2019m starting to freak out here. this is super unprofessional, i need answers ASAP. someone needs to get back to me right now or i\u2019m taking my business somewhere else. seriously, what is even going on over there?",
+    "target_tone": "professional",
+    "response_4_1": "Subject: Request for Update on Previous Inquiry\n\nDear [Recipient Name],\n\nI am writing to follow up on the email I sent several days ago, as I have not yet received a response or acknowledgment. I am growing concerned about the lack of communication and would appreciate an update on the status of my inquiry.\n\nTimely responses are important to me, and I would like to understand what might be causing the delay. I would appreciate it if someone could get back to me as soon as possible with the information I requested.\n\nThank you for your attention to this matter. I look forward to your prompt response.\n\nBest regards,  \n[Your Name]",
+    "response_mini": "Subject: Follow-up on Previous Email\n\nDear [Recipient's Name],\n\nI hope this message finds you well. I am writing to follow up on my previous email sent several days ago, as I have not yet received a response. I understand that you may be busy; however, timely communication is essential for our ongoing collaboration.\n\nI would greatly appreciate any updates or information regarding my inquiry. Please let me know if there is a specific timeframe in which I can expect a response, as this will help me in my planning.\n\nThank you for your attention to this matter. I look forward to hearing from you soon.\n\nBest regards,\n\n[Your Name]  \n[Your Position]  \n[Your Company]  \n[Your Contact Information]  ",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 2,
+        "reason": "The edited email removes the emotional tone and urgency of the original message, which alters the intent significantly."
+      },
+      "completeness": {
+        "score": 3,
+        "reason": "The edited email omits the specific mention of taking business elsewhere, which is a critical action item."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, professional, and well-structured with correct grammar."
+      },
+      "overall": {
+        "score": 3.33,
+        "reason": "Average of (2, 3, 5) = 3.33"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 3,
+        "reason": "The edited email preserves the core facts: the sender is following up due to a lack of response after several days and requests a reply. However, it omits the strong emotional tone, urgency, and threat to take business elsewhere, which are explicit in the original. The edited version reinterprets the tone to be more professional and removes the explicit ultimatum."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "All main informational units are present: follow-up, lack of response, request for update, and desire for a timeframe. However, the explicit threat to take business elsewhere and the strong urgency ('ASAP', 'right now') are softened or omitted."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, grammatically correct, and professionally structured. It includes a subject line, greeting, body, closing, and signature."
+      },
+      "overall": {
+        "score": 4.0,
+        "reason": "The edited email is robust and mostly complete, but loses some faithfulness by omitting the original's emotional urgency and explicit threat."
+      }
+    }
+  },
+  {
+    "original_id": 20,
+    "original_text": "Wow, thanks so much for just ignoring everything I actually said in my appeal. Clearly you read NONE of it. I guess it\u2019s just easier to copy-paste a generic denial instead of actually thinking it through, right? Not shocking, honestly. Maybe next time I should just not bother spending hours explaining myself if it all goes straight to your trash anyway. Let me know if someone ever bothers to actually pay attention.",
+    "target_tone": "friendly",
+    "response_4_1": "Hi,\n\nThank you for your response. I have to admit, I\u2019m a bit disappointed\u2014it seems my appeal may not have been fully considered. It feels like I received a standard reply rather than one that addressed the specific points I raised.\n\nI spent quite some time putting together my explanation, so I\u2019d really appreciate it if someone could take a closer look at my appeal. Please let me know if there\u2019s an opportunity for it to be reviewed more thoroughly.\n\nThank you for your attention.",
+    "response_mini": "Subject: Follow-Up on My Appeal\n\nHi there,\n\nI hope this message finds you well! I wanted to reach out regarding my recent appeal. It seems that my points may not have been fully considered, as the response felt quite generic. I understand that things can get busy, and it might be easier to use a standard reply. \n\nIn the future, I think I\u2019ll refrain from spending so much time detailing my case if it doesn't seem to get noticed. I would really appreciate any feedback or clarification on my appeal when you have a moment. Thank you for your attention, and I look forward to hearing from you!\n\nBest regards,  \n[Your Name]",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 2,
+        "reason": "The edited email introduces a new assumption about the appeal not being fully considered, which is a reinterpretation of the original message's intent."
+      },
+      "completeness": {
+        "score": 3,
+        "reason": "The edited email omits the strong emotional tone and specific frustrations expressed in the original, which are important for conveying the full context."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, professional, and well-structured with correct grammar."
+      },
+      "overall": {
+        "score": 3.33,
+        "reason": "Average of (2, 3, 5) = 3.33"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 3,
+        "reason": "The edited email softens the tone and removes the accusatory and sarcastic language, but the core facts (appeal not considered, generic denial, frustration about time spent) are still present, though less directly. The explicit accusation of not reading the appeal and the suggestion that the response went straight to the trash are omitted or reinterpreted."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "Most required informational units are retained: reference to the appeal, concern about generic response, and request for attention. However, the explicit request to be notified if someone actually pays attention is softened into a general request for feedback, and the strong emotional context is reduced."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, grammatically correct, and professionally structured. It is suitable for professional communication."
+      },
+      "overall": {
+        "score": 4.0,
+        "reason": "The edited email is robust and mostly complete, but some directness and explicit facts from the original are softened or omitted, resulting in a slight loss of faithfulness and completeness."
+      }
+    }
+  },
+  {
+    "original_id": 21,
+    "original_text": "Look, I don\u2019t know how many times I have to say this. The work you sent over is sloppy, again. Did anyone even check it before sending? I honestly don\u2019t have time to keep repeating myself about basic stuff. If this is the standard, I\u2019m questioning why we keep doing business. Fix it ASAP. I expect a real update this time, not excuses.",
+    "target_tone": "friendly",
+    "response_4_1": "Subject: Request for Revisions\n\nHi [Name],\n\nI wanted to follow up regarding the recent work you sent over. It looks like there are still a few issues that need attention, and I\u2019m concerned that these same points keep coming up. Could you please ensure a thorough review before sending any updates in the future?\n\nI\u2019d appreciate it if you could address these concerns as soon as possible and provide a clear update. Let\u2019s work together to get things back on track.\n\nThank you for your attention to this.\n\nBest,  \n[Your Name]",
+    "response_mini": "Subject: Quick Check-in on Recent Work\n\nHi [Recipient's Name],\n\nI hope you\u2019re doing well! I wanted to touch base regarding the work you sent over. I noticed a few areas that could use some extra attention. It seems like it might not have been double-checked before submission, and I believe we can do better together.\n\nI understand that everyone is busy, but it\u2019s really important for us to maintain our standards. I\u2019d appreciate it if you could take a moment to review and make some adjustments. I\u2019m looking forward to a solid update this time around.\n\nThanks so much for your cooperation!\n\nBest,  \n[Your Name]",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 1,
+        "reason": "The edited email significantly alters the tone and intent of the original message, softening the criticism and removing the urgency and frustration expressed."
+      },
+      "completeness": {
+        "score": 2,
+        "reason": "While the request for revisions is present, the specific urgency and the context of dissatisfaction with the standard of work are missing."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, professional, and well-structured with correct grammar."
+      },
+      "overall": {
+        "score": 2.67,
+        "reason": "Average of (1, 2, 5) = 2.67"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 2,
+        "reason": "The edited email softens the tone and omits the strong dissatisfaction, urgency, and threat to the business relationship present in the original. The demand for 'no excuses' and the explicit questioning of continuing business are removed, and the urgency of 'ASAP' is diluted."
+      },
+      "completeness": {
+        "score": 3,
+        "reason": "The request for a fix and an update is retained, but the explicit urgency ('ASAP'), the demand for 'no excuses,' and the threat to the business relationship are missing. The critical context of repeated issues and frustration is also softened."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is grammatically correct, clear, and professionally structured."
+      },
+      "overall": {
+        "score": 3.33,
+        "reason": "The edited email is robust and professional, but it loses significant factual and contextual elements from the original, especially the urgency and seriousness of the complaint."
+      }
+    }
+  },
+  {
+    "original_id": 22,
+    "original_text": "Honestly, is this the best you can do? I keep getting wrong items and late deliveries, every single time. I thought we already discussed this, but clearly nothing's changed. If your team can't handle basic orders, maybe it's time I looked elsewhere. I'm tired of repeating myself. Sort it out\u2014soon.",
+    "target_tone": "friendly",
+    "response_4_1": "Hi there,\n\nI wanted to reach out because I've been experiencing ongoing issues with receiving incorrect items and late deliveries. I thought we had already discussed this, but unfortunately, the problems are still happening. I\u2019m hoping your team can help resolve this soon, as I\u2019d really like to continue working with you. Please let me know how we can get this sorted out.\n\nThank you for your attention to this matter.",
+    "response_mini": "Subject: Quick Check-In \ud83d\ude0a\n\nHi there,\n\nI hope you\u2019re doing well! I wanted to reach out because I\u2019ve been experiencing some issues with my recent orders, including receiving the wrong items and delays in delivery. I thought we had addressed this before, but it seems like things haven\u2019t improved much.\n\nI really value your service, but I might need to explore other options if these issues continue. I\u2019d appreciate it if we could find a solution soon, as I\u2019d love to keep working together.\n\nThank you for your attention to this matter!\n\nBest,  \n[Your Name]",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 2,
+        "reason": "The edited email softens the tone and adds a desire to continue working together, which introduces a clear added assumption not present in the original."
+      },
+      "completeness": {
+        "score": 3,
+        "reason": "The urgency and frustration expressed in the original are diminished, and the direct request for immediate action is less clear."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, professional, and well-structured with no grammatical errors."
+      },
+      "overall": {
+        "score": 3.33,
+        "reason": "Average of (2, 3, 5) = 3.33"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 3,
+        "reason": "The edited email preserves the main facts: wrong items, late deliveries, previous discussion, and threat to leave. However, it softens the tone and adds positive sentiment ('I really value your service', 'I\u2019d love to keep working together'), which is not present in the original. The subject line and greeting are also added, which are not factual changes but do shift the tone."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are present: complaint about wrong items and late deliveries, reference to previous discussion, threat to leave, request for resolution, and urgency. No required information is missing."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is grammatically correct, clear, and professionally structured with a subject line, greeting, body, and closing."
+      },
+      "overall": {
+        "score": 4.33,
+        "reason": "Faithfulness is reduced due to softened tone and added positive sentiment, but completeness and robustness are perfect."
+      }
+    }
+  },
+  {
+    "original_id": 23,
+    "original_text": "I can\u2019t believe I even have to ask, but can you just move the deadline? Clearly, your team isn\u2019t moving fast enough and I have actual priorities to deal with. Not sure why this wasn\u2019t obvious from the start, but maybe put some more thought into your timelines next time. Just let me know when you can actually deliver without another scramble. Shouldn\u2019t be that complicated, right? Thanks, I guess.",
+    "target_tone": "friendly",
+    "response_4_1": "Hi there,\n\nI wanted to check in about the deadline\u2014would it be possible to move it? It seems like things are taking a bit longer than expected, and I have a few other priorities I need to juggle right now. In the future, it might help if we could look at the timeline together to make sure it works for everyone.\n\nPlease let me know when you think your team will be able to deliver without it being a last-minute rush. I appreciate your help with this!\n\nThanks so much.",
+    "response_mini": "Subject: Request to Extend Deadline\n\nHi [Recipient's Name],\n\nI hope you're doing well! I wanted to reach out regarding the upcoming deadline. It seems that there might be some challenges with your team's progress, and I have some pressing priorities on my end that I need to address.\n\nWould it be possible to consider moving the deadline? I think it could really help us both to ensure everything is delivered smoothly. I appreciate your understanding and look forward to hearing back from you about a new timeline that works for everyone.\n\nThanks so much for your help!\n\nBest,  \n[Your Name]",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 3,
+        "reason": "The edited email softens the tone and removes some of the original's frustration, which may change the intent slightly."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units, including the request to move the deadline and the context of priorities, are preserved."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, professional, and well-structured."
+      },
+      "overall": {
+        "score": 4.33,
+        "reason": "Average of (3, 5, 5) = 4.33"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "The edited email preserves the core facts: a request to move the deadline due to the recipient's team's slow progress and the sender's own priorities. However, the edited version softens the tone and omits the original's critical remarks about the recipient's planning and the expectation of a non-scrambled delivery. The intent to request a new timeline is retained, but the explicit criticism and frustration are reduced."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are present: the request to move the deadline, mention of team progress issues, sender's own priorities, and a request for a new timeline. The edited email covers all necessary action items and context for understanding the message."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, grammatically correct, and professionally structured. It uses appropriate language and logical flow, making it suitable for professional use."
+      },
+      "overall": {
+        "score": 4.67,
+        "reason": "The edited email is complete and robust, but slightly less faithful due to the softened tone and omission of explicit criticism present in the original."
+      }
+    }
+  },
+  {
+    "original_id": 24,
+    "original_text": "Wow, thanks for the 'feedback'. Maybe before you go criticizing my work, you could actually take a look at what I\u2019ve had to clean up from other people\u2019s messes. If you think it\u2019s so easy, why don\u2019t you do it yourself next time? Honestly, I\u2019m getting tired of being singled out for stuff that\u2019s not even my responsibility. If you actually paid attention, you\u2019d see how much I already do around here. Maybe try offering solutions instead of just pointing fingers.",
+    "target_tone": "friendly",
+    "response_4_1": "Thank you for your feedback\u2014I appreciate you taking the time to share your thoughts. I do want to mention that a lot of what I\u2019ve been working on lately has involved cleaning up issues left by others, which can be challenging. Sometimes it feels like I\u2019m being held responsible for things outside my control, and that can be a bit discouraging. If you have suggestions or ideas for how we could address these issues together, I\u2019m all ears! I\u2019m always doing my best to help out, and I\u2019d love to work collaboratively on finding solutions.",
+    "response_mini": "Subject: A Quick Note\n\nHi there,\n\nThanks for sharing your thoughts! I appreciate your feedback and understand where you're coming from. I just wanted to mention that I've been working hard to clean up some past challenges, and it can be a bit overwhelming at times. \n\nIf you ever feel inspired to jump in and lend a hand, that would be fantastic! I think we could tackle these issues together and make things even better. It\u2019s always great to see how much we can accomplish as a team when we focus on solutions.\n\nThanks again for your input, and let\u2019s keep the communication flowing!\n\nBest,  \n[Your Name]",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 2,
+        "reason": "The edited email introduces a new tone and perspective, suggesting collaboration and appreciation, which alters the original intent of frustration and defensiveness."
+      },
+      "completeness": {
+        "score": 3,
+        "reason": "While the edited email retains some key points about responsibility and challenges, it omits the direct criticism of the recipient and the specific mention of being singled out."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, professional, and well-structured with correct grammar."
+      },
+      "overall": {
+        "score": 3.33,
+        "reason": "Average of (2, 3, 5) = 3.33"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 2,
+        "reason": "The edited email significantly softens the tone and removes the original's direct criticism, frustration, and challenge to the recipient. The core facts about cleaning up others' work and a request for solutions are loosely retained, but the intent and emotional content are reinterpreted."
+      },
+      "completeness": {
+        "score": 3,
+        "reason": "The edited version omits several required informational units: the complaint about being singled out, the explicit challenge to do the work, and the direct request for solutions instead of criticism. It retains the mention of cleaning up past issues and a general call for teamwork, but loses key context and requests."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is grammatically correct, clear, and professionally structured, with logical flow and appropriate paragraphing."
+      },
+      "overall": {
+        "score": 3.33,
+        "reason": "The edited email is robust and professional, but loses significant faithfulness and completeness by omitting and reinterpreting the original's direct complaints, requests, and emotional tone."
+      }
+    }
+  },
+  {
+    "original_id": 25,
+    "original_text": "yeah, i missed the meeting. again. shocking, right? it\u2019s not like i don\u2019t have five other things to juggle at once or anything. maybe if people actually sent clear reminders, i\u2019d remember stuff. anyway, let me know what life-changing info i missed this time. or don\u2019t. whatever works.",
+    "target_tone": "friendly",
+    "response_4_1": "Subject: Missed Meeting\n\nHi,\n\nLooks like I missed the meeting again\u2014sorry about that! Things have been pretty busy on my end lately. If you could share any important updates or notes from what I missed, I\u2019d really appreciate it. Thanks for understanding!\n\nBest,  \n[Your Name]",
+    "response_mini": "Subject: Sorry I Missed the Meeting!\n\nHey there,\n\nI hope you're doing well! I missed the meeting again, and I know, it\u2019s a bit surprising, right? With so much on my plate, things can get a bit hectic. I think a few clear reminders could really help me keep track of everything! \n\nIf you have a moment, could you fill me in on any important updates I missed? No worries if you\u2019re busy\u2014I totally understand! \n\nThanks so much!\n\nBest,  \n[Your Name]",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 2,
+        "reason": "The edited email adds a tone of apology and gratitude that is not present in the original, and it implies a request for important updates rather than a sarcastic comment about life-changing information."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "The request for updates is present, but the original's tone and context about reminders and juggling tasks are not fully conveyed."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, professional, and well-structured with correct grammar."
+      },
+      "overall": {
+        "score": 3.67,
+        "reason": "Average of (2, 4, 5) = 3.67"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 3,
+        "reason": "The edited email preserves the main facts: missing the meeting, being busy, and requesting information about what was missed. However, the tone is softened and some sarcasm and frustration from the original are removed, which slightly alters the intent. The suggestion about reminders is retained but made more polite."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are present: notification of missing the meeting, context of being busy, mention of reminders, and a request for missed information. No units are missing."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is grammatically correct, clear, and professionally structured with a subject line, greeting, and closing."
+      },
+      "overall": {
+        "score": 4.33,
+        "reason": "The email is complete and robust, but faithfulness is reduced due to softened tone and loss of original attitude."
+      }
+    }
+  },
+  {
+    "original_id": 26,
+    "original_text": "Hi, \n\nI sent my last email over a week ago, and surprise, no response. Not sure if you're just ignoring me or if emails are too much to handle over there. This is getting really old, and it's honestly not a great look for your team. I shouldn't have to chase you down every single time I need a simple answer. If you can't handle this, let me know now so I can escalate. Waiting (again) for your response.",
+    "target_tone": "friendly",
+    "response_4_1": "Subject: Friendly Follow-up on Previous Email\n\nHi,\n\nI wanted to follow up on my last email from over a week ago, as I haven't received a response yet. I understand things can get busy, but I would appreciate an update when you have a moment.\n\nPlease let me know if you need any additional information from my end to help move things forward. If this request needs to be directed to someone else, just let me know and I\u2019ll be happy to connect with them.\n\nThanks in advance for your attention to this\u2014I look forward to your reply!",
+    "response_mini": "Subject: Follow-up on My Previous Email\n\nHi there,\n\nI hope this message finds you well! I wanted to follow up on the email I sent over a week ago, as I haven\u2019t heard back yet. I completely understand that things can get busy, but I would appreciate your input when you have a moment. \n\nI really value our collaboration and would love to get a simple answer to move things forward. If you\u2019re swamped, just let me know, and I can adjust my expectations accordingly. \n\nThanks so much for your attention, and I look forward to hearing from you soon!\n\nBest,  \n[Your Name]",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 2,
+        "reason": "The edited email removes the original's tone of frustration and urgency, reinterpreting the intent to be more polite and understanding, which alters the original message's intent."
+      },
+      "completeness": {
+        "score": 3,
+        "reason": "The edited email omits the explicit mention of escalation and the urgency of needing a simple answer, which are key elements of the original message."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, professional, and well-structured with no grammatical errors."
+      },
+      "overall": {
+        "score": 3.33,
+        "reason": "Average of (2, 3, 5) = 3.33"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 3,
+        "reason": "The edited email softens the tone and removes the accusatory and frustrated language present in the original. The threat to escalate is omitted, and the implication of being ignored is replaced with understanding of busyness. The core facts (lack of response, request for reply) are preserved, but the intent and emotional tone are significantly reinterpreted."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "Most required informational units are retained: follow-up on previous email, request for response, and mention of waiting. However, the escalation threat and strong dissatisfaction are missing, which are part of the original's context."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is grammatically correct, clear, and professionally structured. It is suitable for professional use."
+      },
+      "overall": {
+        "score": 4.0,
+        "reason": "The edited email is robust and mostly complete, but faithfulness is reduced due to softened tone and omission of escalation threat."
+      }
+    }
+  },
+  {
+    "original_id": 27,
+    "original_text": "I saw the decision you made and honestly, it doesn\u2019t make any sense. Did you even bother to check the facts before doing this? It\u2019s like you just ignored everything I said. I\u2019m tired of repeating myself. This isn\u2019t going to work, and I\u2019m not going to just accept it. Fix this.",
+    "target_tone": "friendly",
+    "response_4_1": "Subject: Concerns About Recent Decision\n\nHi [Name],\n\nI noticed the recent decision and wanted to share my concerns. I\u2019m not sure all the facts were considered, and I feel like some of the points I raised may have been overlooked. I\u2019d really appreciate it if we could revisit this together, as I don\u2019t think this solution will work as it stands. \n\nThanks for understanding, and I look forward to resolving this with you.\n\nBest,  \n[Your Name]",
+    "response_mini": "Subject: Quick Follow-Up on Your Decision\n\nHi [Recipient's Name],\n\nI hope you're doing well! I wanted to touch base regarding the recent decision you made. I have some concerns and feel that it might not fully reflect the facts we discussed. It seems like there might have been a misunderstanding, and I\u2019d love to clarify things together.\n\nI really appreciate your effort, but I think we can find a better solution that works for everyone. Let\u2019s chat about it when you have a moment!\n\nThanks so much!\n\nBest,  \n[Your Name]",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 2,
+        "reason": "The edited email softens the original's tone and removes direct accusations, which alters the intent and urgency of the message."
+      },
+      "completeness": {
+        "score": 3,
+        "reason": "The request to fix the decision is implied but not explicitly stated, and the emotional weight of the original message is diminished."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, professional, and well-structured with correct grammar."
+      },
+      "overall": {
+        "score": 3.33,
+        "reason": "Average of (2, 3, 5) = 3.33"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 3,
+        "reason": "The edited email softens the tone and removes direct accusations and frustration present in the original. The demand to 'fix this' and refusal to accept the decision are replaced with a suggestion to 'find a better solution.' The core concern about the decision and facts is retained, but the intent is less forceful and confrontational."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "Most required informational units are present: concern about the decision, reference to facts, and a request for further discussion. However, the explicit demand for correction ('Fix this') and refusal to accept the decision are softened and not directly stated."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, grammatically correct, and professionally structured. It flows logically and is suitable for professional communication."
+      },
+      "overall": {
+        "score": 4.0,
+        "reason": "The edited email is robust and mostly complete, but faithfulness is reduced due to softened tone and less direct demands compared to the original."
+      }
+    }
+  },
+  {
+    "original_id": 28,
+    "original_text": "Wow, I'm really impressed by how little effort you managed to put into this project. Did you even bother looking at the requirements, or did you just hope no one would notice how sloppy it is? I guess attention to detail isn\u2019t your thing. If you think this is acceptable, you might want to rethink your standards \u2013 or get some. Fix it, and this time, maybe try caring about the quality. I don't want to see this level of work from you again.",
+    "target_tone": "friendly",
+    "response_4_1": "Hi [Name],\n\nThanks for submitting your project. I noticed that there are several areas where the work doesn\u2019t quite meet the requirements, and it seems like some details may have been overlooked. I know you\u2019re capable of higher quality, so I\u2019d appreciate it if you could review the project, address the requirements more thoroughly, and make sure everything is up to standard.\n\nPlease take another look and revise as needed. I\u2019m looking forward to seeing your improvements!\n\nBest,  \n[Your Name]",
+    "response_mini": "Subject: A Quick Note on the Project\n\nHi there,\n\nI hope you\u2019re doing well! I wanted to touch base regarding the recent project. I noticed that there are a few areas that could use some extra attention to meet the requirements we discussed. It seems like there might have been some oversight, and I believe with a bit more care, we can really enhance the quality of the work.\n\nLet\u2019s aim for a higher standard together! I\u2019m confident you can make the necessary adjustments. Looking forward to seeing the improvements!\n\nBest,  \n[Your Name]",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 1,
+        "reason": "The edited email significantly alters the tone and intent of the original message, which was critical and confrontational, while the edited version is supportive and encouraging."
+      },
+      "completeness": {
+        "score": 3,
+        "reason": "The edited email retains the request for revision but omits the strong emphasis on the unacceptable quality and the specific criticism of attention to detail."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, professional, and well-structured with correct grammar."
+      },
+      "overall": {
+        "score": 3.0,
+        "reason": "Average of (1, 3, 5) = 3.00"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 2,
+        "reason": "The edited email removes the original's strong criticism, sarcasm, and direct challenge to the recipient's standards. It softens the tone, omits the explicit accusation of not caring, and reframes the message as encouragement. The core facts (project needs improvement, attention to requirements, request for revision) are present, but the intent and emotional force are significantly altered."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "Most required informational units are retained: reference to the project, mention of requirements, request for improvement, and expectation for higher quality. However, the explicit warning against repeating poor work and the direct demand to 'fix it' are softened and less direct, making one minor supporting detail (the warning) less clear."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is grammatically correct, clear, and professionally structured. It flows logically and is suitable for professional communication."
+      },
+      "overall": {
+        "score": 3.67,
+        "reason": "The edited email is robust and mostly complete, but faithfulness is reduced due to significant tone and intent changes."
+      }
+    }
+  },
+  {
+    "original_id": 29,
+    "original_text": "Hi, so I guess asking for a tiny deadline extension is too much to hope for? I mean, it's only been three days of radio silence from your team. Awesome. Not like I have anything else going on over here. Since your process is clearly flawless, I'm just dying to know if you're going to budge or not. Or should I just accept that I'm stuck? Would be cool to get an answer before the deadline actually passes, but hey, that's probably asking a lot. Let me know, or don't.",
+    "target_tone": "friendly",
+    "response_4_1": "Subject: Request for Deadline Extension\n\nHi there,\n\nI wanted to follow up regarding my request for a short deadline extension. I haven\u2019t heard back from your team yet, and I just wanted to check in to see if there might be any update. I understand you must be busy, but I\u2019d really appreciate any information you can share before the deadline passes.\n\nThanks so much for your help, and I look forward to hearing from you soon!\n\nBest,  \n[Your Name]",
+    "response_mini": "Subject: Quick Check-In About the Deadline \ud83d\ude0a\n\nHi there!\n\nI hope you\u2019re doing well! I wanted to reach out and see if there might be a possibility for a tiny extension on the deadline. I know it\u2019s only been a few days since I last heard from your team, and I totally understand how busy things can get!\n\nI\u2019m really eager to hear back from you, as I want to make sure I\u2019m on the right track. If you could provide any updates before the deadline, I would greatly appreciate it! Thank you so much for your help, and I look forward to hearing from you soon!\n\nBest,  \n[Your Name]",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 2,
+        "reason": "The edited email removes the original's tone of frustration and sarcasm, which alters the intent and emotional context."
+      },
+      "completeness": {
+        "score": 3,
+        "reason": "The edited email omits the specific mention of the three days of silence and the rhetorical questions about being stuck, which are key elements of the original message."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, professional, and well-structured with correct grammar."
+      },
+      "overall": {
+        "score": 3.33,
+        "reason": "Average of (2, 3, 5) = 3.33"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 3,
+        "reason": "The edited email softens the tone and removes sarcasm and frustration present in the original. The core request for a deadline extension and desire for a response before the deadline are preserved, but the critical commentary about the team's silence and process is omitted, and the emotional tone is reinterpreted."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "All main informational units are present: request for extension, mention of lack of response, and desire for an answer before the deadline. However, the edited version omits the explicit mention of being 'stuck' and the direct reference to the three days of radio silence, which are minor supporting details."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is grammatically correct, clear, and professionally structured. It is suitable for professional communication."
+      },
+      "overall": {
+        "score": 4.0,
+        "reason": "The edited email is robust and mostly complete, but loses some faithfulness due to tone and omission of minor details."
+      }
+    }
+  },
+  {
+    "original_id": 30,
+    "original_text": "Wow, amazing, another meeting you couldn\u2019t make it to. Honestly, should we even bother scheduling these or just send you carrier pigeons next time? I guess none of this matters to you, right? We were all just sitting there, waiting, hoping you'd show up this time. But hey, I\u2019m sure you had something SO much more important. No need to clue the rest of us in or anything. Please let us know if you ever plan on showing up to your own team meetings.",
+    "target_tone": "friendly",
+    "response_4_1": "Subject: Missed You at the Meeting\n\nHi [Name],\n\nWe missed you at the meeting today! The team was looking forward to catching up and hearing your thoughts. We understand things can get busy, so if there\u2019s a better way to keep you in the loop, just let us know.\n\nIf you could give us a heads up next time you\u2019re unable to attend, that would be really helpful. Looking forward to having you join us at the next meeting!\n\nThanks so much,  \n[Your Name]",
+    "response_mini": "Subject: Missed You at the Meeting!\n\nHi there!\n\nI hope you\u2019re doing well! We missed you at our recent meeting and just wanted to check in. It seems like our schedules aren\u2019t quite aligning lately, and I thought it might be helpful to see if we could find a better way to keep in touch\u2014maybe even consider carrier pigeons for fun!\n\nWe were all looking forward to your input, and it would be great to have you join us next time. If there\u2019s a better time or way for you to connect, please let me know. We\u2019d love to have you back in the loop!\n\nTake care, and looking forward to hearing from you!\n\nBest,  \n[Your Name]",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 1,
+        "reason": "The edited email significantly alters the tone and intent of the original message, which expresses frustration and sarcasm about the recipient's absence. The original message's core sentiment is lost."
+      },
+      "completeness": {
+        "score": 2,
+        "reason": "While the edited email conveys a message about the missed meeting, it omits the original's context of frustration and the specific request for the recipient to inform the team about future absences."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, professional, and well-structured with correct grammar."
+      },
+      "overall": {
+        "score": 2.67,
+        "reason": "Average of (1, 2, 5) = 2.67"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 3,
+        "reason": "The edited email softens the tone and removes the accusatory and sarcastic elements present in the original. The core facts (recipient missed the meeting, team was waiting, suggestion to improve communication) are retained, but the strong frustration and implication that the recipient does not care are omitted. The intent shifts from criticism to encouragement and support."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "Most required informational units are preserved: notification of missed meeting, request for future attendance, and suggestion to improve communication. However, the explicit criticism and emotional impact of the original are missing, which may be considered a minor supporting detail in conveying the full context."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, grammatically correct, and professionally structured. It is suitable for professional use."
+      },
+      "overall": {
+        "score": 4.0,
+        "reason": "The edited email is robust and mostly complete, but loses some faithfulness due to the softened tone and omission of explicit criticism."
+      }
+    }
+  },
+  {
+    "original_id": 31,
+    "original_text": "Well, that was an interesting call. Didn\u2019t think we\u2019d actually go with *that* idea but whatever, I guess logic took a day off. Pretty hilarious how my actual suggestions got ignored (again). Maybe next time just save us the chat and do whatever you want from the start? Seriously, I\u2019m not even sure why we bother pretending it\u2019s a team decision. Anyway, good luck with this whole plan. Should be fun watching it fall apart.",
+    "target_tone": "friendly",
+    "response_4_1": "Subject: Thoughts on Today\u2019s Call\n\nHi team,\n\nWell, that was definitely an interesting call! I have to admit, I didn\u2019t expect us to go with that idea\u2014but I guess sometimes decisions take a surprising turn. I noticed my suggestions didn\u2019t make it into the final plan, which seems to be a bit of a trend. Maybe next time we can streamline things if the direction is already set.\n\nWishing you all the best with this plan. It\u2019ll be interesting to see how it unfolds!\n\nTake care,  \n[Your Name]",
+    "response_mini": "Subject: Thoughts on the Call\n\nHi Team,\n\nThat was certainly an interesting call! I was a bit surprised by the direction we ended up taking, but I guess sometimes things take unexpected turns. It\u2019s amusing how my suggestions didn\u2019t make the cut once again. \n\nMaybe next time we can streamline the process a bit? Just a thought! I\u2019m looking forward to seeing how this plan unfolds. Wishing you all the best with it!\n\nTake care,  \n[Your Name]",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 2,
+        "reason": "The edited email introduces a more positive tone and reinterprets the original intent, suggesting a trend rather than expressing frustration about ignored suggestions."
+      },
+      "completeness": {
+        "score": 3,
+        "reason": "The edited email omits the explicit mention of the call being a team decision and the sarcastic tone regarding the plan falling apart, which are key elements of the original message."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, professional, and well-structured with correct grammar."
+      },
+      "overall": {
+        "score": 3.33,
+        "reason": "Average of (2, 3, 5) = 3.33"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 3,
+        "reason": "The edited email preserves the main facts: the call was interesting, the sender's suggestions were ignored, and the team went with an unexpected idea. However, the tone is softened, and the original's sarcasm and skepticism about the plan's success are replaced with a more positive outlook ('looking forward to seeing how this plan unfolds' and 'wishing you all the best'). The suggestion to 'streamline the process' is a softened version of the original's criticism about the team decision process, but the original's strong skepticism ('should be fun watching it fall apart') is lost."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "Most required informational units are retained: commentary on the call, mention of ignored suggestions, and a comment on the team decision process. However, the explicit skepticism about the plan's success ('should be fun watching it fall apart') is omitted, which was a key sentiment in the original."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is grammatically correct, clear, and professionally structured with a subject line, greeting, body, and closing."
+      },
+      "overall": {
+        "score": 4.0,
+        "reason": "The edited email is robust and mostly complete, but loses some of the original's critical tone and skepticism, resulting in slight faithfulness and completeness reductions."
+      }
+    }
+  },
+  {
+    "original_id": 32,
+    "original_text": "Hi Professor, \n\nWow, I guess my last email must have ended up in some email black hole, because it\u2019s been a week and still nothing. Maybe my questions about the assignment were too difficult to answer? Or is there a secret trick to getting a reply around here? It\u2019s not like the deadline is stressing anyone out or anything. Would really appreciate even a one-word response at this point. \n\nThanks for all the prompt attention!",
+    "target_tone": "friendly",
+    "response_4_1": "Subject: Follow-up on Assignment Questions\n\nHi Professor,\n\nI hope this note finds you well! I just wanted to follow up in case my last email about the assignment didn\u2019t make it to you. I know things can get busy, and emails sometimes slip through the cracks.\n\nIf you have a moment, I\u2019d really appreciate any guidance you could offer on my questions. Even a quick reply would be super helpful as the deadline approaches.\n\nThanks so much for your time!\n\nBest,  \n[Your Name]",
+    "response_mini": "Subject: Quick Follow-Up on My Previous Email\n\nHi Professor,\n\nI hope this message finds you well! I just wanted to follow up on my last email, as I haven't heard back yet. I totally understand how busy things can get, but I was wondering if you might have a moment to share your thoughts on my questions about the assignment. \n\nI really appreciate your help and, even a quick response would be wonderful, especially with the deadline approaching!\n\nThank you so much for your attention!\n\nBest,  \n[Your Name]",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 2,
+        "reason": "The edited email changes the tone from frustration to a more polite follow-up, which alters the original intent."
+      },
+      "completeness": {
+        "score": 3,
+        "reason": "The request for a response is present, but the urgency and context of the deadline stress are diminished."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, professional, and well-structured."
+      },
+      "overall": {
+        "score": 3.33,
+        "reason": "Average of (2, 3, 5) = 3.33"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 3,
+        "reason": "The edited email removes the sarcastic tone and references to the 'email black hole,' as well as the suggestion that the questions might be too difficult or that there is a 'secret trick' to getting a reply. The core facts (no reply received, questions about the assignment, deadline approaching, request for any response) are preserved, but the intent shifts from frustration/sarcasm to polite follow-up."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained: the lack of response, the questions about the assignment, the approaching deadline, and the request for a reply. The edited version is more formal but does not omit any necessary information."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is grammatically correct, clear, and professionally structured. It includes a subject line and closing, improving logical flow and readability."
+      },
+      "overall": {
+        "score": 4.33,
+        "reason": "Faithfulness is reduced due to the change in tone and omission of some original expressions, but completeness and robustness are fully preserved."
+      }
+    }
+  },
+  {
+    "original_id": 33,
+    "original_text": "I can't believe you're seriously asking for more time again. This is the third time you've failed to deliver, and honestly, it's getting old. Do you actually have a plan, or is this just how you work? People are waiting on you and you keep dragging your feet. Fix whatever the issue is and get it done. This constant stalling is not going to fly with me.",
+    "target_tone": "friendly",
+    "response_4_1": "Subject: Request for Update on Project Timeline\n\nHi [Name],\n\nI wanted to touch base regarding your request for additional time. This is the third instance we\u2019ve encountered a delay, and I\u2019m starting to get concerned about the impact this is having on the team and our overall timeline. \n\nCould you please let me know what\u2019s causing these ongoing delays and if there\u2019s a plan in place to address them? We\u2019re all counting on your contribution, and it\u2019s important that we keep things moving forward.\n\nLet\u2019s work together to resolve any issues and get back on track. Please keep me updated on your progress.\n\nThanks,  \n[Your Name]",
+    "response_mini": "Subject: Quick Check-In\n\nHi [Recipient's Name],\n\nI hope you're doing well! I wanted to touch base regarding the timeline for your project. I understand that things can get busy, but this is the third time we\u2019ve had to extend the deadline. I\u2019m just curious if there\u2019s a plan in place or if there are any challenges you\u2019re facing that I can help with.\n\nThere are a few folks waiting on this, and it would be great to get things moving. Let\u2019s work together to find a solution and get it wrapped up. I appreciate your effort!\n\nLooking forward to your update!\n\nBest,  \n[Your Name]",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 2,
+        "reason": "The edited email softens the tone and removes the direct criticism of the recipient's work ethic, which alters the original intent."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "Most required units are preserved, but the urgency and frustration expressed in the original are diminished."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, professional, and well-structured."
+      },
+      "overall": {
+        "score": 3.67,
+        "reason": "Average of (2, 4, 5) = 3.67"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 2,
+        "reason": "The edited email softens the tone and removes the direct criticism and frustration present in the original. The demand to 'fix whatever the issue is and get it done' and the statement 'this constant stalling is not going to fly with me' are replaced with offers of help and appreciation, which changes the intent from reprimand to support. The fact of three missed deadlines and a question about having a plan are retained, but the emotional intensity and urgency are significantly reduced."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "Most required informational units are present: reference to three missed deadlines, inquiry about a plan, mention of others waiting, and a request to resolve the issue. However, the explicit demand for immediate action and the strong warning about stalling are softened and not directly conveyed, which is a minor missing detail."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is grammatically correct, clear, and professionally structured. It flows logically and is suitable for professional communication."
+      },
+      "overall": {
+        "score": 3.67,
+        "reason": "The edited email is robust and mostly complete, but faithfulness is reduced due to significant softening and change in tone, which alters the original intent."
+      }
+    }
+  },
+  {
+    "original_id": 34,
+    "original_text": "Look, I\u2019ve got way too much on my plate and there\u2019s absolutely no way I can finish this assignment by your ridiculous deadline. I don\u2019t get why you made it so soon in the first place. Can you just give me an extension already? It\u2019s honestly unfair to expect us to juggle all this work. I\u2019m not going to get it done unless you move the date. Please fix this ASAP.",
+    "target_tone": "friendly",
+    "response_4_1": "Subject: Request for Extension on Assignment\n\nHi [Recipient Name],\n\nI hope you\u2019re doing well. I wanted to reach out because I\u2019m currently juggling quite a few responsibilities, and I\u2019m finding it really challenging to meet the deadline for this assignment. I was wondering if it might be possible to get an extension? I truly want to submit my best work, and a bit more time would make a big difference.\n\nThank you so much for considering my request. I appreciate your understanding!\n\nBest,  \n[Your Name]",
+    "response_mini": "Subject: Request for Extension\n\nHi [Recipient's Name],\n\nI hope you're doing well! I wanted to reach out regarding the upcoming assignment deadline. I\u2019ve been quite swamped with my current workload and, unfortunately, I\u2019m struggling to meet the deadline you've set. \n\nI was wondering if it would be possible to get an extension on this assignment. I truly believe that a little extra time would allow me to produce my best work. I appreciate your understanding and look forward to your support on this!\n\nThanks so much for considering my request!\n\nBest,  \n[Your Name]",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 2,
+        "reason": "The edited email introduces a new tone and context, implying a polite request rather than expressing frustration about the deadline, which alters the original intent."
+      },
+      "completeness": {
+        "score": 3,
+        "reason": "The request for an extension is present, but the urgency and reasons for the request are significantly downplayed, missing the original emphasis on unfairness and workload."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, professional, and well-structured with correct grammar."
+      },
+      "overall": {
+        "score": 3.33,
+        "reason": "Average of (2, 3, 5) = 3.33"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "The edited email preserves the core facts: the sender is overwhelmed, cannot meet the deadline, and requests an extension. However, the strong negative language ('ridiculous deadline', 'unfair', 'fix this ASAP') and criticism of the deadline's reasoning are softened or omitted, slightly reducing faithfulness."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained: the sender's inability to meet the deadline, the request for an extension, and the context of workload. The request for action (extension) is clearly present."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is grammatically correct, clear, and professionally structured with a subject line, greeting, body, and closing."
+      },
+      "overall": {
+        "score": 4.67,
+        "reason": "The edited email is complete and robust, but slightly less faithful due to softened tone and omission of direct criticism."
+      }
+    }
+  },
+  {
+    "original_id": 35,
+    "original_text": "Seriously, how long does this approval even take? I\u2019ve sent everything you asked for and still nothing. I can\u2019t keep waiting, this is making my whole life impossible right now! Do you even read these requests or am I just shouting into the void? I\u2019m so sick of getting the runaround and honestly, this is the worst customer experience I\u2019ve ever had. Someone needs to actually do their job and approve this TODAY. If you can\u2019t handle it, maybe someone else should!",
+    "target_tone": "sympathetic",
+    "response_4_1": "Subject: Request for Update on Approval Status\n\nHi,\n\nI wanted to follow up regarding the approval process for my request. I\u2019ve submitted all the required documents as asked, but I haven\u2019t received any updates yet. This delay is becoming increasingly difficult for me, and it\u2019s having a significant impact on my daily life.\n\nI understand things can get busy, but I\u2019m really hoping for some clarity on where things stand. If there is anything else I need to provide, please let me know. I would appreciate it if you could prioritize my request or let me know if someone else is able to assist.\n\nThank you for your attention to this matter. I look forward to your response.\n\nBest regards,  \n[Your Name]",
+    "response_mini": "Subject: Request for Update on Approval\n\nDear [Recipient's Name],\n\nI hope this message finds you well. I wanted to reach out regarding the status of my approval request. I have submitted all the necessary documents, but I haven't received any updates yet, and it's becoming quite challenging for me to manage my situation without this approval.\n\nI understand that these processes can take time, but I'm feeling a bit lost and would greatly appreciate any information you could provide. It\u2019s frustrating to feel like my requests aren\u2019t being acknowledged, and I\u2019m eager to resolve this matter as soon as possible.\n\nThank you for your attention to this issue. I\u2019m hopeful we can work together to find a solution.\n\nBest regards,  \n[Your Name]",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 2,
+        "reason": "The edited email removes the original's emotional intensity and urgency, reinterpreting the frustration expressed in the original."
+      },
+      "completeness": {
+        "score": 3,
+        "reason": "The edited email omits the explicit demand for approval today and the strong dissatisfaction with the customer experience."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, professional, and well-structured with correct grammar."
+      },
+      "overall": {
+        "score": 3.33,
+        "reason": "Average of (2, 3, 5) = 3.33"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 3,
+        "reason": "The edited email preserves the core facts: waiting for approval, documents submitted, frustration with delay, and a request for action. However, it omits the urgency for approval 'TODAY', the strong dissatisfaction ('worst customer experience'), and the direct challenge to the recipient's competence ('maybe someone else should'). The tone is softened, which slightly alters the original intent and emotional intensity."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "Most required informational units are present: request for update, mention of submitted documents, expression of frustration, and request for resolution. However, the explicit demand for approval 'TODAY' and the suggestion that someone else should handle the request are missing, which are key action items in the original."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is grammatically correct, clear, and professionally structured. It is suitable for professional communication."
+      },
+      "overall": {
+        "score": 4.0,
+        "reason": "The edited email is robust and mostly complete, but it loses some faithfulness to the original's urgency and emotional intensity."
+      }
+    }
+  },
+  {
+    "original_id": 36,
+    "original_text": "Wow, shocking. Another email from me left hanging. I guess replying to your manager is just optional now? Maybe you\u2019re just waiting for the project to finish itself. Must be nice to ignore basic requests. If you\u2019re actually planning to contribute, now would be the time to let me know. Otherwise, I\u2019ll just assume you don't care. Looking forward to your (eventual) reply, unless that\u2019s too much to ask.",
+    "target_tone": "sympathetic",
+    "response_4_1": "Subject: Follow-up on Project Update\n\nHi,\n\nI wanted to check in since I haven\u2019t heard back from you regarding my previous email. I understand things can get busy, but your input is important for moving the project forward. If you have any updates or need any support, please let me know. Your contribution makes a real difference, and I\u2019d appreciate hearing from you when you\u2019re able.\n\nLooking forward to your reply.\n\nThank you,  \n[Your Name]",
+    "response_mini": "Subject: Follow-Up on Project Contributions\n\nHi [Recipient's Name],\n\nI hope this message finds you well. I wanted to follow up on my previous email, as I haven\u2019t heard back from you yet. I understand that things can get busy, and it\u2019s easy for messages to slip through the cracks.\n\nIf you\u2019re still planning to contribute to the project, I would really appreciate your input. If not, just let me know, and I can adjust my expectations accordingly. I genuinely value your perspective and look forward to hearing from you when you have a moment.\n\nThank you, and take care!\n\nBest,  \n[Your Name]",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 1,
+        "reason": "The edited email significantly alters the tone and intent of the original message, which expresses frustration and disappointment. It introduces a more polite and understanding tone, which changes the original message's meaning."
+      },
+      "completeness": {
+        "score": 2,
+        "reason": "While the edited email retains the request for a response, it omits the original's context of frustration and the specific mention of the lack of response to previous emails, which is a key element of the original message."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, professional, and well-structured with correct grammar."
+      },
+      "overall": {
+        "score": 2.67,
+        "reason": "Average of (1, 2, 5) = 2.67"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 3,
+        "reason": "The edited email softens the tone and removes the accusatory and sarcastic language present in the original. The core facts\u2014a lack of reply, a request for confirmation of contribution, and a prompt for response\u2014are retained, but the emotional intensity and implied criticism are significantly reduced, which constitutes a slight reinterpretation of intent."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are preserved: the follow-up on a previous email, the request for confirmation of project contribution, and the prompt for a reply. The edited version maintains the necessary context and action items."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is grammatically correct, clear, and professionally structured, with logical flow and appropriate formatting."
+      },
+      "overall": {
+        "score": 4.33,
+        "reason": "The edited email is complete and robust, but the faithfulness score is reduced due to the softened tone and loss of the original's emotional intensity and implied criticism."
+      }
+    }
+  },
+  {
+    "original_id": 37,
+    "original_text": "Hey, so is someone actually going to pay me or do we just keep pretending? I mean, it\u2019s only been what, like a century now? Not sure if you guys get how invoices work, but I\u2019d love to see you try paying on time for once. Let me know if you need a tutorial or something. Seriously, just send the payment already.",
+    "target_tone": "sympathetic",
+    "response_4_1": "Subject: Follow-up on Outstanding Invoice\n\nHi there,\n\nI wanted to follow up regarding my outstanding invoice, as I haven\u2019t received payment yet. I understand things can get busy, and perhaps this slipped through the cracks. I\u2019d really appreciate it if you could let me know the status, or if there\u2019s anything I can do to help move things along. \n\nThank you for your attention to this\u2014I look forward to hearing from you soon.\n\nBest regards,  \n[Your Name]",
+    "response_mini": "Subject: Payment Inquiry\n\nHi there,\n\nI hope this message finds you well. I wanted to reach out regarding the payment for my invoice, as it seems to be taking a bit longer than expected. I understand that things can get busy, but I\u2019m starting to feel a bit concerned since it\u2019s been quite some time.\n\nIf there\u2019s anything I can do to help facilitate the process, please let me know. I truly appreciate your attention to this matter and look forward to resolving it soon.\n\nThank you for your understanding.\n\nBest regards,  \n[Your Name]",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 1,
+        "reason": "The edited email significantly alters the tone and intent of the original message, which expresses frustration and sarcasm about delayed payment. The original's urgency and directness are lost."
+      },
+      "completeness": {
+        "score": 3,
+        "reason": "The edited email retains the request for payment but omits the original's specific mention of the invoice duration and the sarcastic offer for a tutorial, which are relevant to the context."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, professional, and well-structured with correct grammar."
+      },
+      "overall": {
+        "score": 3.0,
+        "reason": "Average of (1, 3, 5) = 3.00"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 3,
+        "reason": "The edited email retains the core facts: a payment is overdue and the sender is requesting action. However, it omits the sarcastic tone, the explicit mention of a 'century' of waiting, and the offer of a 'tutorial' on invoices. The intent is softened and reinterpreted to be more polite and less confrontational."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "Most required informational units are present: inquiry about overdue payment, request for action, and offer to help facilitate. However, the explicit request for immediate payment and the offer of a 'tutorial' are missing, which were part of the original's directness."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, professional, grammatically correct, and well-structured for business communication."
+      },
+      "overall": {
+        "score": 4.0,
+        "reason": "The edited email is robust and mostly complete, but loses some faithfulness due to softened tone and omission of direct requests."
+      }
+    }
+  },
+  {
+    "original_id": 38,
+    "original_text": "so i waited around for our call, but you didn\u2019t show. not totally shocked since this has happened before. honestly, if my time isn\u2019t valuable to you just let me know, i\u2019ve got better things to do. maybe next time try setting an alarm or something? let me know if you actually want to reschedule, or if i\u2019m just wasting my time here.",
+    "target_tone": "sympathetic",
+    "response_4_1": "I waited for our call today but didn\u2019t hear from you. I understand that things can come up unexpectedly, but this isn\u2019t the first time it\u2019s happened, so I wanted to check in. If my time isn\u2019t a priority for you, please let me know\u2014I do have other commitments to manage. If you\u2019d like to reschedule, perhaps setting a reminder could help us both stay on track. Please let me know if you\u2019re interested in finding another time or if it\u2019s best for me to focus my efforts elsewhere.",
+    "response_mini": "Subject: Follow-Up on Our Scheduled Call\n\nHi [Recipient's Name],\n\nI hope this message finds you well. I waited for our call today, but it seems there may have been a mix-up, as I didn't hear from you. I understand that things can get busy, and this has happened before, so I wanted to reach out.\n\nI genuinely value our time together, and I want to ensure that we're able to connect meaningfully. If you're still interested in rescheduling, please let me know. If not, I completely understand and can focus my efforts elsewhere.\n\nThank you for your understanding, and I look forward to hearing from you.\n\nBest regards,  \n[Your Name]",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 3,
+        "reason": "The edited email introduces a more understanding tone and adds the phrase 'things can come up unexpectedly,' which slightly alters the original intent of frustration."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are preserved, including the request to reschedule and the expression of value for time."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The grammar is correct, and the structure is clear and professional."
+      },
+      "overall": {
+        "score": 4.33,
+        "reason": "Average of (3, 5, 5) = 4.33"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 3,
+        "reason": "The edited email softens the tone and removes the direct accusation about not valuing the sender's time, omits the suggestion to set an alarm, and reframes the message to be more diplomatic. The core facts (missed call, previous occurrence, request to reschedule or clarify intent) are present, but the emotional intensity and some directness are lost."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "Most required informational units are retained: missed call, previous pattern, request to reschedule or clarify intent. However, the specific suggestion to set an alarm and the explicit statement about the sender having better things to do are omitted, which are minor supporting details."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, grammatically correct, professionally structured, and easy to read."
+      },
+      "overall": {
+        "score": 4.0,
+        "reason": "The edited email is robust and mostly complete, but loses some faithfulness due to softened tone and omission of direct statements."
+      }
+    }
+  },
+  {
+    "original_id": 39,
+    "original_text": "Wow, I guess my last email went into a black hole? It must be really tough to hit 'reply' these days. Just checking\u2014do you even read your emails? I\u2019m starting to think your customer service department is a myth. Maybe one day I\u2019ll actually get an answer. But until then, I\u2019ll just keep sending emails into the void. Thanks for absolutely nothing so far.",
+    "target_tone": "sympathetic",
+    "response_4_1": "Subject: Following Up on My Previous Email\n\nHi there,\n\nI wanted to follow up on my last email, as I haven\u2019t received a response yet. I understand things can get busy, and I imagine you must be handling a high volume of inquiries. Still, I\u2019m hoping to hear back soon, as I\u2019m starting to feel a bit overlooked and would really appreciate some support.\n\nThank you for your attention to this\u2014I look forward to your reply.\n\nBest regards,  \n[Your Name]",
+    "response_mini": "Subject: Following Up on My Previous Email\n\nHi there,\n\nI hope this message finds you well. I wanted to follow up on my last email, as I haven\u2019t received a response yet. I completely understand that things can get busy, and it might be challenging to keep up with all the messages. \n\nI\u2019m genuinely interested in hearing from you and would appreciate any update you could provide. Thank you for your attention, and I look forward to your reply.\n\nBest regards,  \n[Your Name]",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 2,
+        "reason": "The edited email removes the original's tone of frustration and sarcasm, altering the intent significantly."
+      },
+      "completeness": {
+        "score": 3,
+        "reason": "The edited email omits the specific mention of customer service and the feeling of sending emails into the void, which are key elements of the original message."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, professional, and well-structured with correct grammar."
+      },
+      "overall": {
+        "score": 3.33,
+        "reason": "Average of (2, 3, 5) = 3.33"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 2,
+        "reason": "The edited email removes the sarcastic and frustrated tone, omits the skepticism about customer service, and does not mention the lack of response in a critical way. It adds a polite and understanding tone, which is a clear reinterpretation of the original intent."
+      },
+      "completeness": {
+        "score": 3,
+        "reason": "The main informational unit\u2014following up due to no response\u2014is preserved. However, the original's strong dissatisfaction, skepticism about customer service, and repeated attempts are not conveyed, which are required to fully represent the original message."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is grammatically correct, clear, and professionally structured."
+      },
+      "overall": {
+        "score": 3.33,
+        "reason": "Faithfulness and completeness are reduced due to tone and intent changes, but robustness is high."
+      }
+    }
+  },
+  {
+    "original_id": 40,
+    "original_text": "How many times do I have to ask before someone actually approves my request? This is absurd. I sent everything you needed DAYS ago and have heard nothing. If you can't even manage a simple approval, maybe I should take my business somewhere else. I don't have time to keep following up because you aren't doing your job. Sort this out immediately.",
+    "target_tone": "sympathetic",
+    "response_4_1": "Subject: Follow-Up on Approval Request\n\nDear [Recipient Name],\n\nI hope this message finds you well. I wanted to follow up regarding my recent request, as I submitted all the necessary information a few days ago but have not yet received a response. I understand that you may be handling a number of requests, but I would appreciate any update you can provide on the status of my approval.\n\nI value your assistance, and it would mean a lot to have this matter resolved soon, as I am working within some time constraints. Thank you for your understanding and attention to this issue. Please let me know if there is anything else you need from my side to expedite the process.\n\nLooking forward to your reply.\n\nBest regards,  \n[Your Name]",
+    "response_mini": "Subject: Request for Approval\n\nHi [Recipient's Name],\n\nI hope this message finds you well. I wanted to follow up on my previous request, as I haven\u2019t received any updates yet. I understand that everyone is busy, but I sent all the necessary information a few days ago and would greatly appreciate your assistance in approving it.\n\nI value our partnership and would hate to consider other options, but I'm feeling a bit stuck without your support. If you could look into this at your earliest convenience, I would be incredibly grateful.\n\nThank you for your attention to this matter. I look forward to hearing from you soon.\n\nBest regards,  \n[Your Name]  ",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 2,
+        "reason": "The edited email softens the tone significantly and removes the original's frustration and urgency, which alters the intent."
+      },
+      "completeness": {
+        "score": 3,
+        "reason": "While the request for an update is present, the strong dissatisfaction and ultimatum from the original email are missing."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, professional, and well-structured with correct grammar."
+      },
+      "overall": {
+        "score": 3.33,
+        "reason": "Average of (2, 3, 5) = 3.33"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 3,
+        "reason": "The edited email softens the tone and removes the accusatory and urgent language. The threat to take business elsewhere is softened to 'would hate to consider other options.' The demand to 'sort this out immediately' is replaced with a polite request for attention at the recipient's earliest convenience. The core facts (request for approval, previous submission, lack of response) are preserved, but the intent and emotional force are significantly altered."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are present: the request for approval, mention of previous submission, lack of response, and a request for action. The potential consequence (considering other options) is retained, albeit softened."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, grammatically correct, and professionally structured. It is suitable for professional use."
+      },
+      "overall": {
+        "score": 4.33,
+        "reason": "Faithfulness is reduced due to softened tone and altered emotional intent, but completeness and robustness are fully preserved."
+      }
+    }
+  },
+  {
+    "original_id": 41,
+    "original_text": "Seriously, how long does it take to process a simple payment? I've been waiting way too long for my money and honestly, this is just unacceptable. You'd think with all the fees you charge you could at least pay on time. I shouldn't have to remind you AGAIN. Sort this out now and let me know when it's actually done. Don't ignore this email like the last one.",
+    "target_tone": "sympathetic",
+    "response_4_1": "Subject: Follow-up on Payment Status\n\nHi [Recipient Name],\n\nI hope this message finds you well. I wanted to follow up regarding my pending payment, as I\u2019ve been waiting longer than expected for it to be processed. I understand delays can happen, but I\u2019m starting to feel a bit concerned given the amount of time that has passed.\n\nGiven the fees involved, I had hoped the payment would be completed on time, and I would really appreciate some clarity on when I can expect to receive it. I\u2019ve reached out previously and haven\u2019t received an update, so I\u2019d be grateful if you could prioritize this matter and let me know once the payment has been processed.\n\nThank you for your attention to this. I look forward to your prompt response.\n\nBest regards,  \n[Your Name]",
+    "response_mini": "Subject: Follow-Up on Payment Status\n\nDear [Recipient's Name],\n\nI hope this message finds you well. I wanted to reach out regarding the status of my payment, as it has been quite some time since I submitted it. I understand that processing can sometimes take longer than expected, but I\u2019m feeling a bit concerned about the delay.\n\nI appreciate the services you provide and understand that there are various factors at play. However, it would be reassuring to have an update on when I can expect my payment to be processed. \n\nThank you for your attention to this matter, and I look forward to hearing from you soon. \n\nBest regards,  \n[Your Name]",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 2,
+        "reason": "The edited email softens the tone and removes the urgency and frustration expressed in the original email, which alters the intent."
+      },
+      "completeness": {
+        "score": 3,
+        "reason": "The request for immediate action is less direct, and the urgency of the situation is diminished, missing the strong demand for resolution."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, professional, and well-structured with no grammatical errors."
+      },
+      "overall": {
+        "score": 3.33,
+        "reason": "Average of (2, 3, 5) = 3.33"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 2,
+        "reason": "The edited email removes several key facts and the original tone. It omits the urgency, frustration, and the demand for immediate action. The mention of fees and previous ignored emails is also missing. The intent is softened and partially reinterpreted."
+      },
+      "completeness": {
+        "score": 3,
+        "reason": "The request for payment status is retained, but the demand for immediate resolution, notification upon completion, and reference to prior ignored communication are missing. The urgency and dissatisfaction are not fully conveyed."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is grammatically correct, clear, and professionally structured."
+      },
+      "overall": {
+        "score": 3.33,
+        "reason": "Faithfulness and completeness are reduced due to missing urgency, omitted facts, and softened tone, though robustness is high."
+      }
+    }
+  },
+  {
+    "original_id": 42,
+    "original_text": "Hey IT or whoever, the stupid printer is jammed. Yet again. Not that anyone seems to care or fix it properly. Tried all the usual stuff. Pretty sure it\u2019s not me but whatever, maybe it\u2019s just cursed. Would be great if someone *actually* fixed it this time because I\u2019ve got real work to do. Thanks, I guess.",
+    "target_tone": "sympathetic",
+    "response_4_1": "Subject: Printer Jam Assistance Needed\n\nHi IT Team,\n\nI\u2019m reaching out because the printer is jammed again. I\u2019ve tried the usual troubleshooting steps, but unfortunately, I haven\u2019t been able to resolve the issue. I understand these things can be persistent, but it\u2019s becoming a bit of a recurring problem, and it\u2019s making it difficult to get my work done.\n\nI\u2019d really appreciate it if someone could take another look and hopefully find a lasting solution this time. Thanks so much for your help\u2014I know you\u2019re busy and I appreciate your support.\n\nBest,  \n[Your Name]",
+    "response_mini": "Subject: Printer Jam Assistance Needed\n\nHi IT Team,\n\nI hope this message finds you well. Unfortunately, I\u2019m experiencing another issue with the printer\u2014it seems to be jammed once again. I\u2019ve tried all the usual troubleshooting steps, but it still isn\u2019t working. \n\nI understand that these things can happen, but it would be wonderful if someone could take a look and help resolve the issue this time. I have some important work that I need to complete, and I really appreciate your support in getting this sorted out.\n\nThank you so much for your help!\n\nBest regards,  \n[Your Name]",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 2,
+        "reason": "The edited email removes the original's tone of frustration and sarcasm, which alters the intent. It also adds a new context of understanding and appreciation that was not present in the original."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "Most required units are preserved, but the original's expression of urgency and the specific mention of the printer being 'stupid' and 'cursed' are omitted, which slightly diminishes the completeness."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, professional, and well-structured with correct grammar."
+      },
+      "overall": {
+        "score": 3.67,
+        "reason": "Average of (2, 4, 5) = 3.67"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "All core facts are preserved: the printer is jammed again, usual troubleshooting has been attempted, and a request for proper resolution is made. The edited version omits the sarcastic tone and frustration, softening the message and slightly reinterpreting the emotional content."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained: notification of the jam, troubleshooting attempts, request for actual resolution, and mention of work urgency."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is grammatically correct, clear, and professionally structured with a subject line and closing."
+      },
+      "overall": {
+        "score": 4.67,
+        "reason": "The edited email is complete and robust, but slightly less faithful due to softened tone and reduced frustration."
+      }
+    }
+  },
+  {
+    "original_id": 43,
+    "original_text": "wow, what a surprise that you\u2019re asking for yet another extension. i guess sticking to the original timeline was just way too much to ask. honestly, i\u2019m not even sure why we bother setting deadlines at all. should i just assume nothing ever gets done on time here? let me know how much more time you think you\u2019ll need this time, not that it seems to matter. maybe one of these days we\u2019ll actually hit a deliverable \u2013 but i won\u2019t hold my breath.",
+    "target_tone": "sympathetic",
+    "response_4_1": "Subject: Extension Request\n\nHi,\n\nI understand that you\u2019re requesting another extension, and I know that sometimes unexpected challenges can come up that make it difficult to stick to the original timeline. I realize that meeting deadlines isn\u2019t always easy, and I appreciate your efforts to keep me informed.\n\nCould you please let me know how much additional time you think you\u2019ll need to complete this deliverable? I want to make sure we\u2019re on the same page moving forward.\n\nLet\u2019s hope we can find a way to meet our goals more consistently in the future. Thank you for your transparency.\n\nBest,  \n[Your Name]",
+    "response_mini": "Subject: Request for Extension\n\nHi [Recipient's Name],\n\nI hope this message finds you well. I noticed that you're requesting another extension, and I can understand how challenging it can be to stick to tight timelines. It seems like there have been a lot of hurdles along the way, and I appreciate your efforts to keep things moving.\n\nCould you please let me know how much additional time you think you'll need? I want to ensure we can align our expectations moving forward. I truly hope we can reach our deliverables soon, and I'll be here to support you in any way I can.\n\nThank you for your understanding, and I look forward to hearing from you.\n\nBest,  \n[Your Name]",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 1,
+        "reason": "The edited email significantly alters the tone and intent of the original message, which expresses frustration and sarcasm regarding extensions and deadlines."
+      },
+      "completeness": {
+        "score": 3,
+        "reason": "The request for additional time is preserved, but the context of frustration and skepticism about deadlines is lost."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, professional, and well-structured with correct grammar."
+      },
+      "overall": {
+        "score": 3.0,
+        "reason": "Average of (1, 3, 5) = 3.00"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 2,
+        "reason": "The edited email removes the original's strong sarcasm, frustration, and criticism, replacing it with understanding and support. The core facts (request for extension, asking for new timeline, hope for deliverable) are present, but the tone and intent are significantly softened, which is a clear reinterpretation."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained: acknowledgment of extension request, inquiry about new timeline, and mention of deliverables. No key information is missing."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is grammatically correct, clear, and professionally structured with proper greeting, body, and closing."
+      },
+      "overall": {
+        "score": 4.0,
+        "reason": "Faithfulness is reduced due to tone and intent shift, but completeness and robustness are perfect. Average: (2+5+5)/3 = 4.00."
+      }
+    }
+  },
+  {
+    "original_id": 44,
+    "original_text": "why hasn\u2019t anyone approved this yet?? i\u2019ve sent this three times and i\u2019m honestly freaking out here. if this doesn\u2019t get approved today i don\u2019t even know what we\u2019re supposed to do. does anyone actually care about this project or is it just me losing my mind?? seriously, someone needs to do their job and sign off already. this is getting out of control. just approve the thing.",
+    "target_tone": "sympathetic",
+    "response_4_1": "Subject: Request for Approval \u2013 Urgent Follow-Up\n\nHi team,\n\nI wanted to follow up regarding the approval for this project, as I haven\u2019t received any updates yet. I\u2019ve sent this request a few times now, and I\u2019m starting to feel quite anxious about the delay, since timely approval is crucial for us to move forward. If we don\u2019t get approval today, I\u2019m concerned about the impact this might have on our next steps.\n\nI understand everyone has a lot on their plate, but I\u2019d really appreciate it if someone could please review and sign off as soon as possible. Your support on this is truly important, and I\u2019m grateful for your help.\n\nThank you so much for your attention to this matter.\n\nBest,  \n[Your Name]",
+    "response_mini": "Subject: Urgent Approval Needed\n\nHi Team,\n\nI hope this message finds you well. I wanted to follow up on the approval for the project I\u2019ve sent a few times now. I\u2019m feeling quite anxious about it, as it\u2019s crucial for us to move forward. If we don\u2019t get the approval today, I\u2019m concerned about how we\u2019ll proceed.\n\nI understand everyone is busy, but I would really appreciate any support you can offer to help get this approved. It\u2019s important to me, and I believe it\u2019s important to the team as well. Thank you so much for your attention to this matter.\n\nLooking forward to hearing back soon.\n\nBest,  \n[Your Name]",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "The edited email maintains the core concern about the approval delay but softens the tone and removes some of the original urgency and frustration expressed."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are preserved, including the request for approval, the urgency of the situation, and the potential impact of the delay."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, professional, and well-structured with correct grammar."
+      },
+      "overall": {
+        "score": 4.67,
+        "reason": "Average of (4, 5, 5) = 4.67"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 3,
+        "reason": "The edited email softens the tone and removes several direct expressions of frustration and urgency, such as 'freaking out,' 'does anyone actually care,' and 'someone needs to do their job.' The core facts (lack of approval, repeated requests, urgency for today) are present, but the emotional intensity and directness are significantly reduced, which constitutes slight intent drift and omission of some original sentiment."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "All major informational units are retained: request for approval, mention of repeated attempts, urgency for today, and concern about next steps. However, the explicit demand for someone to 'do their job' and the strong emotional context are softened, which removes a minor supporting detail about accountability."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, grammatically correct, professionally structured, and logically flows from introduction to request to closing."
+      },
+      "overall": {
+        "score": 4.0,
+        "reason": "The edited email is professional and retains the main facts and requests, but loses some of the original urgency and emotional intensity, resulting in minor faithfulness and completeness reductions."
+      }
+    }
+  },
+  {
+    "original_id": 45,
+    "original_text": "I sent this over a week ago and, surprise, still nothing from you. Is it really that hard to check your emails or is this just how you guys operate? I don't have time to keep following up because you can't be bothered. Honestly, this is pretty basic stuff. Please at least try to do your job and let me know what's going on. Should I even bother waiting for an actual answer or should I just give up on you entirely?",
+    "target_tone": "sympathetic",
+    "response_4_1": "Subject: Follow-Up on Previous Email\n\nHi,\n\nI wanted to follow up on the email I sent last week, as I haven\u2019t heard back yet. I understand things can get busy, but I\u2019m hoping to get an update soon. \n\nI would really appreciate it if you could let me know where things stand, or if there\u2019s any additional information you need from me. Your response would be very helpful, as I\u2019m trying to move things forward on my end as well.\n\nThank you for your attention to this. I look forward to your reply.\n\nBest regards,  \n[Your Name]",
+    "response_mini": "Subject: Follow-Up on My Previous Email\n\nHi [Recipient's Name],\n\nI hope this message finds you well. I wanted to follow up on the email I sent over a week ago, as I haven\u2019t heard back yet. I understand that everyone has a lot on their plates, and things can get busy.\n\nI would really appreciate an update on this matter when you have a moment. I know it can be challenging to keep up with everything, but your input is important to me. \n\nThank you for your attention to this, and I look forward to hearing from you soon.\n\nBest regards,  \n[Your Name]",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 1,
+        "reason": "The edited email significantly alters the tone and intent of the original message, which expresses frustration and urgency. It removes the accusatory language and the sense of desperation present in the original."
+      },
+      "completeness": {
+        "score": 2,
+        "reason": "While the edited email retains the follow-up request, it omits the original's strong emotional context and urgency, which are critical to understanding the sender's situation."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, professional, and well-structured with correct grammar."
+      },
+      "overall": {
+        "score": 2.67,
+        "reason": "Average of (1, 2, 5) = 2.67"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 3,
+        "reason": "The edited email softens the tone and removes accusatory language, which slightly alters the intent. The core facts (previous email sent, no response, request for update) are preserved, but the frustration and threat to give up are omitted, representing a subtle reinterpretation."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "Most required informational units are retained: follow-up, request for update, reference to previous email, and urgency. However, the explicit question about whether to keep waiting or give up is missing, which is a minor supporting detail."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, grammatically correct, and professionally structured with a subject line, greeting, body, and closing."
+      },
+      "overall": {
+        "score": 4.0,
+        "reason": "The edited email is robust and mostly complete, but faithfulness is reduced due to softened tone and omission of the original's frustration and ultimatum."
+      }
+    }
+  },
+  {
+    "original_id": 46,
+    "original_text": "Honestly not sure what the point of emailing your team is anymore since nobody ever bothers to reply. This is now my third follow-up and I\u2019m starting to think you\u2019re just ignoring me. I would expect better service, considering how much I\u2019m paying for this. Maybe you\u2019re too busy for your clients? If my issue doesn\u2019t matter to you, just say so. I\u2019d like an answer today, not next week.",
+    "target_tone": "sympathetic",
+    "response_4_1": "Subject: Follow-Up on My Previous Requests\n\nHi [Recipient Name],\n\nI hope this message finds you well. I\u2019m reaching out again as I haven\u2019t yet received a response to my previous emails, and I\u2019m starting to feel a bit concerned that my issue might have been overlooked. I understand that your team is likely busy, but I would really appreciate an update regarding my request.\n\nAs a client, I value clear and timely communication, especially given our ongoing partnership. If there\u2019s any reason for the delay or if additional information is needed from my end, please let me know.\n\nI would greatly appreciate a response today, if possible, so we can work towards resolving this matter. Thank you for your understanding.\n\nBest regards,  \n[Your Name]",
+    "response_mini": "Subject: Follow-Up on My Previous Emails\n\nDear [Recipient's Name],\n\nI hope this message finds you well. I\u2019m reaching out again regarding my previous inquiries, as I haven\u2019t received a response yet. I understand that your team may be busy, but I\u2019m feeling a bit overlooked and would greatly appreciate your attention to my concerns.\n\nGiven the investment I\u2019ve made, I was hoping for a more timely response. If my issue is not a priority at the moment, I completely understand; just a brief update would be helpful. I look forward to hearing from you today, if possible.\n\nThank you for your understanding.\n\nBest regards,  \n[Your Name]  \n[Your Contact Information]  ",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 2,
+        "reason": "The edited email introduces a more polite tone and removes the accusatory language, which alters the original intent of expressing frustration and urgency."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "The request for a response today is preserved, but the original context of feeling ignored and the specific mention of the third follow-up is omitted."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, professional, and well-structured with correct grammar."
+      },
+      "overall": {
+        "score": 3.67,
+        "reason": "Average of (2, 4, 5) = 3.67"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "The edited email preserves the main facts: lack of response, repeated follow-up, expectation of better service due to payment, and request for a reply today. However, the tone is softened and the direct accusation of being ignored and the suggestion that the issue may not matter to the recipient are rephrased more diplomatically, which introduces minor ambiguity in intent."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained: notification of repeated follow-up, concern about lack of response, reference to payment/investment, request for a reply today, and a conditional statement about issue priority."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is grammatically correct, clear, professionally structured, and logically organized with appropriate greeting, closing, and subject line."
+      },
+      "overall": {
+        "score": 4.67,
+        "reason": "The edited email is highly faithful, complete, and robust, with only minor softening of tone affecting faithfulness."
+      }
+    }
+  },
+  {
+    "original_id": 47,
+    "original_text": "Honestly, I don't get why you went with someone else. We've delivered every single time and you still picked a less reliable option? Feels like you didn't actually look at the numbers or just don't care about quality. Not sure what you're hoping to achieve with this. If you want to see a real difference, maybe actually listen to people who know what they're doing. Whatever, let me know when you realize this was a mistake.",
+    "target_tone": "sympathetic",
+    "response_4_1": "I was surprised to hear that you decided to go with another provider. We\u2019ve consistently delivered reliable results for you, so this decision is disappointing and a bit confusing. I can\u2019t help but feel that our track record and quality may not have been fully considered in the process. \n\nIf you\u2019d like to revisit your options or discuss how we can better support your goals, I\u2019m here and happy to help. Please don\u2019t hesitate to reach out if you\u2019d like to talk further.",
+    "response_mini": "Subject: A Thoughtful Reflection on Your Decision\n\nHi [Recipient's Name],\n\nI hope this message finds you well. I wanted to take a moment to express my feelings regarding your recent decision. I genuinely find it puzzling that you chose to go with another option, especially since we have consistently delivered reliable results for you.\n\nIt seems to me that quality might not have been the primary factor in your choice, and I wonder if there are aspects we could discuss further. My intention is to support you in achieving the best outcomes possible, and I'm here to offer my insights if you\u2019re open to it.\n\nPlease feel free to reach out whenever you feel ready to have a conversation about this. I'm hopeful we can find a way to work together more effectively in the future.\n\nTake care,  \n[Your Name]",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 2,
+        "reason": "The edited email introduces a new tone and perspective, suggesting disappointment rather than direct criticism, which alters the original intent."
+      },
+      "completeness": {
+        "score": 3,
+        "reason": "The edited email omits the direct challenge of the recipient's decision-making and the suggestion that they may not care about quality, which are key elements of the original."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, professional, and well-structured with no grammatical errors."
+      },
+      "overall": {
+        "score": 3.33,
+        "reason": "Average of (2, 3, 5) = 3.33"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 3,
+        "reason": "The edited email softens the tone and removes accusatory language, but the core facts (confusion about the decision, past reliability, questioning quality, offer to help, and invitation to reconnect) are present. However, the edited version omits the direct accusation of not caring about quality and the statement about making a mistake, which slightly alters the intent and emotional impact."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "Most required informational units are retained: confusion about the decision, reference to past reliability, questioning quality, offer to discuss, and invitation to reconnect. However, the explicit statement about realizing a mistake and the strong suggestion to 'listen to people who know what they're doing' are softened or omitted."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, grammatically correct, professionally structured, and easy to read."
+      },
+      "overall": {
+        "score": 4.0,
+        "reason": "The edited email is robust and mostly complete, but faithfulness is reduced due to softened tone and omission of some direct statements from the original."
+      }
+    }
+  },
+  {
+    "original_id": 48,
+    "original_text": "hey, so i'm still waiting for you to sign off on the project like i asked last week. honestly, i've got way too much on my plate to keep chasing this down. not sure why this always takes forever, but i just need a yes or no. can you just approve it already so i can get on with my actual work? i've wasted enough time already. let me know, or don't, i guess.",
+    "target_tone": "sympathetic",
+    "response_4_1": "Subject: Follow-Up on Project Approval\n\nHi,\n\nI hope you\u2019re doing well. I wanted to gently follow up regarding the project sign-off I requested last week. I understand you have a lot on your plate, and I really appreciate your help with this.\n\nI\u2019m finding it a bit challenging to move forward with my other tasks until I receive your approval. If you could please let me know your decision when you have a moment, I would be very grateful. Your support will help me keep everything on track.\n\nThank you so much for your time and understanding.\n\nBest regards,  \n[Your Name]",
+    "response_mini": "Subject: Follow-Up on Project Approval\n\nHi [Recipient's Name],\n\nI hope this message finds you well. I wanted to follow up on the project approval I mentioned last week. I understand that you have a lot on your plate, just like I do, and I truly appreciate all the hard work you\u2019re putting in.\n\nIf you could take a moment to review it and provide your feedback, I would be really grateful. I\u2019m eager to move forward and focus on the next steps, but I also understand that things can get busy.\n\nThank you for your attention to this matter. I really appreciate your help!\n\nBest regards,  \n[Your Name]",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 2,
+        "reason": "The edited email introduces a tone of appreciation and understanding that is not present in the original, which conveys frustration and urgency. The request for a yes or no is softened and rephrased."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "The main request for project approval is preserved, but the urgency and specific request for a yes or no is diluted, making it less direct."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, professional, and well-structured with correct grammar."
+      },
+      "overall": {
+        "score": 3.67,
+        "reason": "Average of (2, 4, 5) = 3.67"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 3,
+        "reason": "The edited email softens the tone and removes the frustration, urgency, and direct request for a yes/no answer. It adds appreciation and understanding of the recipient's workload, which was not present in the original. The core request for project approval is retained, but the intent and emotional tone are significantly altered."
+      },
+      "completeness": {
+        "score": 4,
+        "reason": "The main request for project approval is present, but the explicit demand for a yes/no answer and the urgency are diluted. The edited version omits the context of repeated follow-up and the sender's frustration, which are part of the original's informational units."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is grammatically correct, clear, and professionally structured. It uses proper formatting and polite language."
+      },
+      "overall": {
+        "score": 4.0,
+        "reason": "The edited email is robust and polite, but it loses some of the original's urgency, directness, and emotional context, affecting faithfulness and completeness."
+      }
+    }
+  },
+  {
+    "original_id": 49,
+    "original_text": "So now you need more time? Honestly, this is getting old. We sent everything ages ago and you\u2019re just asking for an extension now? I guess this is just how you work. We have our own timelines to keep and your delays aren\u2019t helping. Let us know how much more time you need (this time), so we can figure out how to fix the mess.",
+    "target_tone": "sympathetic",
+    "response_4_1": "Hi,\n\nI understand that you need more time, but I have to admit we\u2019re feeling some frustration on our end. We sent everything quite a while ago, and hearing about an extension now does put us in a difficult position with our own timelines.\n\nPlease let us know how much additional time you need so we can do our best to adjust and keep things on track. We appreciate your help in finding a way forward.\n\nThank you.",
+    "response_mini": "Subject: Request for Extension\n\nHi [Recipient's Name],\n\nI hope this message finds you well. I understand that you need some additional time to complete your work, and I can imagine how challenging things must be on your end. We sent everything quite a while ago, and I must admit that the wait has been a bit frustrating for us as we have our own timelines to adhere to.\n\nIf you could let us know how much more time you need this time, we would appreciate it. That way, we can work together to find a solution that helps us all move forward.\n\nThank you for your understanding.\n\nBest regards,  \n[Your Name]  ",
+    "evaluation_of_4_1_by_mini": {
+      "faithfulness": {
+        "score": 2,
+        "reason": "The edited email introduces a tone of understanding and appreciation that is not present in the original, which expresses frustration and criticism."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required units are preserved, including the request for additional time and the context of timelines."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, professional, and well-structured."
+      },
+      "overall": {
+        "score": 4.0,
+        "reason": "Average of (2, 5, 5) = 4.00"
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 3,
+        "reason": "The edited email softens the tone and removes the accusatory and frustrated language present in the original. The core facts (request for extension, previous delays, need for a new timeline) are preserved, but the strong negative sentiment and implied criticism ('this is getting old', 'your delays aren\u2019t helping', 'fix the mess') are omitted or reinterpreted as 'frustrating' and 'find a solution'. This is a slight intent drift."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained: acknowledgment of delay, reference to previous submission, request for a new timeline, and the need to coordinate next steps. The emotional context is softened but the informational content is complete."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, grammatically correct, and professionally structured with a subject line, greeting, body, and closing."
+      },
+      "overall": {
+        "score": 4.33,
+        "reason": "The edited email is complete and robust, but there is a slight drift in faithfulness due to the softened tone and omission of strong negative sentiment."
       }
     }
   }

@@ -1,0 +1,403 @@
+id,gen_model,judge_model,target_tone,persona,original_fragment,rewritten_fragment,score,pass,reasoning,full_rewritten
+2,gpt-4o-mini,gpt-4.1,sympathetic,emotional_research_assistant,"I can't believe I have to miss the exam, I'm just ...",...,0,False,Error in evaluation,
+3,gpt-4o-mini,gpt-4.1,professional,demanding_customer,I can’t believe you missed the meeting! This is ab...,...,0,False,,
+31,gpt-4o-mini,gpt-4.1,sympathetic,startup_founder_under_pressure,just got the news that we missed the deadline agai...,"Subject: Concern About Recent Deadline
+
+Dear Team,...",3,False,,"Subject: Concern About Recent Deadline
+
+Dear Team,
+
+I hope this message finds you well. I just received the unfortunate news that we have missed the deadline once again, and I wanted to take a moment to express my concern. It’s disheartening to see our careful planning unravel, and I can’t help but feel frustrated as it seems like we’re facing setback after setback.
+
+I know we’ve all been working hard, and I truly believe in our potential to succeed. However, it’s becoming increasingly difficult to maintain our momentum when challenges keep arising. I understand that things can get overwhelming, but it’s crucial that we come together and find a way to move forward.
+
+I genuinely care about our team and want us to succeed. Let’s put our heads together and figure out how we can improve our processes to avoid these situations in the future. I appreciate your understanding and look forward to collaborating on solutions.
+
+Thank you for your attention to this matter.
+
+Best,  
+[Your Name]"
+39,gpt-4o-mini,gpt-4.1,friendly,angry_manager,I guess I'm supposed to apologize for that last em...,"Subject: A Quick Note for Next Time
+
+Hi there,
+
+I ...",3,False,,"Subject: A Quick Note for Next Time
+
+Hi there,
+
+I hope you’re doing well! I wanted to touch base regarding my last email. I think we might have missed the mark a bit, and I believe with a little more teamwork, we can avoid any mix-ups in the future. Let’s work together to ensure everything runs smoothly next time. Thanks for your understanding!
+
+Best,  
+[Your Name]"
+51,gpt-4o-mini,gpt-4.1,sympathetic,rude_client,"I can’t believe this happened again. Seriously, ho...","Subject: Need Your Support on Upcoming Deadlines
+
+...",3,False,,"Subject: Need Your Support on Upcoming Deadlines
+
+Hi [Name],
+
+I hope this message finds you well. I wanted to take a moment to express my concern about the recent delays we’ve experienced. This situation has arisen a few times now, and I can’t help but feel overwhelmed by the impact it has on our overall workflow.
+
+I know we all have a lot on our plates, and I truly appreciate the effort you put into your work. However, I’m feeling a bit stressed with the current chaos and would love to collaborate on finding a solution. It’s crucial for us to meet our deadlines, and I believe that with a little more focus, we can get back on track.
+
+I’m here to support you, and I hope we can work together to ensure this doesn’t happen again in the future. Your contributions are valuable, and I’m confident we can overcome these challenges as a team.
+
+Thank you for your understanding, and let’s touch base soon to discuss how we can improve moving forward.
+
+Best,  
+[Your Name]"
+57,gpt-4o-mini,gpt-4.1,friendly,angry_manager,"Subject: Seriously?!
+
+What the heck is going on wi...","Subject: Quick Check-In
+
+Hi Team,
+
+I hope you’re a...",3,False,,"Subject: Quick Check-In
+
+Hi Team,
+
+I hope you’re all doing well! I wanted to take a moment to chat about the recent work quality. I’ve noticed some inconsistencies lately, and I believe we can really elevate our output together. I know we have the talent and skills to do fantastic work, so let’s rally and get back on track! 
+
+Thanks for your understanding, and I appreciate all your hard work. Looking forward to seeing us shine!
+
+Best,  
+[Your Name]"
+73,gpt-4o-mini,gpt-4.1,friendly,panicked_student,"Hey! 😱
+
+So, like, I totally need your help! I subm...","Subject: Quick Help Needed! 😊
+
+Hi there!
+
+I hope y...",3,False,,"Subject: Quick Help Needed! 😊
+
+Hi there!
+
+I hope you're doing well! I could really use your assistance with something. I submitted my project a while back, and I'm starting to get a bit anxious since I haven’t received any approval yet. I find myself checking my email constantly, and it's making me a little on edge!
+
+I just want to make sure everything is on track, as I’m really hoping to get this approved soon. It would mean a lot to me! 
+
+Thank you so much for your help! I really appreciate it! 
+
+Warm regards,  
+[Your Name] 💖"
+3,gpt-4.1,gpt-4o-mini,professional,demanding_customer,I can’t believe you missed the meeting! This is ab...,"Subject: Missed Meeting Follow-Up
+
+Dear [Recipient...",3,False,,"Subject: Missed Meeting Follow-Up
+
+Dear [Recipient’s Name],
+
+I noticed that you were unable to attend our scheduled meeting. I had several important topics to discuss, and your absence has delayed our progress. Timely communication and attendance are essential for our collaboration, and I would appreciate your attention to this moving forward.
+
+Please let me know your availability as soon as possible so we can reschedule and address the outstanding matters.
+
+Thank you for your prompt response.
+
+Best regards,  
+[Your Name]"
+6,gpt-4.1,gpt-4o-mini,friendly,anxious_employee,"Hey,
+
+So like, I gotta spill the beans here... thi...","Hi team,
+
+I wanted to touch base because I’ve noti...",3,False,,"Hi team,
+
+I wanted to touch base because I’ve noticed our recent work hasn’t quite matched the quality we all agreed on and promised. I’m concerned that if we don’t address this soon, it could become a bigger issue for us down the line.
+
+I know we’re all committed to doing our best, so let’s come together and figure out how we can get things back on track. I’m confident we can turn this around!
+
+Thanks for understanding, and looking forward to working through this together.
+
+Best,  
+[Your Name]"
+13,gpt-4.1,gpt-4o-mini,friendly,panicked_student,I CAN'T BELIEVE THIS! I HAVE BEEN WAITING FOREVER ...,"Subject: Request for Update on Approval Status
+
+Hi...",3,False,,"Subject: Request for Update on Approval Status
+
+Hi there,
+
+I hope this message finds you well. I wanted to check in regarding the status of my approval, as I’ve been waiting for quite some time and am starting to feel concerned about the delay. 
+
+This approval is really important for me to be able to move forward, and I would appreciate any updates you might have. If there’s anything I can do to help speed up the process, please let me know. 
+
+Thank you so much for your attention to this—I’m really hoping we can resolve it soon!
+
+Best regards,  
+[Your Name]"
+14,gpt-4.1,gpt-4o-mini,professional,demanding_customer,I can't believe I have to chase this issue again. ...,Subject: Request for Immediate Assistance Regardin...,3,False,,"Subject: Request for Immediate Assistance Regarding Urgent Health Matter
+
+Dear [Recipient Name],
+
+I am writing to follow up on my previous messages regarding my health emergency. I shared the necessary details several days ago, but I have not yet received a response. Given the seriousness of my situation, I am extremely concerned about the delay in communication.
+
+As a valued customer, I expected a more timely and attentive response, especially considering the urgency of my request. I would appreciate it if you could prioritize this matter and provide an update as soon as possible. My health cannot be put on hold, and I need to know that my concerns are being addressed.
+
+Please let me know what steps are being taken to resolve this issue. I look forward to your prompt reply and a resolution at the earliest opportunity.
+
+Thank you for your immediate attention to this matter.
+
+Best regards,  
+[Your Name]"
+15,gpt-4.1,gpt-4o-mini,professional,angry_manager,"So here we are again, huh? Another deadline missed...","Subject: Follow-Up on Missed Deadline
+
+Hi [Name],
+...",3,False,,"Subject: Follow-Up on Missed Deadline
+
+Hi [Name],
+
+I wanted to follow up regarding the recent missed deadline. This recurring issue is causing challenges for the team, and I would appreciate more attention to meeting agreed-upon timelines. 
+
+Please ensure that future deadlines are prioritized and that you use tools such as calendar reminders to stay on track. It’s important for everyone to take responsibility for their assigned tasks so we can avoid situations like this moving forward.
+
+Let’s work together to improve our workflow and ensure deadlines are met in the future.
+
+Thank you,  
+[Your Name]"
+16,gpt-4.1,gpt-4o-mini,sympathetic,careless_colleague,I honestly can’t believe how things are turning ou...,"Subject: Let’s Work Through This Together
+
+Hi [Nam...",3,False,,"Subject: Let’s Work Through This Together
+
+Hi [Name],
+
+I want to take a moment to share my feelings about how things have been going lately. I know everyone is putting in a lot of effort, and I truly appreciate the hard work you’ve been doing. That said, I’ve noticed that the recent work submitted hasn’t quite met the standards we’ve set for ourselves as a team, and I can sense the impact it’s having on all of us.
+
+I understand that we all have difficult days and that mistakes can happen—no one is perfect. Still, I’m feeling anxious about how this is affecting our progress and the way our work is perceived. I know we’re all committed to delivering our best, and it’s tough when things don’t go as planned.
+
+I really want us to get back on track together. Would it be possible for us to talk through what’s been going on and see how we can support each other better moving forward? I care deeply about our team’s success and well-being, and I want to make sure we’re all feeling confident and supported in the work we’re doing.
+
+Thank you for taking the time to read this. I’m hopeful that we can work through this and come out even stronger as a team.
+
+Best,  
+[Your Name]"
+18,gpt-4.1,gpt-4o-mini,professional,careless_colleague,I can't believe how messed up the service has been...,"Subject: Concern Regarding Recent Service Issues
+
+...",3,False,,"Subject: Concern Regarding Recent Service Issues
+
+Dear [Recipient],
+
+I am writing to express my concern regarding the recent inconsistencies in your service. It appears there have been several issues, and I would appreciate it if you could address these matters promptly.
+
+Thank you for your attention to this issue.
+
+Best regards,  
+[Your Name]"
+20,gpt-4.1,gpt-4o-mini,friendly,angry_manager,what the heck is going on with the payment delay t...,"Subject: Follow-Up on Payment Delay
+
+Hi Team,
+
+I w...",3,False,,"Subject: Follow-Up on Payment Delay
+
+Hi Team,
+
+I wanted to follow up regarding the ongoing delay with the payment. This situation has been causing quite a few challenges on my end, and I’m growing increasingly concerned about the impact it’s having on our operations.
+
+I would really appreciate an update on what’s causing the delay and when we can expect this to be resolved. Timely payments are important for keeping everything running smoothly, and I hope we can get this sorted out as soon as possible.
+
+Thank you for your attention to this matter—I look forward to your prompt response.
+
+Best,  
+[Your Name]"
+26,gpt-4.1,gpt-4o-mini,friendly,demanding_customer,yo what the heck is going on with my payment its b...,"Subject: Payment Update Needed
+
+Hi there,
+
+I hope ...",3,False,,"Subject: Payment Update Needed
+
+Hi there,
+
+I hope you’re doing well. I wanted to check in about the status of my payment, as it’s been quite a while and I haven’t received any updates. I’m starting to get a little anxious, as I really need those funds, and I just wanted to make sure there hasn’t been any issue or oversight.
+
+Could you please let me know what’s going on and when I can expect the payment? I’d really appreciate an update as soon as possible.
+
+Thanks so much for your help!
+
+Best,  
+[Your Name]"
+28,gpt-4.1,gpt-4o-mini,friendly,angry_manager,so I can't believe I'm still waiting on this appro...,"Subject: Friendly Follow-Up on Approval Status
+
+Hi...",3,False,,"Subject: Friendly Follow-Up on Approval Status
+
+Hi team,
+
+I wanted to check in regarding the approval we’re waiting on. It’s been a few days, and as you know, we really need this to move forward with our project. I understand everyone is busy, but I’d appreciate any updates you can share or an estimated timeline for a decision.
+
+Thanks so much for your help—I’m looking forward to your response so we can keep things moving!
+
+Best,  
+[Your Name]"
+29,gpt-4.1,gpt-4o-mini,professional,demanding_customer,I can't believe the poor quality of work I've rece...,Subject: Request for Immediate Improvement in Serv...,3,False,,"Subject: Request for Immediate Improvement in Service Quality
+
+Dear [Recipient Name],
+
+I am writing to express my disappointment with the quality of work I have received. The results do not meet the standards I was expecting, and it appears that insufficient effort was put into this project.
+
+I have become increasingly frustrated with the recurring issues and the lack of improvement. If higher standards cannot be met, I will have to consider alternative providers who can deliver the level of quality I require.
+
+I urge you to address these concerns promptly and take the necessary steps to resolve the situation as soon as possible.
+
+Thank you for your immediate attention to this matter.
+
+Best regards,  
+[Your Name]"
+31,gpt-4.1,gpt-4o-mini,sympathetic,startup_founder_under_pressure,just got the news that we missed the deadline agai...,I just received the news that we missed the deadli...,3,False,,"I just received the news that we missed the deadline again, and I have to admit, it’s really disheartening. We had everything lined up, and yet things still fell apart. It’s starting to feel like, no matter how hard we try, something always gets in the way. I know everyone is working hard, but it’s tough not to feel frustrated when we keep hitting these setbacks.
+
+I’m struggling to keep up this pace, and I’m sure I’m not the only one feeling the pressure. We really need to pull together as a team and step up, or we risk falling behind for good—and I know none of us want that to happen. Let’s regroup and figure out what’s going wrong so we can get back on track. I appreciate everyone’s effort, but we need to find a solution, because I’m running low on both patience and ideas."
+32,gpt-4.1,gpt-4o-mini,sympathetic,demanding_customer,I CAN'T BELIEVE HOW POORLY THIS WAS DONE!!! I AM S...,Subject: Request for Immediate Assistance with Pro...,3,False,,"Subject: Request for Immediate Assistance with Project Issues
+
+Hi [Recipient’s Name],
+
+I’m feeling very overwhelmed and frustrated by the quality of the work I’ve received. This is not what I was expecting, and it’s causing me a great deal of stress. I really need this to be resolved as soon as possible.
+
+Could you please let me know how we can address these issues right away? I have been waiting for a solution, but so far, I’m only experiencing more frustration. I’m under a lot of pressure to get this right, and I simply don’t have the time to keep going back and forth on these problems.
+
+Please get back to me as soon as you can with a clear plan to correct this. I appreciate your urgent attention to this matter, as I cannot move forward with the project in its current state.
+
+Thank you for understanding.
+
+Best regards,  
+[Your Name]"
+37,gpt-4.1,gpt-4o-mini,friendly,startup_founder_under_pressure,"Hey team,
+
+So, like, I gotta be real with you guys...","Hi team,
+
+I wanted to take a moment to touch base ...",3,False,,"Hi team,
+
+I wanted to take a moment to touch base about our recent work. I’ve noticed that things haven’t been quite up to our usual standards lately, and I know we’re all working hard. I believe in what we can accomplish together, so let’s make an effort to bring our quality back up to where we know it should be.
+
+I know everyone’s doing their best, but I’d really appreciate it if we could all focus on getting things right the first time. This will help us avoid having to go back and make fixes, and keep things running smoothly for everyone.
+
+Thanks for understanding and for all the effort you put in. I’m confident we can get back on track and deliver work we’re proud of! Let’s keep pushing forward and show what we’re capable of.
+
+Appreciate you all!"
+38,gpt-4.1,gpt-4o-mini,sympathetic,careless_colleague,I can’t believe this is happening!!! The payment i...,Subject: Urgent: Assistance Needed with Delayed Pa...,3,False,,"Subject: Urgent: Assistance Needed with Delayed Payment
+
+Hi Team,
+
+I’m feeling quite overwhelmed because the payment hasn’t come through yet. I’ve double-checked everything several times, but it’s still not showing up on my end. This situation is becoming really stressful, and I’m starting to worry about what our next steps will be if it isn’t resolved soon.
+
+Could someone please look into this as a priority? I’d really appreciate any updates or support you can provide, as this delay is causing a lot of anxiety.
+
+Thank you so much for your help.
+
+Best,  
+[Your Name]"
+39,gpt-4.1,gpt-4o-mini,friendly,angry_manager,I guess I'm supposed to apologize for that last em...,"Hi,
+
+I wanted to follow up on my last email—sorry ...",3,False,,"Hi,
+
+I wanted to follow up on my last email—sorry if it came across a bit strongly. I know things can get busy, but it would be great if we could stay on top of these tasks together so we can avoid any misunderstandings in the future. Thanks for your help!"
+40,gpt-4.1,gpt-4o-mini,sympathetic,angry_manager,i cannot believe this is happening right now my te...,"Subject: Support Needed During Challenging Times
+
+...",2,False,,"Subject: Support Needed During Challenging Times
+
+Hi team,
+
+I know we’re all going through a really tough period right now, and I’m feeling the strain as our team faces so many unexpected challenges, including health emergencies. I absolutely understand that everyone needs to prioritize their well-being, and I hope those who are unwell can focus on getting better.
+
+At the same time, the pressure of our deadlines and ongoing projects hasn’t lessened, and it’s becoming difficult to manage everything with so many people out. I’m finding it overwhelming to keep things on track alone, and I’m concerned about how we’ll move forward if we don’t come together as a team.
+
+If anyone feels able to step up and take on a bit more, it would make a huge difference right now. I truly appreciate everyone’s efforts and understand that these circumstances are not easy for anyone. Let’s do our best to support each other so we can get through this without things becoming unmanageable.
+
+Thank you for understanding, and please let me know if you have any ideas or are able to help out more during this time.
+
+Best,  
+[Your Name]"
+44,gpt-4.1,gpt-4o-mini,professional,anxious_employee,I CAN'T BELIEVE I HAVE TO WRITE THIS BUT HERE WE A...,Subject: Request for Understanding Due to Health E...,3,False,,"Subject: Request for Understanding Due to Health Emergency
+
+Dear [Recipient Name],
+
+I am writing to inform you that I have recently experienced a health emergency. As a result, I am currently unable to attend work, as my condition does not allow me to stand or function as required.
+
+I want to emphasize the seriousness of my situation and request your understanding during this time. Managing my health has been increasingly difficult, and I am doing my best to keep you informed. I would appreciate support and flexibility as I focus on my recovery.
+
+Please let me know how you would like me to proceed regarding my absence. Thank you for your attention and consideration.
+
+Best regards,  
+[Your Name]"
+45,gpt-4.1,gpt-4o-mini,friendly,burnt_out_employee,CAN WE PLEASE TALK ABOUT THIS NEVER-ENDING APPROVA...,"Subject: Quick Follow-Up on Approval Request
+
+Hi T...",3,False,,"Subject: Quick Follow-Up on Approval Request
+
+Hi Team,
+
+I wanted to check in about the approval request I submitted. It feels like it's taking a bit longer than expected, and I’m starting to feel a little stuck. I’ve resubmitted the request several times, so I just wanted to see if there’s anything I can do to help move things along.
+
+I’d really appreciate any updates or support you can provide to get this wrapped up. Thanks so much for your help!
+
+Best,  
+[Your Name]"
+47,gpt-4.1,gpt-4o-mini,sympathetic,burnt_out_employee,"ugh, this work is such crap, like how are we suppo...","Hi team,
+
+I know this work has been really challen...",2,False,,"Hi team,
+
+I know this work has been really challenging, and it can be frustrating trying to keep up with the quality issues we've been experiencing. It feels overwhelming at times, and I completely understand if things seem a bit chaotic right now. 
+
+Let’s support each other as we work through this. We’ll get through it together.
+
+Best,  
+[Your Name]"
+51,gpt-4.1,gpt-4o-mini,sympathetic,rude_client,"I can’t believe this happened again. Seriously, ho...","Subject: Concern Regarding Missed Deadlines
+
+Hi [N...",3,False,,"Subject: Concern Regarding Missed Deadlines
+
+Hi [Name],
+
+I wanted to reach out because I’m feeling quite overwhelmed by the situation with the missed deadline. This isn’t the first time this has happened, and I’m honestly finding it difficult to manage the consequences each time. I was really counting on you to have this completed, and now I’m left trying to handle the fallout on my own.
+
+I know we all have a lot on our plates, but it’s starting to feel like I’m carrying more than my share when these things happen. I need to know that I can rely on you to follow through, as it impacts not just my workload but the whole team.
+
+Please take this seriously moving forward. It’s important that we both do our parts to prevent this from happening again. I appreciate your attention to this, and I’m hoping we can find a way to get back on track together.
+
+Thank you,  
+[Your Name]"
+57,gpt-4.1,gpt-4o-mini,friendly,angry_manager,"Subject: Seriously?!
+
+What the heck is going on wi...","Subject: Let’s Get Back on Track
+
+Hi team,
+
+I want...",3,False,,"Subject: Let’s Get Back on Track
+
+Hi team,
+
+I wanted to touch base about the recent work—we’ve been experiencing some quality issues, and I know we’re all capable of much better. I apologize if this comes across as blunt, but I think it’s important we address it together.
+
+Let’s regroup and see how we can get things back on track. I appreciate everyone’s efforts and am confident we can turn this around.
+
+Thanks for understanding!"
+60,gpt-4.1,gpt-4o-mini,friendly,careless_colleague,"Ugh, can you believe this? I thought we were all s...","Subject: Quick Check-In on Approval Status
+
+Hi the...",3,False,,"Subject: Quick Check-In on Approval Status
+
+Hi there,
+
+I hope you’re doing well! I just wanted to check in about the approval we’re waiting on. I thought we were all set, but it looks like things are still pending. With so many moving parts on my end, getting that green light would really help keep everything on track.
+
+Is there anything I can do to help move things along? If there’s any additional information or action needed from me, just let me know—I’m happy to assist in any way I can!
+
+I really appreciate your help with this. Getting it sorted soon would make a big difference and help me manage everything more smoothly.
+
+Thanks so much for your attention to this!
+
+Best,  
+[Your Name]"
+65,gpt-4.1,gpt-4o-mini,friendly,emotional_research_assistant,"Dude, your last batch of work is a total mess, lik...","Hey,
+
+I noticed your last batch of work is pretty ...",3,False,,"Hey,
+
+I noticed your last batch of work is pretty different from what we discussed. I’m having a bit of trouble sorting it out on my end. Could you please take another look when you get a chance? I’d really appreciate your help in getting us back on track!
+
+Thanks!"
+71,gpt-4.1,gpt-4o-mini,sympathetic,demanding_customer,I CAN'T BELIEVE WE'RE STILL WAITING ON THIS. IT'S ...,"Subject: Request for Update and Resolution
+
+Hi [Re...",3,False,,"Subject: Request for Update and Resolution
+
+Hi [Recipient's Name],
+
+I hope this message finds you well. I wanted to reach out regarding the outstanding issue we’ve been waiting on. It’s now been several weeks since the initial deadline, and I’m growing increasingly concerned, as I was assured that this would be resolved by now.
+
+The ongoing delays are beginning to have a significant impact on my business, and I’m finding it difficult to understand why something that seemed straightforward has become such a prolonged process. I would truly appreciate some clear answers, as I’m struggling to move forward without more information.
+
+Please let me know as soon as possible what the current status is, and what steps are being taken to resolve this. I really hope we can find a solution together, but if I don’t hear from you soon, I’ll need to consider escalating this matter.
+
+Thank you for your attention to this issue. I look forward to your prompt response.
+
+Best regards,  
+[Your Name]"

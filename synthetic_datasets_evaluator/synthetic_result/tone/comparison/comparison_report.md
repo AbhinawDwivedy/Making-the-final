@@ -6,7 +6,7 @@ This compares **directional evaluations**:
 
 | Direction          |   Overall |
 |:-------------------|----------:|
-| 4.1_gen__Mini_eval |      4.67 |
-| Mini_gen__4.1_eval |      4.67 |
+| 4.1_gen__Mini_eval |    3.5194 |
+| Mini_gen__4.1_eval |    4.1132 |
 
 ![Chart](cross_direction_comparison.png)
