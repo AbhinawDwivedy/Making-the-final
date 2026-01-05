@@ -19,13 +19,18 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Initialize generator
+# Initialize generator for rewrite
 model = os.getenv("OPENAI_MODEL", "gpt-4o-mini")
 if not model:
     print("Warning: OPENAI_MODEL not set, defaulting to gpt-4o-mini")
     model = "gpt-4o-mini"
     
 gen = GenerateEmail(model)
+
+# Initialize generator for chat (using OPENAI_MODEL2)
+chat_model = os.getenv("OPENAI_MODEL2", "gpt-4.1")
+print(f"Chat using model: {chat_model}")
+chat_gen = GenerateEmail(chat_model)
 
 class RewriteRequest(BaseModel):
     mode: str
@@ -60,6 +65,24 @@ async def rewrite_email(request: RewriteRequest):
         
     except Exception as e:
         print(f"Error processing request: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+class ChatRequest(BaseModel):
+    message: str
+    email_context: str = ""
+    conversation_history: list = []
+
+@app.post("/chat")
+async def chat_endpoint(request: ChatRequest):
+    try:
+        result = chat_gen.chat(
+            user_message=request.message,
+            email_context=request.email_context,
+            conversation_history=request.conversation_history
+        )
+        return {"status": "ok", "result": result}
+    except Exception as e:
+        print(f"Error processing chat request: {e}")
         raise HTTPException(status_code=500, detail=str(e))
 
 if __name__ == "__main__":

@@ -155,3 +155,35 @@ class GenerateEmail:
             {"role": "user", "content": user}
         ])
 
+    def chat(self, user_message, email_context="", conversation_history=None):
+        """
+        Handle chat conversation with context.
+        
+        Args:
+            user_message: The user's chat message
+            email_context: Current email content for context
+            conversation_history: List of previous messages [{"role": "user/assistant", "content": "..."}]
+        
+        Returns:
+            AI response string
+        """
+        if conversation_history is None:
+            conversation_history = []
+        
+        # Build system prompt with email context
+        system = prompts["chat"]["system"].format(
+            email_context=email_context if email_context else "(No email content yet - user may be drafting a new email)"
+        )
+        
+        # Build messages list
+        messages = [{"role": "system", "content": system}]
+        
+        # Add conversation history
+        for msg in conversation_history:
+            messages.append(msg)
+        
+        # Add current user message
+        messages.append({"role": "user", "content": user_message})
+        
+        return self._call_api(messages)
+
