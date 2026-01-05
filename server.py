@@ -2,6 +2,7 @@ from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from fastapi.middleware.cors import CORSMiddleware
 from generate import GenerateEmail
+from chat_generate import ChatGenerator
 import os
 from dotenv import load_dotenv
 
@@ -30,7 +31,8 @@ gen = GenerateEmail(model)
 # Initialize generator for chat (using OPENAI_MODEL2)
 chat_model = os.getenv("OPENAI_MODEL2", "gpt-4.1")
 print(f"Chat using model: {chat_model}")
-chat_gen = GenerateEmail(chat_model)
+# Use the new ChatGenerator that uses ext_prompts.yaml
+chat_gen = ChatGenerator(chat_model)
 
 class RewriteRequest(BaseModel):
     mode: str
@@ -67,6 +69,70 @@ async def rewrite_email(request: RewriteRequest):
         print(f"Error processing request: {e}")
         raise HTTPException(status_code=500, detail=str(e))
 
+# ============================================
+# AGENTIC MODE ENDPOINT
+# ============================================
+from agent import EmailRefinementAgent
+
+class AgenticRequest(BaseModel):
+    mode: str
+    text: str
+    target_score: float = 4.5
+    max_attempts: int = 3
+
+@app.post("/rewrite-agentic")
+async def rewrite_agentic(request: AgenticRequest):
+    """
+    Agentic email rewriting with iterative refinement.
+    The agent will refine the email until quality target is met.
+    """
+    try:
+        mode = request.mode.lower()
+        
+        # Parse mode
+        action = mode
+        tone = None
+        
+        if mode.startswith("tone:"):
+            action = "tone"
+            tone_parts = mode.split(":")
+            if len(tone_parts) > 1:
+                tone = tone_parts[1].capitalize()
+        elif mode == "professional":
+            action = "tone"
+            tone = "Professional"
+        elif mode == "elaborate":
+            action = "lengthen"
+        
+        print(f"[AGENTIC] Processing: action={action}, tone={tone}")
+        
+        # Create agent with user-specified parameters
+        agent = EmailRefinementAgent(
+            target_score=request.target_score,
+            max_attempts=request.max_attempts,
+            model=model  # Use same model as regular endpoint
+        )
+        
+        # Run the agentic refinement
+        result = agent.achieve_goal(request.text, task=action, tone=tone)
+        
+        return {
+            "status": "ok",
+            "result": result["final_output"],
+            "agentic_info": {
+                "goal_achieved": result["goal_achieved"],
+                "attempts_used": result["attempts_used"],
+                "final_scores": result["final_scores"],
+                "agent_log": result["agent_log"]
+            }
+        }
+        
+    except Exception as e:
+        print(f"[AGENTIC] Error: {e}")
+        import traceback
+        traceback.print_exc()
+        raise HTTPException(status_code=500, detail=str(e))
+
 class ChatRequest(BaseModel):
     message: str
     email_context: str = ""
@@ -88,3 +154,4 @@ async def chat_endpoint(request: ChatRequest):
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=8000)
+
