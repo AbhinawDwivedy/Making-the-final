@@ -12,6 +12,7 @@ Beyond the application itself, this repository contains a robust **End-to-End Ev
     -   **Elaborate**: Expand on brief points to create full emails.
 -   **Constraint Preservation**: Specialized logic to ensure URLs and specific formatting remain untouched during edits.
 -   **Real-time Evaluation**: Built-in "LLM-as-a-Judge" feedback loop to score the AI's output on *Faithfulness*, *Completeness*, and *Robustness*.
+-   **Agentic Refinement**: Autonomous agent (`agent.py`) that iteratively improves emails through self-evaluation and adaptive strategies until it meets quality targets.
 -   **Interactive UI**: A user-friendly Streamlit application for testing and demoing features.
 
 ## 📂 Project Structure
@@ -20,6 +21,7 @@ Beyond the application itself, this repository contains a robust **End-to-End Ev
 -   **`app.py`**: The main Streamlit web application.
 -   **`generate.py`**: Handles interaction with OpenAI's API for generating email edits.
 -   **`judge.py`**: Contains the logic for the "LLM Judge" to evaluate outputs.
+-   **`agent.py`**: Implementation of the **EmailRefinementAgent**, an autonomous loop that generates, evaluates, diagnoses issues, and adapts its strategy to achieve high-quality results.
 
 ### 2. Tone Analysis (`/tone`)
 Dedicated module for testing model performance on tone shifting.
@@ -42,6 +44,17 @@ A browser extension to bring the AI editor directly into the Gmail interface.
 -   **`manifest.json`**: Extension configuration.
 -   **`content.js`**: Script that interacts with the Gmail DOM to inject buttons and read email content.
 -   **`popup.html/js`**: UI for the extension's popup window.
+
+### 6. Selected Text (`/select`)
+Module for "Elaborate" and other text selection based features.
+-   **`selected_text_synthesis.py`**: Generates synthetic data for selected text operations.
+-   **`selected_text_evaluate.py`**: Evaluates model performance on selected text tasks.
+
+### 7. Datasets Evaluator (`/datasets_evaluator`)
+General purpose evaluation scripts for the core datasets.
+-   **`cross_eval.py`**: Runs cross-evaluation across different models and tasks.
+-   **`analytics.py`**: helper script for analyzing evaluation results.
+
 
 ## 🚀 Getting Started
 
@@ -96,6 +109,9 @@ python url_evaluate.py
 ## 🤖 Models Used
 -   **Generative Models**: `gpt-4o-mini`, `gpt-4.1` (Custom fine-tunes or aliases).
 -   **Judge Model**: Typically a stronger model (e.g., GPT-4o) used to score the outputs of the smaller generative models.
+
+## ☁️ Deployment
+For instructions on deploying to Streamlit Cloud, see [DEPLOYING.md](DEPLOYING.md).
 
 ## 📝 License
 [Your License Here]
