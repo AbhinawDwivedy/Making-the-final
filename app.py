@@ -1296,6 +1296,7 @@ import yaml
 from dotenv import load_dotenv
 from generate import GenerateEmail
 from judge import EmailJudge
+from agent_generate import AgentEmailEditor
 
 load_dotenv()
 
@@ -1374,7 +1375,7 @@ with open("prompts.yaml", "r", encoding="utf-8") as f:
 # SESSION STATE INIT
 # =========================
 if "gen_model" not in st.session_state:
-    st.session_state.gen_model = "gpt-4o-mini"
+    st.session_state.gen_model = "gpt-4.1"
 if "eval_model" not in st.session_state:
     st.session_state.eval_model = "gpt-4.1"
 if "generated_text" not in st.session_state:
@@ -1395,6 +1396,10 @@ if "applied_message" not in st.session_state:
     st.session_state.applied_message = False
 if "email_refresh_counter" not in st.session_state:
     st.session_state.email_refresh_counter = 0
+if "agent_mode" not in st.session_state:
+    st.session_state.agent_mode = False
+if "agent_log" not in st.session_state:
+    st.session_state.agent_log = []
 
 # Header
 st.title("📧 AI Email Editor")
@@ -1415,6 +1420,18 @@ st.session_state.eval_model = st.sidebar.selectbox(
     AVAILABLE_MODELS,
     index=AVAILABLE_MODELS.index(st.session_state.eval_model)
 )
+
+st.sidebar.divider()
+
+# --- Agent Mode Toggle ---
+st.sidebar.markdown("## 🧠 Agent Mode")
+st.session_state.agent_mode = st.sidebar.toggle(
+    "Enable Agent Mode",
+    value=st.session_state.agent_mode,
+    help="When ON, uses Think→Plan→Act→Observe loop with gpt-4.1 for better quality"
+)
+if st.session_state.agent_mode:
+    st.sidebar.info("🤖 Agent will analyze, plan, execute, and verify each edit")
 
 st.sidebar.divider()
 
@@ -1547,39 +1564,72 @@ st.divider()
 # ==========================================
 
 st.markdown("### 🛠️ Actions")
+
+# Show agent mode indicator
+if st.session_state.agent_mode:
+    st.markdown("""
+    <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); 
+                color: white; padding: 10px 15px; border-radius: 10px; margin-bottom: 15px;">
+        🧠 <strong>Agent Mode Active</strong> — Using Think→Plan→Act→Observe loop
+    </div>
+    """, unsafe_allow_html=True)
+
 c1, c2, c3 = st.columns(3)
 
 # Get the text to edit
 text_to_edit = st.session_state.selected_text_input if st.session_state.selection_mode else None
 can_edit = not st.session_state.selection_mode or (st.session_state.selected_text_input.strip() != "")
 
+# Helper function to run generation (normal or agent mode)
+def run_generation(action: str, email_text: str, tone: str = None, selected_text: str = None):
+    """Run generation using either normal mode or agent mode based on toggle."""
+    if st.session_state.agent_mode:
+        # Use Agent Mode
+        agent = AgentEmailEditor(max_loops=3)
+        result = agent.generate(
+            action=action,
+            email_text=email_text,
+            tone=tone,
+            selected_text=selected_text
+        )
+        st.session_state.agent_log = result.get("agent_log", [])
+        return result.get("result", "")
+    else:
+        # Use Normal Mode
+        st.session_state.agent_log = []
+        return gen.generate(action, email_text, tone=tone, selected_text=selected_text)
+
 with c1:
     if st.button("📖 Elaborate", use_container_width=True, disabled=not can_edit):
-        if st.session_state.selection_mode:
-            st.session_state.original_selection = st.session_state.selected_text_input
-            st.session_state.generated_text = gen.generate(
-                "lengthen", 
-                text, 
-                selected_text=st.session_state.selected_text_input
-            )
-        else:
-            st.session_state.generated_text = gen.generate("lengthen", text)
+        with st.spinner("🧠 Processing..." if st.session_state.agent_mode else "Generating..."):
+            if st.session_state.selection_mode:
+                st.session_state.original_selection = st.session_state.selected_text_input
+                st.session_state.generated_text = run_generation(
+                    "lengthen", 
+                    text, 
+                    selected_text=st.session_state.selected_text_input
+                )
+            else:
+                st.session_state.generated_text = run_generation("lengthen", text)
         st.session_state.eval_result = None
         st.session_state.show_tone = False
+        st.rerun()
 
 with c2:
     if st.button("✂️ Shorten", use_container_width=True, disabled=not can_edit):
-        if st.session_state.selection_mode:
-            st.session_state.original_selection = st.session_state.selected_text_input
-            st.session_state.generated_text = gen.generate(
-                "shorten", 
-                text, 
-                selected_text=st.session_state.selected_text_input
-            )
-        else:
-            st.session_state.generated_text = gen.generate("shorten", text)
+        with st.spinner("🧠 Processing..." if st.session_state.agent_mode else "Generating..."):
+            if st.session_state.selection_mode:
+                st.session_state.original_selection = st.session_state.selected_text_input
+                st.session_state.generated_text = run_generation(
+                    "shorten", 
+                    text, 
+                    selected_text=st.session_state.selected_text_input
+                )
+            else:
+                st.session_state.generated_text = run_generation("shorten", text)
         st.session_state.eval_result = None
         st.session_state.show_tone = False
+        st.rerun()
 
 with c3:
     if st.button("🎭 Change Tone", use_container_width=True, disabled=not can_edit):
@@ -1596,18 +1646,21 @@ if st.session_state.show_tone:
         placeholder="Choose a tone..."
     )
     if tone:
-        if st.session_state.selection_mode:
-            st.session_state.original_selection = st.session_state.selected_text_input
-            st.session_state.generated_text = gen.generate(
-                "tone", 
-                text, 
-                tone=tone,
-                selected_text=st.session_state.selected_text_input
-            )
-        else:
-            st.session_state.generated_text = gen.generate("tone", text, tone=tone)
+        with st.spinner("🧠 Processing..." if st.session_state.agent_mode else "Generating..."):
+            if st.session_state.selection_mode:
+                st.session_state.original_selection = st.session_state.selected_text_input
+                st.session_state.generated_text = run_generation(
+                    "tone", 
+                    text, 
+                    tone=tone,
+                    selected_text=st.session_state.selected_text_input
+                )
+            else:
+                st.session_state.generated_text = run_generation("tone", text, tone=tone)
         st.session_state.show_tone = False
         st.session_state.eval_result = None
+        st.rerun()
+
 
 # ==========================================
 # RESULTS DISPLAY
@@ -1674,6 +1727,53 @@ if st.session_state.generated_text:
             st.session_state.generated_text,
             height=250
         )
+    
+    # ==========================================
+    # AGENT LOG DISPLAY (when agent mode was used)
+    # ==========================================
+    if st.session_state.agent_log:
+        with st.expander("🧠 Agent Reasoning Log", expanded=False):
+            for entry in st.session_state.agent_log:
+                phase = entry.get("phase", "")
+                message = entry.get("message", "")
+                details = entry.get("details", {})
+                
+                # Color code by phase
+                if phase == "THINK":
+                    st.markdown(f"**🧠 THINK:** {message}")
+                    if details and "key_facts" in details:
+                        st.caption(f"Key facts: {details.get('key_facts', [])}")
+                        st.caption(f"URLs: {details.get('urls', [])}")
+                elif phase == "PLAN":
+                    st.markdown(f"**📋 PLAN:** {message}")
+                    if details and "steps" in details:
+                        for step in details.get("steps", []):
+                            st.caption(f"  • {step}")
+                elif phase == "ACT":
+                    st.markdown(f"**⚡ ACT:** {message}")
+                elif phase == "OBSERVE":
+                    st.markdown(f"**👁️ OBSERVE:** {message}")
+                    # Show scores nicely
+                    if details and "scores" in details:
+                        scores = details.get("scores", {})
+                        col1, col2, col3, col4 = st.columns(4)
+                        col1.metric("Faithfulness", f"{scores.get('faithfulness', 0)}/5")
+                        col2.metric("Completeness", f"{scores.get('completeness', 0)}/5")
+                        col3.metric("Robustness", f"{scores.get('robustness', 0)}/5")
+                        col4.metric("Overall", f"{scores.get('overall', 0)}/5")
+                        if details.get("critique"):
+                            st.caption(f"Critique: {details.get('critique')}")
+                elif phase == "SUCCESS":
+                    st.success(f"✅ {message}")
+                elif phase == "LOOP":
+                    st.info(f"🔄 {message}")
+                elif phase == "RETRY":
+                    st.warning(f"⚠️ {message}")
+                elif phase == "MAX_LOOPS":
+                    st.warning(f"⚠️ {message}")
+                else:
+                    st.markdown(f"**{phase}:** {message}")
+
 
     # Evaluate button
     if st.button("🔍 Evaluate"):

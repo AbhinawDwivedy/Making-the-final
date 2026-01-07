@@ -6,13 +6,13 @@
 
 |              |   Score |
 |:-------------|--------:|
-| Faithfulness | 4.40426 |
-| Completeness | 4.76596 |
-| Robustness   | 4.78723 |
-| Overall      | 4.65362 |
+| Faithfulness | 4.58333 |
+| Completeness | 4.79167 |
+| Robustness   | 4.79167 |
+| Overall      | 4.72292 |
 
 ## Notes
-- Cross-model evaluation (no self-judging)
-- Scores averaged across full dataset
+- Evaluation performed only by GPT-4.1
+- Scores averaged across dataset
 
 ![Chart](metric_bar_chart.png)

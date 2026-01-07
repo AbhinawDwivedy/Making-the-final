@@ -40,6 +40,10 @@ An examination of failures (scores < 4) and defects in `tone_defects.csv` reveal
 - **Intent Drift (Score 3)**: In some cases, the model "sanitized" the email so thoroughly that the urgency or severity of the original message was lost. For example, a `rude_client` demanding immediate payment validation had their anger completely removed, potentially leading to a misinterpretation of the situation's gravity.
 - **Hallucination**: Rare instances where the model invented specific details (e.g., inventing a specific "traffic delay" reason) to make an excuse sound more plausible when the original was vague.
 
+
+### 3.4 Analysis of Performance Gap
+The primary driver of this disparity appears to be style–content entanglement in GPT-4o-mini. When rewriting messages with extreme tone changes (e.g., converting hostile language to professional), GPT-4o-mini frequently conflated stylistic adjustments with factual content, unintentionally softening or altering hard constraints. GPT-4.1, by contrast, exhibited stronger semantic anchoring, treating factual content as immutable while applying stylistic changes strictly at the surface level. This separation prevented hallucinations and intent drift even in complex scenarios.
+
 ## 4. Conclusion and Recommendations
 The AI-driven tone modifier is highly effective for general business communication. It robustly handles the conversion of unstructured, emotional text into polished professional correspondence. 
 

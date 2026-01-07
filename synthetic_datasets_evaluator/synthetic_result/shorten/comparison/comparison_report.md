@@ -1,12 +1,12 @@
 # Shorten — Cross Evaluation Comparison
 
-This compares **directional evaluations**:
-- 4.1 → Mini
+Comparison of generation quality judged by GPT-4.1:
+- 4.1 → 4.1
 - Mini → 4.1
 
 | Direction          |   Overall |
 |:-------------------|----------:|
-| 4.1_gen__Mini_eval |    4.264  |
-| Mini_gen__4.1_eval |    4.6184 |
+| 4.1_gen__4.1_eval  |     4.652 |
+| Mini_gen__4.1_eval |     4.666 |
 
 ![Chart](cross_direction_comparison.png)

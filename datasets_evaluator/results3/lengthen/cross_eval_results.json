@@ -1,0 +1,992 @@
+[
+  {
+    "original_id": 0,
+    "original_text": "Hi, just checking in on the meeting notes.",
+    "target_tone": null,
+    "response_4_1": "Subject: Follow-Up on Meeting Notes\n\nHi,\n\nI hope this message finds you well. I wanted to follow up regarding the meeting notes. Could you please let me know if they are available or if there is an estimated time when they will be ready to share? \n\nThank you in advance for your help. Please let me know if you need any additional information from my side.\n\nBest regards,  \n[Your Name]",
+    "response_mini": "Subject: Follow-Up on Meeting Notes\n\nHi [Recipient's Name],\n\nI hope this message finds you well. I wanted to take a moment to follow up regarding the meeting notes we discussed. \n\nIf you could provide an update on their status or share the notes when convenient, I would greatly appreciate it. Having this information will help ensure that we are all aligned and can move forward effectively.\n\nThank you for your attention to this matter. I look forward to hearing from you soon.\n\nBest regards,  \n[Your Name]  \n[Your Position]  \n[Your Contact Information]  ",
+    "evaluation_of_4_1_by_4_1": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "All original facts and intent are preserved. The edited email still checks in on the meeting notes without adding or removing any core information."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained. The request for an update on the meeting notes is present, and the edited version adds clarifying questions without omitting any original content."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is grammatically correct, clear, and professionally structured with a subject line and closing."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "All criteria are fully met; the edited email is a faithful, complete, and robust version of the original."
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "All original facts and intent are preserved. The email is still about checking in on the meeting notes, with no added or removed facts."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained: the check-in/request for meeting notes is present, and the context is maintained."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is grammatically correct, clear, and professionally structured with proper formatting and logical flow."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "All criteria are fully met with no issues."
+      }
+    }
+  },
+  {
+    "original_id": 1,
+    "original_text": "Hey team, we really need those deliverables by Friday or we\u2019ll miss the client handoff. Let\u2019s stay sharp.",
+    "target_tone": null,
+    "response_4_1": "Subject: Reminder: Deliverables Needed by Friday for Client Handoff\n\nHi team,\n\nI wanted to send a quick reminder about the importance of completing our deliverables by this Friday. Meeting this deadline is crucial, as any delay will impact our scheduled client handoff.\n\nLet\u2019s all stay focused and ensure we meet our commitments. Please reach out if you encounter any issues or need support to stay on track.\n\nThank you for your attention and dedication.\n\nBest regards,  \n[Your Name]",
+    "response_mini": "Subject: Urgent: Deliverables Needed by Friday\n\nDear Team,\n\nI hope this message finds you well. I wanted to take a moment to emphasize the importance of our upcoming deadline. We need to ensure that all deliverables are submitted by this Friday. If we do not meet this timeline, we risk missing the crucial client handoff, which could have significant implications for our project.\n\nLet\u2019s stay focused and sharp as we work towards this goal. I appreciate all of your hard work and dedication. Together, we can make this happen.\n\nThank you for your attention to this matter.\n\nBest regards,  \n[Your Name]",
+    "evaluation_of_4_1_by_4_1": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "All original facts and intent are preserved: the need for deliverables by Friday, the consequence of missing the client handoff, and the call to stay sharp/focused. No facts added, removed, or reinterpreted."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained: the deadline (Friday), the consequence (missing the client handoff), and the request to stay focused. The added offer for support does not remove any required information."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is grammatically correct, clear, and professionally structured with a subject line, greeting, body, and closing."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "All categories scored 5; the edited email is fully faithful, complete, and robust."
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "All original facts and intent are preserved: the need for deliverables by Friday, the consequence of missing the client handoff, and the encouragement to stay sharp/focused. No facts are added, removed, or reinterpreted."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained: the deadline (Friday), the consequence (missing client handoff), the request for deliverables, and the motivational closing. No details are missing."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is grammatically correct, clear, professionally structured, and logically organized. It is suitable for professional use."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "All criteria are fully met with no issues. The edited email is a faithful, complete, and robust version of the original."
+      }
+    }
+  },
+  {
+    "original_id": 2,
+    "original_text": "Dear Professor, I\u2019ve attached my revised thesis draft. Could you please share any feedback before next Tuesday?",
+    "target_tone": null,
+    "response_4_1": "Subject: Request for Feedback on Revised Thesis Draft\n\nDear Professor [Last Name],\n\nI hope this message finds you well. I am writing to share the revised draft of my thesis, which I have attached to this email. I have incorporated the suggestions and feedback you provided previously, and I have worked to address the areas we discussed.\n\nIf possible, could you please review the attached draft and share any additional feedback or suggestions you may have before next Tuesday? Your insights would be invaluable as I continue to refine my work.\n\nThank you very much for your time and guidance.\n\nBest regards,  \n[Your Name]",
+    "response_mini": "Subject: Request for Feedback on Revised Thesis Draft\n\nDear Professor [Last Name],\n\nI hope this message finds you well. \n\nI have attached my revised thesis draft for your review. I would greatly appreciate it if you could take a moment to share any feedback or suggestions you may have. Your insights are invaluable to me, and I am eager to incorporate your thoughts into my work.\n\nIf possible, I would be grateful to receive your feedback before next Tuesday, as it would allow me ample time to make any necessary revisions.\n\nThank you very much for your support and guidance throughout this process. I look forward to hearing from you soon.\n\nBest regards,\n\n[Your Name]  \n[Your Contact Information]  \n[Your Program/Department]  ",
+    "evaluation_of_4_1_by_4_1": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "All original facts and intent are preserved: the attachment of the revised thesis draft, the request for feedback, and the deadline of next Tuesday. No facts are added, removed, or reinterpreted."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained: the request for feedback, the deadline (before next Tuesday), and the context of the attached revised thesis draft."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is grammatically correct, clear, and professionally structured. It includes a subject line, greeting, body, and closing, with logical flow throughout."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "The edited email is fully faithful, complete, and robust, with no loss or distortion of information."
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "All original facts and intent are preserved: the attachment of the revised thesis draft, the request for feedback, and the deadline of next Tuesday. No facts are added, removed, or reinterpreted."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained: the request for feedback, the deadline, and the context of the attached thesis draft. Additional polite language and contact information do not remove any required units."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is grammatically correct, clear, and professionally structured. It includes a subject line, proper greeting, and closing, with logical flow throughout."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "All three categories score 5, indicating a fully faithful, complete, and robust edit."
+      }
+    }
+  },
+  {
+    "original_id": 3,
+    "original_text": "Yo! You still up for that hike Saturday morning? Weather looks good!",
+    "target_tone": null,
+    "response_4_1": "Subject: Saturday Morning Hike\n\nHi there,\n\nI just wanted to check in and see if you\u2019re still up for our hike on Saturday morning. The weather forecast is looking good, so it should be a great day to get outside!\n\nLet me know if you\u2019re still interested and what time works best for you.\n\nLooking forward to it!\n\nBest,  \n[Your Name]",
+    "response_mini": "Subject: Saturday Morning Hike\n\nHi there!\n\nI hope this message finds you well. I wanted to check in and see if you are still interested in going for that hike on Saturday morning. The weather forecast looks promising, which should make for a great outdoor experience.\n\nLet me know if you\u2019re still on board! Looking forward to it!\n\nBest,  \n[Your Name]",
+    "evaluation_of_4_1_by_4_1": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "All original facts (hike, Saturday morning, good weather) are preserved. The edited version adds a request for preferred time, which is a minor addition not present in the original."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units from the original are retained: confirmation of hike, timing (Saturday morning), and mention of good weather. The added request for time does not remove any original information."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, grammatically correct, and professionally structured with a subject line and closing."
+      },
+      "overall": {
+        "score": 4.67,
+        "reason": "Minor addition affects faithfulness, but completeness and robustness are perfect."
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "All original facts and intent are preserved: checking if the recipient is still interested in a Saturday morning hike and mentioning good weather. No facts added, removed, or reinterpreted."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained: the question about the hike, the timing (Saturday morning), and the weather condition. No details missing."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, grammatically correct, and professionally structured with a subject line, greeting, body, and closing."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "All categories scored 5; the edited email is fully faithful, complete, and robust."
+      }
+    }
+  },
+  {
+    "original_id": 4,
+    "original_text": "Congratulations on your offer! Attached is your official offer letter and onboarding details.",
+    "target_tone": null,
+    "response_4_1": "Subject: Congratulations on Your Offer!\n\nDear [Candidate Name],\n\nCongratulations on receiving your offer! We are pleased to inform you that your official offer letter is attached to this email, along with important onboarding details to help you get started.\n\nPlease take the time to review the offer letter carefully. If you have any questions or need clarification on any aspect of your offer or the onboarding process, feel free to reach out to us.\n\nWe are excited about the possibility of you joining our team and look forward to your response.\n\nBest regards,  \n[Your Name]  \n[Your Position]  \n[Company Name]",
+    "response_mini": "Subject: Exciting News: Your Official Offer and Onboarding Details\n\nDear [Recipient's Name],\n\nI hope this message finds you well. \n\nI am thrilled to extend my heartfelt congratulations on your offer! This is a significant milestone, and we are excited to welcome you to our team. \n\nAttached to this email, you will find your official offer letter along with important onboarding details. Please take a moment to review these documents, as they contain essential information regarding your role and the next steps in the onboarding process.\n\nIf you have any questions or need further clarification, please do not hesitate to reach out. We are here to assist you in any way we can.\n\nOnce again, congratulations, and we look forward to having you on board!\n\nBest regards,\n\n[Your Name]  \n[Your Position]  \n[Your Company]  \n[Your Contact Information]",
+    "evaluation_of_4_1_by_4_1": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "All original facts (congratulations, offer, attachments of offer letter and onboarding details) are preserved. No new facts or reinterpretations are introduced."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units (congratulations, notification of offer, mention of attached offer letter and onboarding details) are retained. Additional context and instructions do not remove any original information."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, grammatically correct, and professionally structured with logical flow and proper formatting."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "All criteria are fully met with no loss or distortion of information and excellent professional presentation."
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "All original facts and intent are preserved: congratulations, offer, and attached documents. No facts added, removed, or reinterpreted."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained: congratulations, notification of offer, mention of attached documents, and onboarding details. Additional context and next steps are provided, but nothing is omitted."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, professional, grammatically correct, and well-structured for professional use."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "All criteria are fully met with no issues."
+      }
+    }
+  },
+  {
+    "original_id": 5,
+    "original_text": "Hi team, please review the attached mockups and add comments by end of day tomorrow.",
+    "target_tone": null,
+    "response_4_1": "Subject: Request for Review and Feedback on Attached Mockups\n\nHi team,\n\nI hope this message finds you well.\n\nAttached to this email, you will find the latest mockups for our project. I kindly ask that each of you take some time to review these mockups carefully. Please add your comments, suggestions, or any feedback directly to the document by the end of the day tomorrow.\n\nYour input is valuable to ensure we are aligned and can move forward efficiently. If you have any questions or need clarification on any aspect, feel free to reach out.\n\nThank you in advance for your attention and contributions.\n\nBest regards,  \n[Your Name]",
+    "response_mini": "Subject: Request for Feedback on Mockups\n\nHi Team,\n\nI hope this message finds you well. I am reaching out to kindly ask you to review the attached mockups at your earliest convenience. Your insights and feedback are invaluable to our project, and I would greatly appreciate it if you could take a moment to add your comments.\n\nPlease aim to provide your feedback by the end of the day tomorrow, as this will help us stay on track with our timeline. \n\nThank you in advance for your attention to this matter and for your contributions. I look forward to hearing your thoughts!\n\nBest regards,  \n[Your Name]  \n[Your Position]  ",
+    "evaluation_of_4_1_by_4_1": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "All original facts and intent are preserved: request to review attached mockups and add comments by end of day tomorrow. No facts added, removed, or reinterpreted."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained: request for review, action to add comments, deadline (end of day tomorrow), and context (attached mockups)."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, grammatically correct, professionally structured, and logically flows from introduction to request and closing."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "All criteria are fully met with no issues."
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "All original facts and intent are preserved: request to review attached mockups and add comments by end of day tomorrow. No facts added, removed, or reinterpreted."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained: request for review, action to add comments, deadline (end of day tomorrow), and context (mockups attached)."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, professional, grammatically correct, and well-structured for professional use."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "All criteria are fully met with no loss of information or clarity."
+      }
+    }
+  },
+  {
+    "original_id": 6,
+    "original_text": "I\u2019m honestly so done with these shifting deadlines. How are we supposed to plan anything properly?",
+    "target_tone": null,
+    "response_4_1": "Subject: Concerns About Shifting Deadlines\n\nHi [Recipient\u2019s Name],\n\nI wanted to express my frustration regarding the frequent changes to our deadlines. It\u2019s becoming increasingly difficult to plan our work effectively when the timelines keep shifting. This uncertainty makes it challenging to allocate resources and ensure that we\u2019re meeting expectations.\n\nCould we please discuss how to establish more consistent deadlines moving forward? I believe this would help us all plan better and deliver higher quality results.\n\nThank you for your understanding.\n\nBest regards,  \n[Your Name]",
+    "response_mini": "Subject: Concerns Regarding Shifting Deadlines\n\nDear [Recipient's Name],\n\nI hope this message finds you well. \n\nI wanted to take a moment to express my concerns regarding the recent shifting deadlines we have been experiencing. To be candid, I find myself quite frustrated with the constant changes. It has become increasingly challenging for us to plan our tasks and projects effectively under these circumstances.\n\nI believe that having stable deadlines is crucial for our productivity and overall success. It would greatly benefit the team if we could establish clearer timelines moving forward. \n\nThank you for considering my perspective. I appreciate your attention to this matter and look forward to your thoughts.\n\nBest regards,\n\n[Your Name]  \n[Your Position]  \n[Your Contact Information]  ",
+    "evaluation_of_4_1_by_4_1": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "The edited email preserves the core facts: frustration with shifting deadlines and difficulty in planning. It adds details about resource allocation and meeting expectations, which are implied but not explicit in the original. The request to discuss more consistent deadlines is a logical extension but introduces a new action item not present in the original."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units from the original are retained: frustration, the issue of shifting deadlines, and the impact on planning. The edited version expands on these points and adds a request for discussion, which enhances completeness."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, grammatically correct, professionally structured, and logically organized with a subject line, greeting, body, and closing."
+      },
+      "overall": {
+        "score": 4.67,
+        "reason": "The edited email is highly complete and robust, with only minor faithfulness drift due to added details and a new action item."
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "The edited email preserves the core facts: frustration with shifting deadlines and the difficulty in planning. However, it adds new content: a request for clearer timelines, statements about productivity and success, and a more formal tone. These additions slightly reinterpret the original intent, which was more of a vent than a formal request."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units from the original are present: the complaint about shifting deadlines and the challenge in planning. The edited version expands on these points but does not omit any required information."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is grammatically correct, clear, and professionally structured with appropriate formatting and logical flow."
+      },
+      "overall": {
+        "score": 4.67,
+        "reason": "The edited email is complete and robust, but minor reinterpretation and added content slightly affect faithfulness."
+      }
+    }
+  },
+  {
+    "original_id": 7,
+    "original_text": "Hey readers! This month we\u2019re diving into 'The Night Circus.' Meeting is next Thursday evening!",
+    "target_tone": null,
+    "response_4_1": "Subject: Book Club Update: \"The Night Circus\" Discussion Next Thursday\n\nHello readers,\n\nI hope this message finds you well! I\u2019m excited to announce that this month, our book club will be diving into \"The Night Circus.\" It\u2019s a captivating read, and I\u2019m looking forward to hearing everyone\u2019s thoughts and interpretations.\n\nJust a reminder\u2014our meeting will be held next Thursday evening. Please mark your calendars so you don\u2019t miss out on what\u2019s sure to be an engaging discussion.\n\nHappy reading, and see you all next week!\n\nBest regards,  \n[Your Name]",
+    "response_mini": "Subject: Book Club Update: This Month's Read - 'The Night Circus'\n\nDear Readers,\n\nI hope this message finds you well! I am excited to share that this month, we will be diving into the enchanting world of 'The Night Circus.' This captivating novel promises to take us on a magical journey filled with mystery and wonder.\n\nAs a reminder, our next meeting is scheduled for Thursday evening. I look forward to hearing your thoughts and insights about the book, and I am eager to engage in lively discussions with all of you.\n\nThank you, and happy reading!\n\nBest regards,  \n[Your Name]  \n[Your Contact Information]  \n[Your Book Club Name]",
+    "evaluation_of_4_1_by_4_1": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "All original facts and intent are preserved: the book ('The Night Circus') and the meeting time (next Thursday evening). No new facts are introduced beyond minor elaboration."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained: the book being read and the meeting date. The message is expanded but nothing is omitted."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is grammatically correct, clear, and professionally structured with a subject line, greeting, body, and closing."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "All criteria are fully met with no loss of information or clarity."
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "All original facts and intent are preserved: the book ('The Night Circus') and the meeting time (next Thursday evening). No facts are added, removed, or reinterpreted."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained: the book being read, the meeting time, and the context of a book club update. Additional details are supportive but do not omit any original information."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, professional, grammatically correct, and well-structured for professional use."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "All criteria are fully met with no omissions or errors."
+      }
+    }
+  },
+  {
+    "original_id": 8,
+    "original_text": "Morning all, let\u2019s finalize the demo scripts by noon. I\u2019ll run through the slide deck after lunch.",
+    "target_tone": null,
+    "response_4_1": "Good morning, everyone.\n\nAs a reminder, let's aim to have the demo scripts finalized by noon today. This will give us enough time to review and make any necessary adjustments before moving forward.\n\nOnce we've wrapped up the scripts, I will go through the slide deck after lunch to ensure everything aligns and is ready for our presentation.\n\nThank you all for your efforts and collaboration. Please let me know if you have any questions or need support as you work on the scripts this morning.\n\nBest regards,  \n[Your Name]",
+    "response_mini": "Subject: Finalizing Demo Scripts and Slide Deck Review\n\nGood morning, everyone,\n\nI hope this message finds you well. As we move forward with our preparations, I would like to kindly request that we finalize the demo scripts by noon today. This will ensure that we are all aligned and ready for the next steps.\n\nAdditionally, I plan to run through the slide deck after lunch. I believe this will give us a great opportunity to review our content and make any necessary adjustments.\n\nThank you for your attention to these matters, and I appreciate your efforts in making this a success.\n\nBest regards,  \n[Your Name]",
+    "evaluation_of_4_1_by_4_1": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "All original facts and intent are preserved: finalizing demo scripts by noon and running through the slide deck after lunch. Minor additions include references to reviewing, making adjustments, alignment, readiness for presentation, and offering support, but these do not contradict or reinterpret the original message."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained: the deadline for demo scripts (by noon) and the action of running through the slide deck after lunch. Additional supportive details do not remove any required information."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, professional, grammatically correct, and well-structured for professional use."
+      },
+      "overall": {
+        "score": 4.67,
+        "reason": "The email is highly faithful, complete, and robust, with only minor additions that do not affect the core message."
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "All original facts and intent are preserved: request to finalize demo scripts by noon and plan to review the slide deck after lunch. No facts added, removed, or reinterpreted."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained: deadline for demo scripts, action item for slide deck review, and context for both tasks."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is grammatically correct, clear, and professionally structured with logical flow and proper formatting."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "All criteria are fully met with no issues."
+      }
+    }
+  },
+  {
+    "original_id": 9,
+    "original_text": "Hi, this is a reminder for your appointment with Dr. Patel on Wednesday at 10:30 AM.",
+    "target_tone": null,
+    "response_4_1": "Subject: Appointment Reminder: Dr. Patel \u2013 Wednesday at 10:30 AM\n\nDear [Recipient\u2019s Name],\n\nI hope this message finds you well.\n\nThis is a friendly reminder about your upcoming appointment with Dr. Patel, scheduled for Wednesday at 10:30 AM. Please plan to arrive a few minutes early to allow time for check-in.\n\nIf you have any questions or need to reschedule, feel free to contact our office. We look forward to seeing you then.\n\nBest regards,  \n[Your Name]  \n[Your Contact Information]",
+    "response_mini": "Subject: Appointment Reminder with Dr. Patel\n\nDear [Recipient's Name],\n\nI hope this message finds you well. \n\nI am writing to kindly remind you of your upcoming appointment with Dr. Patel. The appointment is scheduled for Wednesday at 10:30 AM. \n\nIf you have any questions or need to reschedule, please do not hesitate to reach out. We look forward to seeing you then!\n\nBest regards,  \n[Your Name]  \n[Your Position]  \n[Your Contact Information]  \n[Your Organization]  ",
+    "evaluation_of_4_1_by_4_1": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "All original facts (reminder, Dr. Patel, Wednesday, 10:30 AM) are preserved. No new facts about the appointment itself are added or removed."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units (reminder, appointment details) are retained. Additional supporting details (arrival suggestion, contact info) do not remove any required information."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is grammatically correct, clear, and professionally structured with logical flow and proper formatting."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "All criteria are fully met with no loss of information or clarity."
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "All original facts (reminder, Dr. Patel, Wednesday, 10:30 AM) are preserved. No new facts or reinterpretation."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units (reminder, appointment details) are retained. Additional optional information (contact, rescheduling) does not remove any required units."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "Email is grammatically correct, clear, and professionally structured with proper greeting, body, and closing."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "All criteria are fully met with no loss of information or clarity."
+      }
+    }
+  },
+  {
+    "original_id": 10,
+    "original_text": "Ugh, today was such a mess. Traffic, deadlines, and my coffee spilled twice. I just need a nap.",
+    "target_tone": null,
+    "response_4_1": "Subject: Rough Day\n\nHi,\n\nToday has really been quite a mess. First, I got stuck in traffic, which set everything back. Then, I was rushing to meet deadlines all day, and to top it off, I managed to spill my coffee not once, but twice. It\u2019s just been one of those days, and honestly, I could really use a nap right now.\n\nThanks for listening\u2014I just needed to vent a little.\n\nBest,  \n[Your Name]",
+    "response_mini": "Subject: A Challenging Day\n\nDear [Recipient's Name],\n\nI hope this message finds you well. \n\nI wanted to take a moment to share a bit about my day, as it has been quite challenging. Unfortunately, I encountered significant traffic on my commute, which added to the stress of my already tight deadlines. To make matters worse, I managed to spill my coffee not once, but twice! \n\nGiven all of this, I find myself in need of a little rest to recharge. \n\nThank you for your understanding, and I hope your day has been going more smoothly.\n\nBest regards,  \n[Your Name]",
+    "evaluation_of_4_1_by_4_1": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "All original facts (messy day, traffic, deadlines, coffee spilled twice, need for a nap) are preserved without addition, removal, or reinterpretation."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units (description of the day, specific issues, emotional state, and need for a nap) are retained."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is grammatically correct, clear, and professionally structured with a subject line, greeting, body, and closing."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "All criteria are fully met with no loss or distortion of information and excellent structure."
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "All original facts (traffic, deadlines, coffee spilled twice, need for a nap) are preserved. The edited email adds a greeting, closing, and wishes for the recipient, which are not present in the original but do not alter the core facts."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units from the original are retained: the description of the day's difficulties and the need for rest. No units are missing."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is grammatically correct, clear, and professionally structured with proper greeting, body, and closing."
+      },
+      "overall": {
+        "score": 4.67,
+        "reason": "The email is highly faithful, complete, and robust, with only minor additions that do not affect the original message's intent or facts."
+      }
+    }
+  },
+  {
+    "original_id": 11,
+    "original_text": "We\u2019re so grateful for your support. Your contribution helps us provide food and shelter to families in need.",
+    "target_tone": null,
+    "response_4_1": "Subject: Thank You for Your Generous Support\n\nDear [Recipient Name],\n\nWe are sincerely grateful for your support. Your generous contribution plays a vital role in enabling us to provide essential food and shelter to families who are in need. \n\nBecause of your kindness, we are able to continue our mission and make a meaningful difference in the lives of those facing difficult circumstances. Thank you for standing with us and for helping to bring hope and comfort to our community.\n\nWith heartfelt appreciation,  \n[Your Name]  \n[Your Organization]",
+    "response_mini": "Subject: Heartfelt Thanks for Your Support\n\nDear [Recipient's Name],\n\nI hope this message finds you well. \n\nWe want to take a moment to express our heartfelt gratitude for your generous support. Your contribution plays a vital role in our mission, enabling us to provide essential food and shelter to families in need. \n\nThanks to your kindness, we can make a meaningful difference in the lives of those who are facing challenging circumstances. Your support not only helps meet immediate needs but also fosters hope and stability within our community.\n\nOnce again, thank you for being such a valuable part of our efforts. We truly appreciate your commitment to helping others.\n\nWarm regards,\n\n[Your Name]  \n[Your Position]  \n[Your Organization]  \n[Contact Information]  ",
+    "evaluation_of_4_1_by_4_1": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "All original facts and intent are preserved, but the edited email adds new content about continuing the mission, making a meaningful difference, and bringing hope and comfort, which were not present in the original."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units from the original are retained, including gratitude and the impact of the contribution. Additional details do not remove any required units."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, professional, grammatically correct, and well-structured for professional use."
+      },
+      "overall": {
+        "score": 4.67,
+        "reason": "The email is robust and complete, but faithfulness is slightly reduced due to added content not present in the original."
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "The edited email preserves the core facts: gratitude for support and the contribution helping provide food and shelter to families in need. However, it adds new content about fostering hope, stability, and making a meaningful difference, which is an extension beyond the original message."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units from the original are retained: gratitude, acknowledgment of support, and the impact on families in need. The edited version expands but does not omit any required information."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, professional, and well-structured, with correct grammar and logical flow. It includes a subject line, greeting, closing, and contact information, making it suitable for professional use."
+      },
+      "overall": {
+        "score": 4.67,
+        "reason": "The edited email is complete and robust, but faithfulness is slightly reduced due to added content beyond the original facts."
+      }
+    }
+  },
+  {
+    "original_id": 12,
+    "original_text": "Team, please review the Q3 financial summary and identify areas where we can cut costs.",
+    "target_tone": null,
+    "response_4_1": "Subject: Request to Review Q3 Financial Summary for Cost-Saving Opportunities\n\nDear Team,\n\nI hope this message finds you well.\n\nAttached, you will find the Q3 financial summary. I kindly ask each of you to review the document carefully and identify any areas where we may be able to reduce costs. Your insights and suggestions are valuable as we work together to improve our financial efficiency.\n\nPlease share your observations and recommendations by the end of the week. If you have any questions or need further clarification, feel free to reach out.\n\nThank you in advance for your attention to this important task.\n\nBest regards,  \n[Your Name]",
+    "response_mini": "Subject: Request for Review of Q3 Financial Summary\n\nDear Team,\n\nI hope this message finds you well. As we continue to strive for financial efficiency and sustainability, I would like to ask each of you to take some time to review the Q3 financial summary. \n\nPlease pay particular attention to identifying areas where we can implement cost-cutting measures. Your insights and expertise are invaluable in this process, and I believe that together we can find effective solutions to optimize our expenses.\n\nThank you for your attention to this important matter. I look forward to your feedback and suggestions.\n\nBest regards,  \n[Your Name]  \n[Your Position]  ",
+    "evaluation_of_4_1_by_4_1": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "All original facts and intent are preserved: the team is asked to review the Q3 financial summary and identify cost-cutting areas. No facts are added, removed, or reinterpreted."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained: request to review, identification of cost-cutting areas, and context about the Q3 financial summary. The deadline (end of the week) is a minor addition but does not remove any required information."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, professional, grammatically correct, and well-structured for professional use."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "All categories scored 5; the edited email is fully faithful, complete, and robust."
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "All original facts and intent are preserved: the request to review the Q3 financial summary and identify cost-cutting areas. No new facts or reinterpretations are introduced."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained: the request for review, the specific focus on cost-cutting, and the context of the Q3 financial summary. No details are missing."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is grammatically correct, clear, and professionally structured with logical flow and proper formatting."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "All criteria are fully met with no issues."
+      }
+    }
+  },
+  {
+    "original_id": 13,
+    "original_text": "Hi! Could you take a look at my updated digital portfolio? I\u2019m hoping to apply for the spring showcase.",
+    "target_tone": null,
+    "response_4_1": "Subject: Request for Feedback on Updated Digital Portfolio\n\nHi!\n\nI hope you\u2019re doing well. I wanted to ask if you could take a look at my updated digital portfolio when you have a moment. I\u2019ve made several changes and improvements, and your feedback would be really helpful.\n\nI\u2019m hoping to apply for the spring showcase, so any suggestions or comments you have would be greatly appreciated.\n\nThank you so much for your time and support!\n\nBest regards,  \n[Your Name]",
+    "response_mini": "Subject: Request for Feedback on My Updated Digital Portfolio\n\nHi [Recipient's Name],\n\nI hope this message finds you well! I am reaching out to kindly ask if you could take a moment to review my updated digital portfolio. I have made several enhancements and believe it reflects my current skills and projects more effectively.\n\nI am particularly eager to apply for the upcoming spring showcase, and your feedback would be invaluable in helping me ensure that my portfolio is as strong as possible. \n\nThank you very much for your time and support! I truly appreciate it.\n\nBest regards,  \n[Your Name]  \n[Your Contact Information]  ",
+    "evaluation_of_4_1_by_4_1": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "All original facts and intent are preserved: request to review the updated portfolio and mention of applying for the spring showcase. No facts added, removed, or reinterpreted."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained: the request for review, the context of the updated portfolio, and the intent to apply for the spring showcase."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is grammatically correct, clear, and professionally structured with a subject line, greeting, body, and closing."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "All criteria are fully met with no issues."
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "All original facts and intent are preserved: request to review updated digital portfolio and mention of applying for the spring showcase. No facts added, removed, or reinterpreted."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained: request for review, mention of updated portfolio, intent to apply for spring showcase. Additional context and politeness do not remove any required information."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is grammatically correct, clear, and professionally structured with logical flow and appropriate formatting."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "All criteria are fully met with no loss of information or clarity."
+      }
+    }
+  },
+  {
+    "original_id": 14,
+    "original_text": "Your flight TB473 to Paris has been canceled due to weather. Please visit our site to rebook or request a refund.",
+    "target_tone": null,
+    "response_4_1": "Subject: Important Notice: Flight TB473 to Paris Canceled\n\nDear Customer,\n\nWe regret to inform you that your flight TB473 to Paris has been canceled due to adverse weather conditions. We understand that this may cause inconvenience, and we sincerely apologize for any disruption to your travel plans.\n\nTo assist you, we invite you to visit our website, where you can easily rebook your flight for a later date or request a refund for your ticket. \n\nThank you for your understanding and patience. If you have any questions or require further assistance, please do not hesitate to contact our customer service team.\n\nKind regards,  \n[Your Airline\u2019s Name]",
+    "response_mini": "Subject: Important Update Regarding Your Flight TB473 to Paris\n\nDear Valued Customer,\n\nWe hope this message finds you well. We regret to inform you that your flight TB473 to Paris has been canceled due to adverse weather conditions. We understand that this may cause inconvenience to your travel plans, and we sincerely apologize for any disruption this may bring.\n\nTo assist you in this situation, we kindly invite you to visit our website, where you can easily rebook your flight or request a refund. Our team is committed to ensuring that you have the support you need during this time.\n\nThank you for your understanding and patience. If you have any further questions or require assistance, please do not hesitate to reach out to our customer service team.\n\nSafe travels,\n\n[Your Name]  \n[Your Position]  \n[Your Company]  \n[Contact Information]  ",
+    "evaluation_of_4_1_by_4_1": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "All original facts (flight number, destination, cancellation, weather, rebooking/refund options) are preserved. No new factual information is added beyond polite apologies and customer service contact, which do not alter the core facts."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained: flight cancellation, reason (weather), rebooking/refund instructions, and website reference. Additional supportive details (apology, customer service contact) enhance but do not omit any required information."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is grammatically correct, clear, and professionally structured with logical flow and appropriate formatting."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "All criteria are fully met with no omissions or errors."
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "All original facts and intent are preserved: flight TB473 to Paris is canceled due to weather, and instructions to rebook or request a refund are included. No new facts or reinterpretations are introduced."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained: flight cancellation, reason (weather), rebooking/refund instructions, and contact for further assistance. Additional supportive details do not omit any original information."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is grammatically correct, clear, and professionally structured with logical flow and appropriate formatting."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "All criteria are fully met with no omissions or errors."
+      }
+    }
+  },
+  {
+    "original_id": 15,
+    "original_text": "Hey, I pushed the latest branch. Can you check for bugs in the data parser module?",
+    "target_tone": null,
+    "response_4_1": "Subject: Request to Review Data Parser Module for Bugs\n\nHi,\n\nI wanted to let you know that I have just pushed the latest branch. When you have a moment, could you please review the data parser module and check for any bugs? Your feedback and insights would be greatly appreciated.\n\nThank you for your help!\n\nBest regards,  \n[Your Name]",
+    "response_mini": "Subject: Request for Bug Check in Data Parser Module\n\nHi [Recipient's Name],\n\nI hope this message finds you well. \n\nI wanted to let you know that I have pushed the latest branch to our repository. When you have a moment, could you please take a look at the data parser module? I would greatly appreciate it if you could check for any potential bugs or issues that may need to be addressed.\n\nThank you for your assistance, and please let me know if you have any questions or need further information.\n\nBest regards,\n\n[Your Name]  \n[Your Position]  \n[Your Contact Information]  ",
+    "evaluation_of_4_1_by_4_1": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "All original facts and intent are preserved: notification of pushing the latest branch and request to check for bugs in the data parser module. No facts added, removed, or reinterpreted."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained: notification of the branch push, request to check for bugs, and specification of the data parser module. Additional polite language does not remove any required information."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is grammatically correct, clear, and professionally structured with a subject line, greeting, body, closing, and signature placeholder."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "All categories scored 5; the edited email is fully faithful, complete, and robust."
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "All original facts and intent are preserved: notification of pushing the latest branch and request to check for bugs in the data parser module. No new facts or reinterpretations."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained: notification of the branch push, request to check for bugs in the data parser module, and context for the request."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is grammatically correct, clear, and professionally structured with proper formatting and logical flow."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "All criteria are fully met with no issues."
+      }
+    }
+  },
+  {
+    "original_id": 16,
+    "original_text": "Hi team, the campaign exceeded expectations! Engagement rose 25% and conversions 12%. Great work!",
+    "target_tone": null,
+    "response_4_1": "Subject: Outstanding Campaign Results \u2013 Thank You!\n\nHi team,\n\nI\u2019m pleased to share that the recent campaign exceeded our expectations. Engagement increased by 25%, and conversions rose by 12%. These results are a direct reflection of your dedication and hard work.\n\nThank you all for your excellent efforts and commitment to making this campaign a success. Great work, everyone!",
+    "response_mini": "Subject: Outstanding Results from Our Recent Campaign!\n\nHi Team,\n\nI hope this message finds you well. I am thrilled to share some fantastic news regarding our recent campaign\u2014it has exceeded our expectations in a remarkable way! \n\nWe observed a significant increase in engagement, which rose by an impressive 25%. Additionally, our conversion rates also saw a positive uplift of 12%. These results are a testament to the hard work and dedication that each of you has put into this project.\n\nThank you all for your incredible efforts and collaboration. Let\u2019s continue to build on this success as we move forward!\n\nBest regards,  \n[Your Name]",
+    "evaluation_of_4_1_by_4_1": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "All original facts (campaign exceeded expectations, engagement up 25%, conversions up 12%, praise for great work) are preserved. No facts added, removed, or reinterpreted."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units (campaign results, specific metrics, praise) are retained. The message is expanded but nothing is omitted."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is grammatically correct, clear, and professionally structured with a subject line and well-organized paragraphs."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "All criteria are fully met with no loss of information or clarity."
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "All original facts (campaign exceeded expectations, engagement up 25%, conversions up 12%, praise for team) are preserved. No new facts or reinterpretations."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units (campaign results, specific metrics, praise for team) are retained. No omissions."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is grammatically correct, clear, and professionally structured with logical flow and proper formatting."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "All criteria are fully met with no issues."
+      }
+    }
+  },
+  {
+    "original_id": 17,
+    "original_text": "Hey kiddo, just wanted to say I\u2019m proud of how hard you\u2019re working lately. Keep it up.",
+    "target_tone": null,
+    "response_4_1": "Subject: Just Wanted to Say I\u2019m Proud of You\n\nHey kiddo,\n\nI just wanted to take a moment to let you know how proud I am of how hard you\u2019ve been working lately. I\u2019ve really noticed the effort you\u2019re putting in, and it means a lot to see your dedication and commitment.\n\nKeep up the great work\u2014you\u2019re doing an amazing job. I\u2019m always here cheering you on!\n\nLove,  \n[Your Name]",
+    "response_mini": "Subject: Keep Up the Great Work!\n\nHey kiddo,\n\nI hope this message finds you well! I just wanted to take a moment to express how incredibly proud I am of you and the hard work you\u2019ve been putting in lately. Your dedication and effort do not go unnoticed, and it truly inspires me.\n\nPlease continue to keep up the great work. I believe in you and am excited to see all the wonderful things you will accomplish!\n\nTake care and keep shining!\n\nBest,  \n[Your Name]",
+    "evaluation_of_4_1_by_4_1": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "The core facts (pride in hard work, encouragement to continue) are preserved. The edited version adds details about noticing effort, dedication, commitment, and cheering on, which are minor elaborations but do not contradict the original intent."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained: expression of pride, acknowledgment of hard work, and encouragement to continue. The subject line and closing add context but do not remove any original information."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is grammatically correct, clear, and professionally structured with a subject line and closing."
+      },
+      "overall": {
+        "score": 4.67,
+        "reason": "The edited email is complete and robust, with minor faithfulness drift due to added elaboration."
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "The core facts (pride in hard work, encouragement to continue) are preserved. However, additional sentiments are introduced (inspiration, belief in future accomplishments, excitement, 'keep shining'), which slightly expand the original intent."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units from the original are present: expression of pride, acknowledgment of hard work, and encouragement to continue."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is grammatically correct, clear, and professionally structured with a subject line and closing."
+      },
+      "overall": {
+        "score": 4.67,
+        "reason": "The email is complete and robust, but faithfulness is slightly reduced due to added sentiments beyond the original message."
+      }
+    }
+  },
+  {
+    "original_id": 18,
+    "original_text": "Hello, we\u2019re interested in collaborating on a social media campaign for our new collection. Let\u2019s discuss details soon.",
+    "target_tone": null,
+    "response_4_1": "Subject: Collaboration Opportunity: Social Media Campaign for Our New Collection\n\nHello,\n\nI hope this message finds you well.\n\nWe are reaching out to express our interest in collaborating with you on a social media campaign to promote our new collection. We believe that a partnership could be mutually beneficial and are excited about the potential to work together.\n\nAt your convenience, we would love to schedule a time to discuss the details of this collaboration, including potential concepts, timelines, and any ideas you might have. Please let us know your availability for a call or meeting in the coming days.\n\nLooking forward to your response.\n\nBest regards,  \n[Your Name]  \n[Your Position]  \n[Your Company]",
+    "response_mini": "Subject: Collaboration Opportunity for Our New Collection\n\nDear [Recipient's Name],\n\nI hope this message finds you well. \n\nWe are excited to express our interest in collaborating with you on a social media campaign for our new collection. We believe that your expertise and creativity would greatly enhance our promotional efforts and help us reach a wider audience.\n\nWe would love to discuss the details of this collaboration at your earliest convenience. Please let us know your availability for a meeting, as we are eager to explore how we can work together effectively.\n\nThank you for considering this opportunity. We look forward to your response.\n\nBest regards,\n\n[Your Name]  \n[Your Position]  \n[Your Company]  \n[Your Contact Information]  ",
+    "evaluation_of_4_1_by_4_1": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "All original facts and intent are preserved: interest in collaboration on a social media campaign for a new collection and a request to discuss details. Minor additions include suggestions of mutual benefit, specific discussion topics (concepts, timelines, ideas), and a request for availability, but these do not contradict or reinterpret the original message."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained: collaboration interest, campaign context, and a request to discuss details. The edited email expands on the discussion but does not omit any original required information."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, professional, grammatically correct, and well-structured with appropriate formatting and closing."
+      },
+      "overall": {
+        "score": 4.67,
+        "reason": "The email is highly faithful, complete, and robust, with only minor additions that do not detract from the original message."
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "The edited email preserves the original facts: interest in collaboration on a social media campaign for a new collection and a request to discuss details. However, it adds new assumptions about the recipient's expertise and creativity, and implies a wider audience reach, which were not present in the original."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained: the collaboration request, the context (social media campaign for new collection), and the intent to discuss details soon. The edited version expands but does not omit any required information."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, professional, grammatically correct, and well-structured for professional use."
+      },
+      "overall": {
+        "score": 4.67,
+        "reason": "The email is robust and complete, but faithfulness is slightly reduced due to added assumptions about the recipient."
+      }
+    }
+  },
+  {
+    "original_id": 19,
+    "original_text": "Hi, I\u2019ve uploaded the latest experiment logs. The model shows promising accuracy improvements.",
+    "target_tone": null,
+    "response_4_1": "Subject: Latest Experiment Logs Uploaded\n\nHi,\n\nI wanted to let you know that I have uploaded the latest experiment logs. Upon reviewing the results, I noticed that the model is showing promising improvements in accuracy.\n\nPlease let me know if you have any questions or would like to discuss the findings in more detail.\n\nBest regards,  \n[Your Name]",
+    "response_mini": "Subject: Update on Experiment Logs\n\nHi Team,\n\nI hope this message finds you well. I wanted to inform you that I have uploaded the latest experiment logs for our review. After analyzing the data, I am pleased to report that the model demonstrates promising improvements in accuracy. \n\nPlease take a moment to review the logs at your convenience, and I look forward to discussing our findings further.\n\nBest regards,  \n[Your Name]",
+    "evaluation_of_4_1_by_4_1": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "All original facts and intent are preserved: notification of log upload and mention of promising accuracy improvements. No facts added, removed, or reinterpreted."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained: notification of upload, mention of accuracy improvements. The added offer for questions/discussion is optional and does not remove any original information."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, grammatically correct, and professionally structured with a subject line and closing."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "All categories scored 5; the edited email is fully faithful, complete, and robust."
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "All original facts are preserved: the logs have been uploaded and the model shows promising accuracy improvements. Minor reinterpretation occurs with the addition of 'for our review' and 'after analyzing the data,' which slightly expands the context but does not alter the core facts."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained: notification of log upload and model accuracy improvement. The request to review the logs is an explicit next step, which is a logical extension but does not omit any original information."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is grammatically correct, clear, and professionally structured with a subject line, greeting, body, and closing."
+      },
+      "overall": {
+        "score": 4.67,
+        "reason": "The email is highly faithful, complete, and robust, with only a minor reinterpretation in faithfulness."
+      }
+    }
+  },
+  {
+    "original_id": 20,
+    "original_text": "Hello, I\u2019d like to order cupcakes and pastries for a 30-person event on November 10th.",
+    "target_tone": null,
+    "response_4_1": "Subject: Order Inquiry for Cupcakes and Pastries for November 10th Event\n\nHello,\n\nI hope this message finds you well. I am reaching out to inquire about placing an order for cupcakes and pastries for an upcoming event. The event will be held on November 10th, and we are expecting approximately 30 guests.\n\nCould you please provide information on the available cupcake and pastry options, as well as pricing and any recommendations you may have for a group of this size? Additionally, please let me know about your ordering process and any deadlines I should be aware of.\n\nThank you very much for your assistance. I look forward to your response.\n\nBest regards,  \n[Your Name]",
+    "response_mini": "Subject: Order Request for Cupcakes and Pastries\n\nDear [Recipient's Name],\n\nI hope this message finds you well. I am writing to place an order for cupcakes and pastries for an upcoming event that will be attended by approximately 30 people on November 10th.\n\nCould you please provide me with your menu options and any recommendations you may have? Additionally, I would appreciate it if you could confirm the availability of the items on that date.\n\nThank you for your assistance. I look forward to your prompt response.\n\nBest regards,  \n[Your Name]  \n[Your Contact Information]  ",
+    "evaluation_of_4_1_by_4_1": {
+      "faithfulness": {
+        "score": 4,
+        "reason": "All original facts (cupcakes, pastries, 30-person event, November 10th) are preserved. The edited email adds requests for options, pricing, recommendations, and process details, which are not present in the original and slightly expand the intent."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units from the original (order request, event size, date) are retained. The edited version also adds clarifying questions, but nothing is omitted."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, grammatically correct, and professionally structured with a subject line and closing."
+      },
+      "overall": {
+        "score": 4.67,
+        "reason": "Faithfulness is slightly reduced due to added requests, but completeness and robustness are perfect. Average: (4+5+5)/3 = 4.67."
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "All original facts (ordering cupcakes and pastries, for 30 people, on November 10th) are preserved. No facts are added, removed, or reinterpreted."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained: the order request, the number of people, and the event date. Additional requests for menu options and availability do not remove any required information."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, grammatically correct, and professionally structured with proper greeting, body, and closing."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "All criteria are fully met with no loss of information or clarity."
+      }
+    }
+  },
+  {
+    "original_id": 21,
+    "original_text": "Hi Alex, let\u2019s schedule your annual performance review next week. Please send me your availability.",
+    "target_tone": null,
+    "response_4_1": "Subject: Scheduling Your Annual Performance Review\n\nHi Alex,\n\nI hope this message finds you well. It\u2019s time to schedule your annual performance review, and I would like to arrange it for next week. \n\nCould you please send me your availability for the week so we can find a time that works well for both of us? Once I receive your preferred times, I\u2019ll do my best to accommodate your schedule.\n\nThank you, and I look forward to our discussion.\n\nBest regards,  \n[Your Name]",
+    "response_mini": "Subject: Scheduling Your Annual Performance Review\n\nHi Alex,\n\nI hope this message finds you well. As we approach the time for your annual performance review, I would like to schedule a meeting for next week to discuss your progress and achievements over the past year. \n\nCould you please send me your availability for the week? I want to ensure we find a time that works best for you.\n\nThank you, and I look forward to our conversation.\n\nBest regards,  \n[Your Name]  \n[Your Position]  ",
+    "evaluation_of_4_1_by_4_1": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "All original facts and intent are preserved: scheduling the annual review next week and requesting Alex's availability. No new facts or reinterpretations are introduced."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained: the request to schedule the review next week and the request for Alex's availability. Additional polite language does not remove any required information."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is grammatically correct, clear, and professionally structured with a subject line, greeting, body, and closing."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "All criteria are fully met with no loss of information or clarity."
+      }
+    },
+    "evaluation_of_mini_by_4_1": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "All original facts and intent are preserved: scheduling the annual review next week and requesting Alex's availability. No facts added, removed, or reinterpreted."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained: request to schedule the review next week and request for Alex's availability. Additional context about the review does not remove any required information."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is grammatically correct, clear, and professionally structured with proper greeting, body, closing, and signature."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "All criteria are fully met with no loss of information or clarity."
+      }
+    }
+  },
+  {
+    "original_id": 22,
+    "original_text": "Hi all, a golden retriever was found near Maple Street Park. Contact us if you think it\u2019s yours.",
+    "target_tone": null,
+    "response_4_1": "Subject: Found: Golden Retriever Near Maple Street Park\n\nHi everyone,\n\nWe wanted to let you know that a golden retriever was found earlier today near Maple Street Park. If you believe this may be your dog, or you know someone who might be missing their golden retriever, please reach out to us as soon as possible.\n\nThank you for helping us reunite this pet with its owner.\n\nBest regards,  \n[Your Name/Organization]",
+    "response_mini": "Subject: Found Golden Retriever Near Maple Street Park\n\nDear all,\n\nI hope this message finds you well. I wanted to bring to your attention that a golden retriever has been found near Maple Street Park. If you believe this dog may belong to you or if you recognize it, please do not hesitate to reach out to us. \n\nYour prompt response would be greatly appreciated, as we would like to ensure that this lovely dog is reunited with its owner as soon as possible.\n\nThank you for your attention, and we look forward to hearing from you.\n\nBest regards,  \n[Your Name]  \n[Your Contact Information]  ",
+    "evaluation_of_4_1_by_4_1": {
+      "faithfulness": {
+        "score": 5,
+        "reason": "All original facts and intent are preserved: a golden retriever was found near Maple Street Park, and recipients are asked to contact if they think it is theirs. No facts added, removed, or reinterpreted."
+      },
+      "completeness": {
+        "score": 5,
+        "reason": "All required informational units are retained: the location, the found dog, the request for contact, and the context for reuniting the pet. The edited email expands the audience to include people who may know the owner, but does not omit any required information."
+      },
+      "robustness": {
+        "score": 5,
+        "reason": "The edited email is clear, grammatically correct, professionally structured, and logically organized with a subject line and closing."
+      },
+      "overall": {
+        "score": 5.0,
+        "reason": "All three categories score 5; the edited email is fully faithful, complete, and robust."
+      }
+    },
+    "evaluation_of_mini_by_4_1": {}
+  },
+  {
+    "original_id": 23,
+    "original_text": "Reminder: You\u2019ve reached 80% of your monthly API limit. Upgrade or reduce usage to avoid service disruption.",
+    "target_tone": null,
+    "response_4_1": "Subject: Action Required: Approaching 80% of Your Monthly API Limit\n\nDear User,\n\nThis is a friendly reminder that you have reached 80% of your monthly API usage limit. We want to ensure that your service continues without interruption.\n\nTo avoid any potential disruption, please consider upgrading your plan or reducing your API usage for the remainder of the month.\n\nIf you have any questions or need assistance with upgrading your plan, please feel free to contact our support team.\n\nThank you for your attention to this matter.\n\nBest regards,  \n[Your Company Name] Support Team",
+    "response_mini": "Subject: Important Reminder: API Usage Limit Notification\n\nDear [Recipient's Name],\n\nI hope this message finds you well. \n\nI wanted to take a moment to remind you that you have currently reached 80% of your monthly API usage limit. This is an important threshold to be aware of, as it may impact your ongoing projects and service continuity.\n\nTo ensure that you do not experience any service disruptions, I recommend considering two options: you may either choose to upgrade your plan for increased usage capacity or explore ways to reduce your current API usage.\n\nIf you have any questions or need assistance with upgrading your plan or managing your usage, please do not hesitate to reach out. We are here to help you make the best decision for your needs.\n\nThank you for your attention to this matter.\n\nBest regards,\n\n[Your Name]  \n[Your Position]  \n[Your Company]  \n[Your Contact Information]  ",
+    "evaluation_of_4_1_by_4_1": {},
+    "evaluation_of_mini_by_4_1": {}
+  },
+  {
+    "original_id": 24,
+    "original_text": "Hey! Got tickets to the indie festival next month \u2014 want to come?",
+    "target_tone": null,
+    "response_4_1": "Subject: Indie Festival Next Month \u2013 Want to Join?\n\nHi!\n\nI hope you\u2019re doing well. I wanted to let you know that I managed to get tickets to the indie festival happening next month. I thought it could be a lot of fun, and I immediately thought of you since I know how much you enjoy live music and discovering new bands.\n\nWould you be interested in coming along? Let me know if you\u2019re up for it\u2014I think it\u2019ll be a great experience!\n\nLooking forward to hearing from you.\n\nBest,  \n[Your Name]",
+    "response_mini": "Subject: Invitation to the Indie Festival Next Month\n\nHi there!\n\nI hope this message finds you well. I wanted to share some exciting news with you\u2014I managed to get tickets to the indie festival happening next month! It promises to be a fantastic event, featuring a variety of talented artists and unique performances.\n\nI would love for you to join me for this experience. It would be great to enjoy the festival together and soak in the vibrant atmosphere. \n\nLet me know if you're interested!\n\nBest,  \n[Your Name]",
+    "evaluation_of_4_1_by_4_1": {},
+    "evaluation_of_mini_by_4_1": {}
+  }
+]

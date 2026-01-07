@@ -197,7 +197,7 @@
 #             print(f"Saved results to {out_file}")
 
 # if __name__ == "__main__":
-#     main()
+# #     main()
 import os
 import json
 import yaml
@@ -208,7 +208,9 @@ from typing import List, Dict, Any
 
 load_dotenv()
 
-# Configuration
+# --------------------------------------------------
+# CONFIGURATION
+# --------------------------------------------------
 MODELS = {
     "4.1": os.getenv("OPENAI_MODEL2", "gpt-4.1"),     # High-end
     "mini": os.getenv("OPENAI_MODEL1", "gpt-4o-mini") # Efficient
@@ -218,18 +220,24 @@ BASE_DIR = Path(__file__).resolve().parent
 ITEMS_DIR = BASE_DIR.parent / "synthetic_datasets"
 EVAL_DIR = BASE_DIR
 RESULTS_DIR = EVAL_DIR / "synthetic_result"
-LIMIT = 50  # Change to 50 when needed
+LIMIT = 25  # change to 50 if needed
 
+# --------------------------------------------------
+# LOAD PROMPTS
+# --------------------------------------------------
 def load_prompts():
     try:
         with open(EVAL_DIR / "synthetic_data_prompts.yaml", "r", encoding="utf-8") as f:
             return yaml.safe_load(f)
     except FileNotFoundError:
-        print("Error: synthetic_data_prompts.yaml not found.")
+        print("Error: synthetic_data_prompts.yaml not found")
         return {}
 
 PROMPTS = load_prompts()
 
+# --------------------------------------------------
+# MODEL CLIENT
+# --------------------------------------------------
 class ModelClient:
     def __init__(self, model_name: str, model_id: str):
         self.client = OpenAI(
@@ -247,7 +255,7 @@ class ModelClient:
                     {"role": "system", "content": system_prompt},
                     {"role": "user", "content": user_prompt}
                 ],
-                temperature=0.7
+                temperature=0.4
             )
             return response.choices[0].message.content
         except Exception as e:
@@ -270,13 +278,15 @@ class ModelClient:
             print(f"Error evaluating with {self.model_name}: {e}")
             return {}
 
+# --------------------------------------------------
+# GENERATION
+# --------------------------------------------------
 def process_task_generation(task_name: str, data: List[Dict], items_to_process: int):
     print(f"--- Generating Responses for {task_name.upper()} ---")
 
-    prompt_config = PROMPTS.get(task_name)
-    if not prompt_config:
+    if task_name not in PROMPTS:
         print(f"No prompt config found for {task_name}")
-        return
+        return []
 
     results = []
 
@@ -286,11 +296,9 @@ def process_task_generation(task_name: str, data: List[Dict], items_to_process: 
     for i, item in enumerate(data[:items_to_process]):
         print(f"Processing item {i+1}/{items_to_process}")
 
-        # --- FIX: Handle null/None items in the dataset ---
         if item is None:
-            print(f"Skipping item {i+1}: Entry is null/None")
+            print(f"Skipping item {i+1}: null entry")
             continue
-        # --------------------------------------------------
 
         input_text = (
             item.get("content")
@@ -300,7 +308,7 @@ def process_task_generation(task_name: str, data: List[Dict], items_to_process: 
         )
 
         if not input_text:
-            print(f"Skipping item {i+1}, no text found")
+            print(f"Skipping item {i+1}: no text found")
             continue
 
         system_tmpl = PROMPTS[task_name]["system"]
@@ -309,6 +317,7 @@ def process_task_generation(task_name: str, data: List[Dict], items_to_process: 
         fmt_args = {"selected_text": input_text}
         target_tone = None
 
+        # Tone logic (unchanged)
         if task_name == "tone":
             if i < 20:
                 target_tone = "professional"
@@ -337,13 +346,15 @@ def process_task_generation(task_name: str, data: List[Dict], items_to_process: 
 
     return results
 
+# --------------------------------------------------
+# EVALUATION (4.1 judges both)
+# --------------------------------------------------
 def process_task_evaluation(task_name: str, generated_results: List[Dict]):
     print(f"--- Evaluating Responses for {task_name.upper()} ---")
 
     eval_sys_tmpl = PROMPTS["evaluate"]["system"]
     eval_usr_tmpl = PROMPTS["evaluate"]["user"]
 
-    client_judge_mini = ModelClient("mini", MODELS["mini"])
     client_judge_4_1 = ModelClient("4.1", MODELS["4.1"])
 
     final_data = []
@@ -351,29 +362,30 @@ def process_task_evaluation(task_name: str, generated_results: List[Dict]):
     for item in generated_results:
         original = item["original_text"]
 
-        # Evaluate 4.1 response using mini
-        resp_4_1 = item["response_4_1"]
+        # 4.1 evaluates 4.1
         eval_user_4_1 = eval_usr_tmpl.format(
             original=original,
-            edited=resp_4_1
+            edited=item["response_4_1"]
         )
-        score_4_1 = client_judge_mini.evaluate(eval_sys_tmpl, eval_user_4_1)
+        score_4_1 = client_judge_4_1.evaluate(eval_sys_tmpl, eval_user_4_1)
 
-        # Evaluate mini response using 4.1
-        resp_mini = item["response_mini"]
+        # 4.1 evaluates mini
         eval_user_mini = eval_usr_tmpl.format(
             original=original,
-            edited=resp_mini
+            edited=item["response_mini"]
         )
         score_mini = client_judge_4_1.evaluate(eval_sys_tmpl, eval_user_mini)
 
-        item["evaluation_of_4_1_by_mini"] = score_4_1
+        item["evaluation_of_4_1_by_4_1"] = score_4_1
         item["evaluation_of_mini_by_4_1"] = score_mini
 
         final_data.append(item)
 
     return final_data
 
+# --------------------------------------------------
+# MAIN
+# --------------------------------------------------
 def main():
     RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -385,17 +397,13 @@ def main():
 
     for task_name, filename in tasks.items():
         jsonl_path = ITEMS_DIR / filename
+
         if not jsonl_path.exists():
             print(f"Dataset not found: {jsonl_path}")
             continue
 
-        try:
-            with open(jsonl_path, "r", encoding="utf-8") as f:
-                # This creates None for lines that are literally 'null'
-                data = [json.loads(line) for line in f]
-        except Exception as e:
-            print(f"Error reading {filename}: {e}")
-            continue
+        with open(jsonl_path, "r", encoding="utf-8") as f:
+            data = [json.loads(line) for line in f]
 
         gen_results = process_task_generation(task_name, data, LIMIT)
 

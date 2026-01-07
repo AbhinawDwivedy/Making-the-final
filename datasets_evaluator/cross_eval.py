@@ -226,8 +226,8 @@ MODELS = {
 
 ITEMS_DIR = Path("datasets")
 EVAL_DIR = Path("datasets_evaluator")
-RESULTS_DIR = EVAL_DIR / "results"
-LIMIT = 50  # Change to 50 when needed
+RESULTS_DIR = EVAL_DIR / "results3"
+LIMIT = 25 # Change to 50 when needed
 
 def load_prompts():
     with open(EVAL_DIR / "data_prompts.yaml", "r", encoding="utf-8") as f:
@@ -252,7 +252,7 @@ class ModelClient:
                     {"role": "system", "content": system_prompt},
                     {"role": "user", "content": user_prompt}
                 ],
-                temperature=0.7
+                temperature=0.4
             )
             return response.choices[0].message.content
         except Exception as e:
@@ -343,7 +343,7 @@ def process_task_evaluation(task_name: str, generated_results: List[Dict]):
     eval_sys_tmpl = PROMPTS["evaluate"]["system"]
     eval_usr_tmpl = PROMPTS["evaluate"]["user"]
 
-    client_judge_mini = ModelClient("mini", MODELS["mini"])
+    # Only 4.1 Judge
     client_judge_4_1 = ModelClient("4.1", MODELS["4.1"])
 
     final_data = []
@@ -351,13 +351,15 @@ def process_task_evaluation(task_name: str, generated_results: List[Dict]):
     for item in generated_results:
         original = item["original_text"]
 
+        # 1. 4.1 Evaluates 4.1 (Self-Eval / Evaluation of 4.1 by 4.1)
         resp_4_1 = item["response_4_1"]
         eval_user_4_1 = eval_usr_tmpl.format(
             original=original,
             edited=resp_4_1
         )
-        score_4_1 = client_judge_mini.evaluate(eval_sys_tmpl, eval_user_4_1)
+        score_4_1 = client_judge_4_1.evaluate(eval_sys_tmpl, eval_user_4_1)
 
+        # 2. 4.1 Evaluates Mini
         resp_mini = item["response_mini"]
         eval_user_mini = eval_usr_tmpl.format(
             original=original,
@@ -365,7 +367,7 @@ def process_task_evaluation(task_name: str, generated_results: List[Dict]):
         )
         score_mini = client_judge_4_1.evaluate(eval_sys_tmpl, eval_user_mini)
 
-        item["evaluation_of_4_1_by_mini"] = score_4_1
+        item["evaluation_of_4_1_by_4_1"] = score_4_1
         item["evaluation_of_mini_by_4_1"] = score_mini
 
         final_data.append(item)

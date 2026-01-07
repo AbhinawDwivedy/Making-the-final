@@ -165,7 +165,7 @@ from pathlib import Path
 sns.set_theme(style="whitegrid")
 
 DATASET_DIR = Path("datasets_evaluator")
-RESULTS_DIR = DATASET_DIR / "results"
+RESULTS_DIR = DATASET_DIR / "results3"
 
 TASKS = ["lengthen", "shorten", "tone"]
 METRICS = ["Faithfulness", "Completeness", "Robustness", "Overall"]
@@ -200,7 +200,7 @@ def extract_scores(data, task):
                 "Overall": eval_obj.get("overall", {}).get("score", 0),
             }
 
-        rows.append(row(item.get("evaluation_of_4_1_by_mini", {}), "4.1", "Mini"))
+        rows.append(row(item.get("evaluation_of_4_1_by_4_1", {}), "4.1", "4.1"))
         rows.append(row(item.get("evaluation_of_mini_by_4_1", {}), "Mini", "4.1"))
 
     return pd.DataFrame(rows)
